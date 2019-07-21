@@ -1,0 +1,71 @@
+PODS:
+  - FacebookCore (0.7.0):
+    - FBSDKCoreKit (~> 5.0)
+  - FacebookLogin (0.7.0):
+    - FacebookCore (~> 0.7)
+    - FBSDKCoreKit (~> 5.0)
+    - FBSDKLoginKit (~> 5.0)
+  - FacebookShare (0.7.0):
+    - FacebookCore (~> 0.7)
+    - FBSDKCoreKit (~> 5.0)
+    - FBSDKShareKit (~> 5.0)
+  - FBSDKCoreKit (5.2.1):
+    - FBSDKCoreKit/Basics (= 5.2.1)
+    - FBSDKCoreKit/Core (= 5.2.1)
+  - FBSDKCoreKit/Basics (5.2.1)
+  - FBSDKCoreKit/Core (5.2.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.2.1):
+    - FBSDKCoreKit (~> 5.0)
+  - FBSDKShareKit (5.2.1):
+    - FBSDKCoreKit (~> 5.0)
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.1):
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+  - GoogleToolboxForMac/Defines (2.2.1)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.1)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.1)
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.1)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.1)"
+  - GTMSessionFetcher/Core (1.2.2)
+  - YoutubePlayer-in-WKWebView (0.3.0)
+
+DEPENDENCIES:
+  - FacebookCore
+  - FacebookLogin
+  - FacebookShare
+  - GoogleSignIn
+  - YoutubePlayer-in-WKWebView (~> 0.3.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FacebookCore
+    - FacebookLogin
+    - FacebookShare
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - YoutubePlayer-in-WKWebView
+
+SPEC CHECKSUMS:
+  FacebookCore: 4eee98476cb37a485af5d337eb21f8cd5b3c7e6c
+  FacebookLogin: 94cdad6850e86a2b04704dedfe7674a7af8148eb
+  FacebookShare: dd4954712db61e078aea483bdf89e1b2ae3574b5
+  FBSDKCoreKit: e1ab8d86f5eea2d7aa6ab12acca3e1d2dcb11983
+  FBSDKLoginKit: 6e20e44775ddf4b159a8ca676834325e13d12221
+  FBSDKShareKit: 75a25e88b15b66e67ed03826080eff825afff520
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: b3553629623a3b1bff17f555e736cd5a6d95ad55
+  GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
+  YoutubePlayer-in-WKWebView: 17a33b2fa619d357c9ddd763942ce556660facae
+
+PODFILE CHECKSUM: 2fbf3b68f033534c263323ece1037e46ac5b20a2
+
+COCOAPODS: 1.7.3
