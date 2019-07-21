@@ -46,8 +46,7 @@ class WatchTableViewController: UITableViewController {
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if(segue.identifier == "ToWatchViewController") {
-            let navigationController = segue.destination as! UINavigationController
-            let watchViewController = navigationController.viewControllers.first as! WatchViewController
+            let watchViewController = segue.destination as! WatchViewController
             if let cell = sender as? WatchTableViewCell, let indexPath = tableView.indexPath(for: cell) {
                 watchViewController.youtubeVideo = youtubeVideos[indexPath.row]
             }

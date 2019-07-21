@@ -2,7 +2,6 @@ import UIKit
 
 class WatchTableViewCell: UITableViewCell {
     //MARK: Properties
-    @IBOutlet weak var title: UILabel!
     @IBOutlet weak var thumbnail: UIImageView!
     
     var youtubeID: String?
