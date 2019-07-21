@@ -8,9 +8,6 @@ class WatchTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.tableView.rowHeight = UITableView.automaticDimension
-        self.tableView.estimatedRowHeight = 44.0
-        
         navigationController!.setNavigationBarHidden(false, animated: false)
         
         loadYoutubeVideos()
@@ -39,7 +36,7 @@ class WatchTableViewController: UITableViewController {
         
         let youtubeVideo = youtubeVideos[indexPath.row]
         cell.thumbnail.image = youtubeVideo.thumbnail
-        //cell.title.text = youtubeVideo.title
+        cell.title.text = youtubeVideo.title
 
         return cell
     }

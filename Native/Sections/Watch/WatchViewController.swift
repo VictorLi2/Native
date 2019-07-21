@@ -16,13 +16,7 @@ class WatchViewController: UIViewController {
         let webView = WKWebView(frame: CGRect(x: 0, y: 0, width: 375, height: 300), configuration: webConfiguration)
         self.view.addSubview(webView)
         
-        //navigationController!.setNavigationBarHidden(false, animated: false)
-        
         webView.load("https://www.youtube.com/embed/\(youtubeVideo!.id)?playsinline=1")
-        
-        //navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
-        //navigationController?.navigationBar.shadowImage = UIImage()
-        //navigationController?.navigationBar.isTranslucent = true
     }
     
     @IBAction func backButton(_ sender: UIBarButtonItem) {
