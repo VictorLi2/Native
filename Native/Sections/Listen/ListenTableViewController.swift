@@ -25,15 +25,26 @@ class ListenTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+        let cellIdentifier = "ListenTableViewCell"
+        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? ListenTableViewCell else {
+            fatalError("The dequeued cell is not an instance of ListenTableViewCell.")
+        }
+        
+        cell.song = songs[indexPath.row]
+        
         return cell
     }
 
     // MARK: Navigation
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if(segue.identifier == "ToListenViewController") {
+            let listenViewController = segue.destination as! ListenViewController
+            if let cell = sender as? ListenTableViewCell, let indexPath = tableView.indexPath(for: cell) {
+                listenViewController.song = songs[indexPath.row]
+            }
+        }
     }
 
     //MARK: Private Methods
@@ -42,6 +53,6 @@ class ListenTableViewController: UITableViewController {
             fatalError("Unable to instantiate s1")
         }
         
-        songs += []
+        songs += [s1]
     }
 }

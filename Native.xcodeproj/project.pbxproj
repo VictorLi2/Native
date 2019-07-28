@@ -31,6 +31,8 @@
 		BB3796C722EE5E850066C99A /* ListenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3796C622EE5E850066C99A /* ListenTableViewController.swift */; };
 		BB3796C922EE5F540066C99A /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3796C822EE5F540066C99A /* Song.swift */; };
 		BB3796CB22EE5FDC0066C99A /* ListenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3796CA22EE5FDC0066C99A /* ListenTableViewCell.swift */; };
+		BB3796CE22EE64D30066C99A /* The Beatles - Hey Jude-320.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB3796CD22EE64D30066C99A /* The Beatles - Hey Jude-320.mp3 */; };
+		BB3796D022EE64DD0066C99A /* The Beatles - Hey Jude.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BB3796CF22EE64DD0066C99A /* The Beatles - Hey Jude.mp4 */; };
 		BB7B2E2C22E52B1C0047CE7F /* ReadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7B2E2B22E52B1C0047CE7F /* ReadTableViewController.swift */; };
 		BB7B2E2E22E52B630047CE7F /* ReadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7B2E2D22E52B630047CE7F /* ReadTableViewCell.swift */; };
 		BB7B2E3022E52CFE0047CE7F /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7B2E2F22E52CFE0047CE7F /* Article.swift */; };
@@ -103,6 +105,8 @@
 		BB3796C622EE5E850066C99A /* ListenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenTableViewController.swift; sourceTree = "<group>"; };
 		BB3796C822EE5F540066C99A /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		BB3796CA22EE5FDC0066C99A /* ListenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenTableViewCell.swift; sourceTree = "<group>"; };
+		BB3796CD22EE64D30066C99A /* The Beatles - Hey Jude-320.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Beatles - Hey Jude-320.mp3"; sourceTree = "<group>"; };
+		BB3796CF22EE64DD0066C99A /* The Beatles - Hey Jude.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The Beatles - Hey Jude.mp4"; sourceTree = "<group>"; };
 		BB7B2E2B22E52B1C0047CE7F /* ReadTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadTableViewController.swift; sourceTree = "<group>"; };
 		BB7B2E2D22E52B630047CE7F /* ReadTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadTableViewCell.swift; sourceTree = "<group>"; };
 		BB7B2E2F22E52CFE0047CE7F /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
@@ -221,12 +225,22 @@
 		BB3796C522EE5E6B0066C99A /* Listen */ = {
 			isa = PBXGroup;
 			children = (
+				BB3796CC22EE64B60066C99A /* songs */,
 				BB3796C622EE5E850066C99A /* ListenTableViewController.swift */,
 				BB3796CA22EE5FDC0066C99A /* ListenTableViewCell.swift */,
 				BB18781E22D694BC007D3CB1 /* ListenViewController.swift */,
 				BB3796C822EE5F540066C99A /* Song.swift */,
 			);
 			path = Listen;
+			sourceTree = "<group>";
+		};
+		BB3796CC22EE64B60066C99A /* songs */ = {
+			isa = PBXGroup;
+			children = (
+				BB3796CF22EE64DD0066C99A /* The Beatles - Hey Jude.mp4 */,
+				BB3796CD22EE64D30066C99A /* The Beatles - Hey Jude-320.mp3 */,
+			);
+			path = songs;
 			sourceTree = "<group>";
 		};
 		BB7B2E2A22E52B040047CE7F /* Read */ = {
@@ -465,10 +479,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB3796CE22EE64D30066C99A /* The Beatles - Hey Jude-320.mp3 in Resources */,
 				BBC83AB022D176D300E9C164 /* LaunchScreen.storyboard in Resources */,
 				BB7B2E3922E53F910047CE7F /* TaylorSwift.txt in Resources */,
 				BB7B2E3822E53F910047CE7F /* FacebookLibra.txt in Resources */,
 				BB161AA322D58AE300F2A342 /* Assets.xcassets in Resources */,
+				BB3796D022EE64DD0066C99A /* The Beatles - Hey Jude.mp4 in Resources */,
 				BBC83AAB22D176D300E9C164 /* Main.storyboard in Resources */,
 				BB7B2E3522E5341F0047CE7F /* Kawhi.txt in Resources */,
 			);
