@@ -2,16 +2,16 @@ import UIKit
 
 class WriteViewController: UIViewController {
     //MARK: Properties
+    
     var writingLesson: WritingLesson?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         navigationController!.setNavigationBarHidden(false, animated: false)
         
         let textView = UITextView()
         
-        textView.text = "a"
+        textView.text = writingLesson?.title
         
         textView.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height)
         

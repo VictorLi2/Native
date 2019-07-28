@@ -28,6 +28,9 @@
 		BB18782722D695F1007D3CB1 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB18782622D695F1007D3CB1 /* PlayViewController.swift */; };
 		BB18782922D6962C007D3CB1 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB18782822D6962C007D3CB1 /* ShopViewController.swift */; };
 		BB2CA20E22D1786F00373A79 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CA20D22D1786F00373A79 /* LoginViewController.swift */; };
+		BB3796C722EE5E850066C99A /* ListenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3796C622EE5E850066C99A /* ListenTableViewController.swift */; };
+		BB3796C922EE5F540066C99A /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3796C822EE5F540066C99A /* Song.swift */; };
+		BB3796CB22EE5FDC0066C99A /* ListenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3796CA22EE5FDC0066C99A /* ListenTableViewCell.swift */; };
 		BB7B2E2C22E52B1C0047CE7F /* ReadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7B2E2B22E52B1C0047CE7F /* ReadTableViewController.swift */; };
 		BB7B2E2E22E52B630047CE7F /* ReadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7B2E2D22E52B630047CE7F /* ReadTableViewCell.swift */; };
 		BB7B2E3022E52CFE0047CE7F /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7B2E2F22E52CFE0047CE7F /* Article.swift */; };
@@ -97,6 +100,9 @@
 		BB18782622D695F1007D3CB1 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
 		BB18782822D6962C007D3CB1 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
 		BB2CA20D22D1786F00373A79 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BB3796C622EE5E850066C99A /* ListenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenTableViewController.swift; sourceTree = "<group>"; };
+		BB3796C822EE5F540066C99A /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		BB3796CA22EE5FDC0066C99A /* ListenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenTableViewCell.swift; sourceTree = "<group>"; };
 		BB7B2E2B22E52B1C0047CE7F /* ReadTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadTableViewController.swift; sourceTree = "<group>"; };
 		BB7B2E2D22E52B630047CE7F /* ReadTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadTableViewCell.swift; sourceTree = "<group>"; };
 		BB7B2E2F22E52CFE0047CE7F /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
@@ -212,6 +218,17 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		BB3796C522EE5E6B0066C99A /* Listen */ = {
+			isa = PBXGroup;
+			children = (
+				BB3796C622EE5E850066C99A /* ListenTableViewController.swift */,
+				BB3796CA22EE5FDC0066C99A /* ListenTableViewCell.swift */,
+				BB18781E22D694BC007D3CB1 /* ListenViewController.swift */,
+				BB3796C822EE5F540066C99A /* Song.swift */,
+			);
+			path = Listen;
+			sourceTree = "<group>";
+		};
 		BB7B2E2A22E52B040047CE7F /* Read */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,7 +268,7 @@
 			children = (
 				BB7B2E2A22E52B040047CE7F /* Read */,
 				BBD111D722DBE54000DCB2F9 /* Watch */,
-				BB18781E22D694BC007D3CB1 /* ListenViewController.swift */,
+				BB3796C522EE5E6B0066C99A /* Listen */,
 				BB17DD7822EE519C0055458A /* Write */,
 				BB18782222D69538007D3CB1 /* CultureViewController.swift */,
 				BB18782422D695D9007D3CB1 /* SettingsViewController.swift */,
@@ -587,6 +604,7 @@
 				BB7B2E2C22E52B1C0047CE7F /* ReadTableViewController.swift in Sources */,
 				BBD111DD22DBEF5000DCB2F9 /* WatchTableViewController.swift in Sources */,
 				BB0AE5BB22DAAF9100D5B096 /* UIViewBackgroundImageExtension.swift in Sources */,
+				BB3796C722EE5E850066C99A /* ListenTableViewController.swift in Sources */,
 				BB2CA20E22D1786F00373A79 /* LoginViewController.swift in Sources */,
 				BB18782522D695D9007D3CB1 /* SettingsViewController.swift in Sources */,
 				BB17DD8122EE52490055458A /* WriteTableViewController.swift in Sources */,
@@ -594,6 +612,8 @@
 				BBBE08AB22D178F600F5AB68 /* WatchViewController.swift in Sources */,
 				BB7B2E2E22E52B630047CE7F /* ReadTableViewCell.swift in Sources */,
 				BBB3223422D4830500FFB0F6 /* MainTabController.swift in Sources */,
+				BB3796CB22EE5FDC0066C99A /* ListenTableViewCell.swift in Sources */,
+				BB3796C922EE5F540066C99A /* Song.swift in Sources */,
 				BBC83AA422D176D300E9C164 /* AppDelegate.swift in Sources */,
 				BB18782322D69538007D3CB1 /* CultureViewController.swift in Sources */,
 				BB161A9E22D5765000F2A342 /* FirstLaunch.swift in Sources */,

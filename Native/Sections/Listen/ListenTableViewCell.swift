@@ -1,19 +1,14 @@
 import UIKit
 
-class WriteTableViewCell: UITableViewCell {
+class ListenTableViewCell: UITableViewCell {
     //MARK: Properties
-    
-    var writingLesson: WritingLesson?
-    
-    @IBOutlet weak var title: UILabel!
+    var song: Song?
     
     override func awakeFromNib() {
         super.awakeFromNib()
     }
-
+    
     override func layoutSubviews() {
         super.layoutSubviews()
-        
-        title.text = writingLesson?.title
     }
 }

@@ -1,16 +1,17 @@
 import UIKit
 
 class WriteTableViewController: UITableViewController {
-
+    //MARK: Properties
+    
     var writingLessons = [WritingLesson]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        loadSampleArticles()
-        
         navigationController!.setNavigationBarHidden(false, animated: false)
-        navigationItem.title = "Read"
+        navigationItem.title = "Write"
+        
+        loadWritingLessons()
     }
 
     // MARK: - Table view data source
@@ -23,11 +24,10 @@ class WriteTableViewController: UITableViewController {
         return writingLessons.count
     }
 
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellIdentifier = "WriteTableViewCell"
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? WriteTableViewCell else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? WriteTableViewCell else {
             fatalError("The dequeued cell is not an instance of WriteTableViewCell.")
         }
 
@@ -36,49 +36,35 @@ class WriteTableViewController: UITableViewController {
         return cell
     }
     
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
-    }
-    */
+    //MARK: Navigation
 
-    /*
-    // Override to support editing the table view.
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-            // Delete the row from the data source
-            tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if(segue.identifier == "ToWriteViewController") {
+            let writeViewController = segue.destination as! WriteViewController
+            if let cell = sender as? WriteTableViewCell, let indexPath = tableView.indexPath(for: cell) {
+                writeViewController.writingLesson = writingLessons[indexPath.row]
+            }
+        }
     }
-    */
 
+    //MARK: Private Methods
+    private func loadWritingLessons() {
+        guard let l1 = WritingLesson(title: "Lesson 1") else {
+            fatalError("Unable to instantiate l1")
+        }
+        
+        guard let l2 = WritingLesson(title: "Lesson 2") else {
+            fatalError("Unable to instantiate l2")
+        }
+        
+        guard let l3 = WritingLesson(title: "Lesson 3") else {
+            fatalError("Unable to instantiate l3")
+        }
+        
+        guard let l4 = WritingLesson(title: "Lesson 4") else {
+            fatalError("Unable to instantiate l4")
+        }
+        
+        writingLessons += [l1, l2, l3, l4]
+    }
 }
