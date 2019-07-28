@@ -9,6 +9,7 @@ class WatchTableViewController: UITableViewController {
         super.viewDidLoad()
         
         navigationController!.setNavigationBarHidden(false, animated: false)
+        navigationItem.title = "Watch"
         
         loadYoutubeVideos()
         // Uncomment the following line to preserve selection between presentations

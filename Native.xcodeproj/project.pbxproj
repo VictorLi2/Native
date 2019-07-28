@@ -25,6 +25,12 @@
 		BB18782722D695F1007D3CB1 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB18782622D695F1007D3CB1 /* PlayViewController.swift */; };
 		BB18782922D6962C007D3CB1 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB18782822D6962C007D3CB1 /* ShopViewController.swift */; };
 		BB2CA20E22D1786F00373A79 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CA20D22D1786F00373A79 /* LoginViewController.swift */; };
+		BB7B2E2C22E52B1C0047CE7F /* ReadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7B2E2B22E52B1C0047CE7F /* ReadTableViewController.swift */; };
+		BB7B2E2E22E52B630047CE7F /* ReadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7B2E2D22E52B630047CE7F /* ReadTableViewCell.swift */; };
+		BB7B2E3022E52CFE0047CE7F /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7B2E2F22E52CFE0047CE7F /* Article.swift */; };
+		BB7B2E3522E5341F0047CE7F /* Kawhi.txt in Resources */ = {isa = PBXBuildFile; fileRef = BB7B2E3422E5341F0047CE7F /* Kawhi.txt */; };
+		BB7B2E3822E53F910047CE7F /* FacebookLibra.txt in Resources */ = {isa = PBXBuildFile; fileRef = BB7B2E3622E53F910047CE7F /* FacebookLibra.txt */; };
+		BB7B2E3922E53F910047CE7F /* TaylorSwift.txt in Resources */ = {isa = PBXBuildFile; fileRef = BB7B2E3722E53F910047CE7F /* TaylorSwift.txt */; };
 		BBB3223422D4830500FFB0F6 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB3223322D4830500FFB0F6 /* MainTabController.swift */; };
 		BBBE08A422D178E300F5AB68 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE08A022D178E300F5AB68 /* FavoritesViewController.swift */; };
 		BBBE08A522D178E300F5AB68 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE08A122D178E300F5AB68 /* HomeViewController.swift */; };
@@ -85,6 +91,12 @@
 		BB18782622D695F1007D3CB1 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
 		BB18782822D6962C007D3CB1 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
 		BB2CA20D22D1786F00373A79 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BB7B2E2B22E52B1C0047CE7F /* ReadTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadTableViewController.swift; sourceTree = "<group>"; };
+		BB7B2E2D22E52B630047CE7F /* ReadTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadTableViewCell.swift; sourceTree = "<group>"; };
+		BB7B2E2F22E52CFE0047CE7F /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		BB7B2E3422E5341F0047CE7F /* Kawhi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Kawhi.txt; sourceTree = "<group>"; };
+		BB7B2E3622E53F910047CE7F /* FacebookLibra.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FacebookLibra.txt; sourceTree = "<group>"; };
+		BB7B2E3722E53F910047CE7F /* TaylorSwift.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TaylorSwift.txt; sourceTree = "<group>"; };
 		BBB3223322D4830500FFB0F6 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 		BBBE08A022D178E300F5AB68 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		BBBE08A122D178E300F5AB68 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -183,6 +195,28 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		BB7B2E2A22E52B040047CE7F /* Read */ = {
+			isa = PBXGroup;
+			children = (
+				BB7B2E3122E533430047CE7F /* content */,
+				BB7B2E2B22E52B1C0047CE7F /* ReadTableViewController.swift */,
+				BB7B2E2D22E52B630047CE7F /* ReadTableViewCell.swift */,
+				BBBE08AA22D178F600F5AB68 /* ReadViewController.swift */,
+				BB7B2E2F22E52CFE0047CE7F /* Article.swift */,
+			);
+			path = Read;
+			sourceTree = "<group>";
+		};
+		BB7B2E3122E533430047CE7F /* content */ = {
+			isa = PBXGroup;
+			children = (
+				BB7B2E3622E53F910047CE7F /* FacebookLibra.txt */,
+				BB7B2E3722E53F910047CE7F /* TaylorSwift.txt */,
+				BB7B2E3422E5341F0047CE7F /* Kawhi.txt */,
+			);
+			path = content;
+			sourceTree = "<group>";
+		};
 		BBBE089F22D178D100F5AB68 /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,8 +232,8 @@
 		BBBE08A822D178ED00F5AB68 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				BB7B2E2A22E52B040047CE7F /* Read */,
 				BBD111D722DBE54000DCB2F9 /* Watch */,
-				BBBE08AA22D178F600F5AB68 /* ReadViewController.swift */,
 				BB18781E22D694BC007D3CB1 /* ListenViewController.swift */,
 				BB18782022D694D8007D3CB1 /* WriteViewController.swift */,
 				BB18782222D69538007D3CB1 /* CultureViewController.swift */,
@@ -398,8 +432,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBC83AB022D176D300E9C164 /* LaunchScreen.storyboard in Resources */,
+				BB7B2E3922E53F910047CE7F /* TaylorSwift.txt in Resources */,
+				BB7B2E3822E53F910047CE7F /* FacebookLibra.txt in Resources */,
 				BB161AA322D58AE300F2A342 /* Assets.xcassets in Resources */,
 				BBC83AAB22D176D300E9C164 /* Main.storyboard in Resources */,
+				BB7B2E3522E5341F0047CE7F /* Kawhi.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,12 +567,14 @@
 				BB18782122D694D8007D3CB1 /* WriteViewController.swift in Sources */,
 				BB161AA122D583E400F2A342 /* FirstLaunchViewController.swift in Sources */,
 				BB18782922D6962C007D3CB1 /* ShopViewController.swift in Sources */,
+				BB7B2E2C22E52B1C0047CE7F /* ReadTableViewController.swift in Sources */,
 				BBD111DD22DBEF5000DCB2F9 /* WatchTableViewController.swift in Sources */,
 				BB0AE5BB22DAAF9100D5B096 /* UIViewBackgroundImageExtension.swift in Sources */,
 				BB2CA20E22D1786F00373A79 /* LoginViewController.swift in Sources */,
 				BB18782522D695D9007D3CB1 /* SettingsViewController.swift in Sources */,
 				BB0AE5BD22DAB51D00D5B096 /* LanguagePickerViewController.swift in Sources */,
 				BBBE08AB22D178F600F5AB68 /* WatchViewController.swift in Sources */,
+				BB7B2E2E22E52B630047CE7F /* ReadTableViewCell.swift in Sources */,
 				BBB3223422D4830500FFB0F6 /* MainTabController.swift in Sources */,
 				BBC83AA422D176D300E9C164 /* AppDelegate.swift in Sources */,
 				BB18782322D69538007D3CB1 /* CultureViewController.swift in Sources */,
@@ -550,6 +589,7 @@
 				BBBE08A622D178E300F5AB68 /* ProfileViewController.swift in Sources */,
 				BB161AA522D5C02C00F2A342 /* FacebookLoginButton.swift in Sources */,
 				BB0AE5C522DACC7100D5B096 /* RoundedButtonExtension.swift in Sources */,
+				BB7B2E3022E52CFE0047CE7F /* Article.swift in Sources */,
 				BBBE08A522D178E300F5AB68 /* HomeViewController.swift in Sources */,
 				BBBE08A722D178E300F5AB68 /* MenuViewController.swift in Sources */,
 				BB18782722D695F1007D3CB1 /* PlayViewController.swift in Sources */,
