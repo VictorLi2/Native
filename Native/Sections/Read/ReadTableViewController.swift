@@ -9,6 +9,7 @@ class ReadTableViewController: UITableViewController {
 
         loadSampleArticles()
         
+        navigationController!.setNavigationBarHidden(false, animated: false)
         navigationItem.title = "Read"
         
         // Uncomment the following line to preserve selection between presentations
@@ -35,15 +36,19 @@ class ReadTableViewController: UITableViewController {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? ReadTableViewCell  else {
             fatalError("The dequeued cell is not an instance of ReadTableViewCell.")
         }
-
-        let article = articles[indexPath.row]
-        cell.title.text = article.title
-        cell.source.text = article.source
-        cell.articleImage.image = article.image
         
+        cell.article = articles[indexPath.row]
         return cell
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if(segue.identifier == "ToReadViewController") {
+            let readViewController = segue.destination as! ReadViewController
+            if let cell = sender as? ReadTableViewCell, let indexPath = tableView.indexPath(for: cell) {
+                readViewController.article = articles[indexPath.row]
+            }
+        }
+    }
 
     /*
     // Override to support conditional editing of the table view.

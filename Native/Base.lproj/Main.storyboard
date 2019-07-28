@@ -331,7 +331,7 @@
                                     <outlet property="articleImage" destination="E5h-Sd-ypv" id="Nm0-oQ-Z3G"/>
                                     <outlet property="source" destination="bKJ-JN-jgZ" id="WZQ-76-KL3"/>
                                     <outlet property="title" destination="6rN-eB-Zsf" id="Bsb-KX-9bk"/>
-                                    <segue destination="Bsl-Sk-5Qq" kind="show" id="250-vR-0H3"/>
+                                    <segue destination="Bsl-Sk-5Qq" kind="show" identifier="ToReadViewController" id="250-vR-0H3"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -355,7 +355,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="cvN-2b-qCM"/>
                     </view>
-                    <navigationItem key="navigationItem" id="lEN-lI-7lS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uvR-wq-yM8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

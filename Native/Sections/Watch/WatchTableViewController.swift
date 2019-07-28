@@ -31,13 +31,12 @@ class WatchTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellIdentifier = "WatchTableViewCell"
+        
         guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? WatchTableViewCell else {
             fatalError("The dequeued cell is not an instance of WatchTableViewCell.")
         }
         
-        let youtubeVideo = youtubeVideos[indexPath.row]
-        cell.thumbnail.image = youtubeVideo.thumbnail
-        cell.title.text = youtubeVideo.title
+        cell.youtubeVideo = youtubeVideos[indexPath.row]
 
         return cell
     }

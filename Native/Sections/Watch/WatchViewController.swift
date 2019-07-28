@@ -18,10 +18,6 @@ class WatchViewController: UIViewController {
         
         webView.load("https://www.youtube.com/embed/\(youtubeVideo!.id)?playsinline=1")
     }
-    
-    @IBAction func backButton(_ sender: UIBarButtonItem) {
-        dismiss(animated: true, completion: nil)
-    }
 }
 
 extension WKWebView {
