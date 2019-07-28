@@ -18,6 +18,9 @@
 		BB161AA322D58AE300F2A342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB161AA222D58AE200F2A342 /* Assets.xcassets */; };
 		BB161AA522D5C02C00F2A342 /* FacebookLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB161AA422D5C02C00F2A342 /* FacebookLoginButton.swift */; };
 		BB161AA922D5E1C600F2A342 /* DirtyStartingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB161AA822D5E1C600F2A342 /* DirtyStartingViewController.swift */; };
+		BB17DD7A22EE51BF0055458A /* WriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17DD7922EE51BF0055458A /* WriteTableViewCell.swift */; };
+		BB17DD7F22EE52100055458A /* WritingLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17DD7E22EE52100055458A /* WritingLesson.swift */; };
+		BB17DD8122EE52490055458A /* WriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17DD8022EE52490055458A /* WriteTableViewController.swift */; };
 		BB18781F22D694BC007D3CB1 /* ListenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB18781E22D694BC007D3CB1 /* ListenViewController.swift */; };
 		BB18782122D694D8007D3CB1 /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB18782022D694D8007D3CB1 /* WriteViewController.swift */; };
 		BB18782322D69538007D3CB1 /* CultureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB18782222D69538007D3CB1 /* CultureViewController.swift */; };
@@ -84,6 +87,9 @@
 		BB161AA222D58AE200F2A342 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB161AA422D5C02C00F2A342 /* FacebookLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLoginButton.swift; sourceTree = "<group>"; };
 		BB161AA822D5E1C600F2A342 /* DirtyStartingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirtyStartingViewController.swift; sourceTree = "<group>"; };
+		BB17DD7922EE51BF0055458A /* WriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WriteTableViewCell.swift; path = /Users/jigglyboy/Documents/GitHub/Native/Native/Sections/Write/WriteTableViewCell.swift; sourceTree = "<absolute>"; };
+		BB17DD7E22EE52100055458A /* WritingLesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingLesson.swift; sourceTree = "<group>"; };
+		BB17DD8022EE52490055458A /* WriteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteTableViewController.swift; sourceTree = "<group>"; };
 		BB18781E22D694BC007D3CB1 /* ListenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenViewController.swift; sourceTree = "<group>"; };
 		BB18782022D694D8007D3CB1 /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
 		BB18782222D69538007D3CB1 /* CultureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CultureViewController.swift; sourceTree = "<group>"; };
@@ -185,6 +191,17 @@
 			path = FirstLaunch;
 			sourceTree = "<group>";
 		};
+		BB17DD7822EE519C0055458A /* Write */ = {
+			isa = PBXGroup;
+			children = (
+				BB17DD8022EE52490055458A /* WriteTableViewController.swift */,
+				BB17DD7922EE51BF0055458A /* WriteTableViewCell.swift */,
+				BB18782022D694D8007D3CB1 /* WriteViewController.swift */,
+				BB17DD7E22EE52100055458A /* WritingLesson.swift */,
+			);
+			path = Write;
+			sourceTree = "<group>";
+		};
 		BB2CA20F22D1788500373A79 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -235,7 +252,7 @@
 				BB7B2E2A22E52B040047CE7F /* Read */,
 				BBD111D722DBE54000DCB2F9 /* Watch */,
 				BB18781E22D694BC007D3CB1 /* ListenViewController.swift */,
-				BB18782022D694D8007D3CB1 /* WriteViewController.swift */,
+				BB17DD7822EE519C0055458A /* Write */,
 				BB18782222D69538007D3CB1 /* CultureViewController.swift */,
 				BB18782422D695D9007D3CB1 /* SettingsViewController.swift */,
 				BB18782622D695F1007D3CB1 /* PlayViewController.swift */,
@@ -572,6 +589,7 @@
 				BB0AE5BB22DAAF9100D5B096 /* UIViewBackgroundImageExtension.swift in Sources */,
 				BB2CA20E22D1786F00373A79 /* LoginViewController.swift in Sources */,
 				BB18782522D695D9007D3CB1 /* SettingsViewController.swift in Sources */,
+				BB17DD8122EE52490055458A /* WriteTableViewController.swift in Sources */,
 				BB0AE5BD22DAB51D00D5B096 /* LanguagePickerViewController.swift in Sources */,
 				BBBE08AB22D178F600F5AB68 /* WatchViewController.swift in Sources */,
 				BB7B2E2E22E52B630047CE7F /* ReadTableViewCell.swift in Sources */,
@@ -582,6 +600,8 @@
 				BBBE08AC22D178F600F5AB68 /* ReadViewController.swift in Sources */,
 				BB0AE5C322DABD8300D5B096 /* LanguageProficiencyViewController.swift in Sources */,
 				BBBE08A422D178E300F5AB68 /* FavoritesViewController.swift in Sources */,
+				BB17DD7A22EE51BF0055458A /* WriteTableViewCell.swift in Sources */,
+				BB17DD7F22EE52100055458A /* WritingLesson.swift in Sources */,
 				BB161AA922D5E1C600F2A342 /* DirtyStartingViewController.swift in Sources */,
 				BBD111DF22DBF61D00DCB2F9 /* YoutubeVideo.swift in Sources */,
 				BB18781F22D694BC007D3CB1 /* ListenViewController.swift in Sources */,
