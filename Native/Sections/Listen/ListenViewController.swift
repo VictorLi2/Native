@@ -41,7 +41,7 @@ class ListenViewController: UIViewController {
     @IBOutlet weak var back15Button: UIButton!
     @IBOutlet weak var countUpLabel: UILabel!
     @IBOutlet weak var countDownLabel: UILabel!
-    @IBOutlet weak var volumeSlider: UISlider!
+    @IBOutlet weak var playbackRateSlider: UISlider!
     
     // MARK: Properties
     var song: Song?
@@ -49,7 +49,7 @@ class ListenViewController: UIViewController {
     // MARK: AVAudio properties
     var engine = AVAudioEngine()
     var player = AVAudioPlayerNode()
-    var rateEffect = AVAudioUnitTimePitch()
+    var playbackRateEffect = AVAudioUnitTimePitch()
     
     var audioFile: AVAudioFile? {
         didSet {
@@ -76,10 +76,10 @@ class ListenViewController: UIViewController {
     var audioLengthSeconds: Float = 0
     var audioLengthSamples: AVAudioFramePosition = 0
     var needsFileScheduled = true
-    let volumeSliderValues: [Float] = [0.5, 1.0, 1.25, 1.5, 1.75, 2.0, 2.5, 3.0]
-    var rateValue: Float = 1.0 {
+    let playbackRateSliderValues: [Float] = [0.5, 1.0, 1.25, 1.5, 1.75, 2.0, 2.5, 3.0]
+    var playbackRateValue: Float = 1.0 {
         didSet {
-            rateEffect.rate = rateValue
+            playbackRateEffect.rate = playbackRateValue
         }
     }
     var updater: CADisplayLink?
@@ -109,7 +109,7 @@ class ListenViewController: UIViewController {
         artist.text = song?.artist
         albumArt.image = song?.albumArt
         
-        setupVolumeSlider()
+        setupPlaybackRateSlider()
         countUpLabel.text = formatted(time: 0)
         countDownLabel.text = formatted(time: audioLengthSeconds)
         setupAudio()
@@ -122,10 +122,10 @@ class ListenViewController: UIViewController {
 
 // MARK: - Actions
 extension ListenViewController {
-    @IBAction func didChangeVolumeValue(_ sender: UISlider) {
+    @IBAction func didChangePlaybackRateValue(_ sender: UISlider) {
         let index = round(sender.value)
-        volumeSlider.setValue(Float(index), animated: false)
-        rateValue = volumeSliderValues[Int(index)]
+        playbackRateSlider.setValue(Float(index), animated: false)
+        playbackRateValue = playbackRateSliderValues[Int(index)]
     }
     
     @IBAction func playButtonTapped(_ sender: UIButton) {
@@ -182,13 +182,13 @@ extension ListenViewController {
 
 // MARK: - Display related
 extension ListenViewController {
-    func setupVolumeSlider() {
-        let numSteps = volumeSliderValues.count-1
-        volumeSlider.minimumValue = 0
-        volumeSlider.maximumValue = Float(numSteps)
-        volumeSlider.isContinuous = true
-        volumeSlider.setValue(1.0, animated: false)
-        rateValue = 1.0
+    func setupPlaybackRateSlider() {
+        let numSteps = playbackRateSliderValues.count-1
+        playbackRateSlider.minimumValue = 0
+        playbackRateSlider.maximumValue = Float(numSteps)
+        playbackRateSlider.isContinuous = true
+        playbackRateSlider.setValue(1.0, animated: false)
+        playbackRateValue = 1.0
     }
     
     func formatted(time: Float) -> String {
@@ -218,12 +218,12 @@ extension ListenViewController {
 // MARK: - Audio
 extension ListenViewController {
     func setupAudio() {
-        audioFileURL  = Bundle.main.url(forResource: song?.title, withExtension: "mp4")
+        audioFileURL  = Bundle.main.url(forResource: song?.title, withExtension: "mp3")
         
         engine.attach(player)
-        engine.attach(rateEffect)
-        engine.connect(player, to: rateEffect, format: audioFormat)
-        engine.connect(rateEffect, to: engine.mainMixerNode, format: audioFormat)
+        engine.attach(playbackRateEffect)
+        engine.connect(player, to: playbackRateEffect, format: audioFormat)
+        engine.connect(playbackRateEffect, to: engine.mainMixerNode, format: audioFormat)
         
         engine.prepare()
         
@@ -245,44 +245,11 @@ extension ListenViewController {
     
     func connectVolumeTap() {
         let format = engine.mainMixerNode.outputFormat(forBus: 0)
-        engine.mainMixerNode.installTap(onBus: 0, bufferSize: 1024, format: format) { buffer, when in
-            
-            guard let channelData = buffer.floatChannelData,
-                let updater = self.updater else {
-                    return
-            }
-            
-            let channelDataValue = channelData.pointee
-            let channelDataValueArray = stride(from: 0,
-                                               to: Int(buffer.frameLength),
-                                               by: buffer.stride).map{ channelDataValue[$0] }
-            let ms = channelDataValueArray.map{ $0 * $0 }.reduce(0, +) / Float(buffer.frameLength)
-            let rms = sqrt(ms)
-            let avgPower = 20 * log10(rms)
-            let meterLevel = self.scaledPower(power: avgPower)
-            
-//            DispatchQueue.main.async {
-//                self.volumeMeterHeight.constant = !updater.isPaused ? CGFloat(min((meterLevel * self.pauseImageHeight),
-//                                                                                  self.pauseImageHeight)) : 0.0
-//            }
-        }
-    }
-    
-    func scaledPower(power: Float) -> Float {
-        guard power.isFinite else { return 0.0 }
-        
-        if power < minDb {
-            return 0.0
-        } else if power >= 1.0 {
-            return 1.0
-        } else {
-            return (abs(minDb) - abs(power)) / abs(minDb)
-        }
+        engine.mainMixerNode.installTap(onBus: 0, bufferSize: 1024, format: format) { buffer, when in }
     }
     
     func disconnectVolumeTap() {
         engine.mainMixerNode.removeTap(onBus: 0)
-        //volumeMeterHeight.constant = 0
     }
     
     func seek(to time: Float) {

@@ -53,6 +53,13 @@ class ListenTableViewController: UITableViewController {
             fatalError("Unable to instantiate s1")
         }
         
-        songs += [s1]
+        guard let s2 = Song(title: "Stand By Me", artist: "Ben E. King", albumArt: UIImage(named: "Stand By Me")!) else {
+            fatalError("Unable to instantiate s2")
+        }
+        
+        guard let s3 = Song(title: "thank u, next", artist: "Ariana Grande", albumArt: UIImage(named: "thank u, next")!) else {
+            fatalError("Unable to instantiate s3")
+        }
+        songs += [s1, s2, s3]
     }
 }

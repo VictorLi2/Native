@@ -532,7 +532,7 @@
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="EQd-dy-M7d" userLabel="Volume Slider">
                                 <rect key="frame" x="64" y="518" width="247" height="31"/>
                                 <connections>
-                                    <action selector="didChangeVolumeValue:" destination="Xa4-9Q-icC" eventType="valueChanged" id="3gR-X6-jii"/>
+                                    <action selector="didChangePlaybackRateValue:" destination="Xa4-9Q-icC" eventType="valueChanged" id="3gR-X6-jii"/>
                                 </connections>
                             </slider>
                         </subviews>
@@ -574,9 +574,9 @@
                         <outlet property="countUpLabel" destination="02l-rt-C2R" id="wOx-pP-DT3"/>
                         <outlet property="forward15Button" destination="Gkh-bp-mY7" id="oHC-Xe-z2z"/>
                         <outlet property="playPauseButton" destination="5ok-oS-KT8" id="8nH-07-fvh"/>
+                        <outlet property="playbackRateSlider" destination="EQd-dy-M7d" id="AMx-NJ-s5x"/>
                         <outlet property="progressBar" destination="LuE-7Z-3Ti" id="83i-ah-3tH"/>
                         <outlet property="songTitle" destination="Jxk-ls-Vyf" id="iG8-fg-98H"/>
-                        <outlet property="volumeSlider" destination="EQd-dy-M7d" id="AMx-NJ-s5x"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gjz-t1-O2P" userLabel="First Responder" sceneMemberID="firstResponder"/>
