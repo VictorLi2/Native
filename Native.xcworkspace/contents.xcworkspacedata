@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/jigglyboy/Documents/GitHub/Native/Native/Sections/Write/WriteTableViewCell.swift">
-   </FileRef>
-   <FileRef
       location = "group:Native.xcodeproj">
    </FileRef>
    <FileRef

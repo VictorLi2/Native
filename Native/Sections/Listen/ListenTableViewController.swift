@@ -49,7 +49,7 @@ class ListenTableViewController: UITableViewController {
 
     //MARK: Private Methods
     private func loadSongs() {
-        guard let s1 = Song(title: "a", artist: "b") else {
+        guard let s1 = Song(title: "Hey Jude", artist: "The Beatles", albumArt: UIImage(named: "Hey Jude")!) else {
             fatalError("Unable to instantiate s1")
         }
         
