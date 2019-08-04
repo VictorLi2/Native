@@ -103,7 +103,6 @@ class ListenViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationController!.setNavigationBarHidden(false, animated: false)
 
         songTitle.text = song?.title
         artist.text = song?.artist
@@ -117,6 +116,12 @@ class ListenViewController: UIViewController {
         updater = CADisplayLink(target: self, selector: #selector(updateUI))
         updater?.add(to: .current, forMode: RunLoop.Mode.default)
         updater?.isPaused = true
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        navigationController!.setNavigationBarHidden(false, animated: true)
     }
 }
 
