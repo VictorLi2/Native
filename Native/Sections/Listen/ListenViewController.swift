@@ -29,6 +29,8 @@
 import UIKit
 import AVFoundation
 
+// TODO: pause on leaving page
+
 class ListenViewController: UIViewController {
     
     // MARK: Outlets
@@ -115,13 +117,26 @@ class ListenViewController: UIViewController {
         
         updater = CADisplayLink(target: self, selector: #selector(updateUI))
         updater?.add(to: .current, forMode: RunLoop.Mode.default)
-        updater?.isPaused = true
+        
+        updater?.isPaused = false
+        connectVolumeTap()
+        if needsFileScheduled {
+            needsFileScheduled = false
+            scheduleAudioFile()
+        }
+        player.play()
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
         navigationController!.setNavigationBarHidden(false, animated: true)
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        
+        pauseAudio()
     }
 }
 
@@ -141,17 +156,9 @@ extension ListenViewController {
         }
         
         if player.isPlaying {
-            disconnectVolumeTap()
-            updater?.isPaused = true
-            player.pause()
+            pauseAudio()
         } else {
-            updater?.isPaused = false
-            connectVolumeTap()
-            if needsFileScheduled {
-                needsFileScheduled = false
-                scheduleAudioFile()
-            }
-            player.play()
+            playAudio()
         }
     }
     
@@ -163,7 +170,7 @@ extension ListenViewController {
     @IBAction func back15Tapped(_ sender: UIButton) {
         guard let _ = player.engine else { return }
         needsFileScheduled = false
-        seek(to: -10.0)
+        seek(to: -15.0)
     }
 
     @objc func updateUI() {
@@ -284,4 +291,21 @@ extension ListenViewController {
         }
     }
     
+    func pauseAudio() {
+        disconnectVolumeTap()
+        playPauseButton.setImage(UIImage(named: "Listen_Play_Button"), for: .normal)
+        updater?.isPaused = true
+        player.pause()
+    }
+    
+    func playAudio() {
+        connectVolumeTap()
+        playPauseButton.setImage(UIImage(named: "Listen_Pause_Button"), for: .normal)
+        updater?.isPaused = false
+        if needsFileScheduled {
+            needsFileScheduled = false
+            scheduleAudioFile()
+        }
+        player.play()
+    }
 }

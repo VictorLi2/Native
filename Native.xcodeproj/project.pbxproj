@@ -29,6 +29,7 @@
 		BB1A6F3522F7A09A00486A23 /* Stand By Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB1A6F3222F7A09800486A23 /* Stand By Me.mp3 */; };
 		BB1A6F3622F7A09A00486A23 /* Hey Jude.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB1A6F3322F7A09A00486A23 /* Hey Jude.mp3 */; };
 		BB1A6F3722F7A09A00486A23 /* thank u, next.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB1A6F3422F7A09A00486A23 /* thank u, next.mp3 */; };
+		BB1A6F3D22F7AE2900486A23 /* Hey Jude.txt in Resources */ = {isa = PBXBuildFile; fileRef = BB1A6F3C22F7AE2900486A23 /* Hey Jude.txt */; };
 		BB2CA20E22D1786F00373A79 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CA20D22D1786F00373A79 /* LoginViewController.swift */; };
 		BB3796C722EE5E850066C99A /* ListenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3796C622EE5E850066C99A /* ListenTableViewController.swift */; };
 		BB3796C922EE5F540066C99A /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3796C822EE5F540066C99A /* Song.swift */; };
@@ -42,7 +43,6 @@
 		BB7B4B7B22F6E4BA000CB7D6 /* WriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7B4B7A22F6E4BA000CB7D6 /* WriteTableViewCell.swift */; };
 		BBB3223422D4830500FFB0F6 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB3223322D4830500FFB0F6 /* MainTabController.swift */; };
 		BBBE08A422D178E300F5AB68 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE08A022D178E300F5AB68 /* FavoritesViewController.swift */; };
-		BBBE08A522D178E300F5AB68 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE08A122D178E300F5AB68 /* HomeViewController.swift */; };
 		BBBE08A622D178E300F5AB68 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE08A222D178E300F5AB68 /* ProfileViewController.swift */; };
 		BBBE08A722D178E300F5AB68 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE08A322D178E300F5AB68 /* MenuViewController.swift */; };
 		BBBE08AB22D178F600F5AB68 /* WatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE08A922D178F600F5AB68 /* WatchViewController.swift */; };
@@ -56,6 +56,7 @@
 		BBD111D922DBE55D00DCB2F9 /* WatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD111D822DBE55D00DCB2F9 /* WatchTableViewCell.swift */; };
 		BBD111DD22DBEF5000DCB2F9 /* WatchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD111DC22DBEF5000DCB2F9 /* WatchTableViewController.swift */; };
 		BBD111DF22DBF61D00DCB2F9 /* YoutubeVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD111DE22DBF61D00DCB2F9 /* YoutubeVideo.swift */; };
+		BBFD72F822FEAA080070D47A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFD72F722FEAA080070D47A /* HomeViewController.swift */; };
 		F3DD739DF1CC288BCB808EB5 /* Pods_NativeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99BB482AD920C65600D96E9 /* Pods_NativeTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -104,6 +105,7 @@
 		BB1A6F3222F7A09800486A23 /* Stand By Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Stand By Me.mp3"; sourceTree = "<group>"; };
 		BB1A6F3322F7A09A00486A23 /* Hey Jude.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hey Jude.mp3"; sourceTree = "<group>"; };
 		BB1A6F3422F7A09A00486A23 /* thank u, next.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "thank u, next.mp3"; sourceTree = "<group>"; };
+		BB1A6F3C22F7AE2900486A23 /* Hey Jude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Hey Jude.txt"; sourceTree = "<group>"; };
 		BB2CA20D22D1786F00373A79 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BB3796C622EE5E850066C99A /* ListenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenTableViewController.swift; sourceTree = "<group>"; };
 		BB3796C822EE5F540066C99A /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
@@ -117,7 +119,6 @@
 		BB7B4B7A22F6E4BA000CB7D6 /* WriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WriteTableViewCell.swift; path = /Users/jigglyboy/Documents/GitHub/Native/Native/Sections/Write/WriteTableViewCell.swift; sourceTree = "<absolute>"; };
 		BBB3223322D4830500FFB0F6 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 		BBBE08A022D178E300F5AB68 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
-		BBBE08A122D178E300F5AB68 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BBBE08A222D178E300F5AB68 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		BBBE08A322D178E300F5AB68 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		BBBE08A922D178F600F5AB68 /* WatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +138,7 @@
 		BBD111D822DBE55D00DCB2F9 /* WatchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTableViewCell.swift; sourceTree = "<group>"; };
 		BBD111DC22DBEF5000DCB2F9 /* WatchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTableViewController.swift; sourceTree = "<group>"; };
 		BBD111DE22DBF61D00DCB2F9 /* YoutubeVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeVideo.swift; sourceTree = "<group>"; };
+		BBFD72F722FEAA080070D47A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E99BB482AD920C65600D96E9 /* Pods_NativeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD37C4AA342CBB659047FA0 /* Pods_NativeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -214,6 +216,22 @@
 			path = Write;
 			sourceTree = "<group>";
 		};
+		BB1A6F3A22F7A94B00486A23 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BBFD72F722FEAA080070D47A /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BB1A6F3B22F7AC9600486A23 /* lyrics */ = {
+			isa = PBXGroup;
+			children = (
+				BB1A6F3C22F7AE2900486A23 /* Hey Jude.txt */,
+			);
+			path = lyrics;
+			sourceTree = "<group>";
+		};
 		BB2CA20F22D1788500373A79 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +245,7 @@
 		BB3796C522EE5E6B0066C99A /* Listen */ = {
 			isa = PBXGroup;
 			children = (
+				BB1A6F3B22F7AC9600486A23 /* lyrics */,
 				BB3796CC22EE64B60066C99A /* songs */,
 				BB3796C622EE5E850066C99A /* ListenTableViewController.swift */,
 				BB3796CA22EE5FDC0066C99A /* ListenTableViewCell.swift */,
@@ -271,8 +290,8 @@
 		BBBE089F22D178D100F5AB68 /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
+				BB1A6F3A22F7A94B00486A23 /* Home */,
 				BBBE08A022D178E300F5AB68 /* FavoritesViewController.swift */,
-				BBBE08A122D178E300F5AB68 /* HomeViewController.swift */,
 				BBBE08A322D178E300F5AB68 /* MenuViewController.swift */,
 				BBBE08A222D178E300F5AB68 /* ProfileViewController.swift */,
 				BBB3223322D4830500FFB0F6 /* MainTabController.swift */,
@@ -488,6 +507,7 @@
 				BB161AA322D58AE300F2A342 /* Assets.xcassets in Resources */,
 				BB1A6F3622F7A09A00486A23 /* Hey Jude.mp3 in Resources */,
 				BB1A6F3522F7A09A00486A23 /* Stand By Me.mp3 in Resources */,
+				BB1A6F3D22F7AE2900486A23 /* Hey Jude.txt in Resources */,
 				BBC83AAB22D176D300E9C164 /* Main.storyboard in Resources */,
 				BB7B2E3522E5341F0047CE7F /* Kawhi.txt in Resources */,
 				BB1A6F3722F7A09A00486A23 /* thank u, next.mp3 in Resources */,
@@ -641,6 +661,7 @@
 				BB0AE5C322DABD8300D5B096 /* LanguageProficiencyViewController.swift in Sources */,
 				BB7B4B7B22F6E4BA000CB7D6 /* WriteTableViewCell.swift in Sources */,
 				BBBE08A422D178E300F5AB68 /* FavoritesViewController.swift in Sources */,
+				BBFD72F822FEAA080070D47A /* HomeViewController.swift in Sources */,
 				BB17DD7F22EE52100055458A /* WritingLesson.swift in Sources */,
 				BB161AA922D5E1C600F2A342 /* DirtyStartingViewController.swift in Sources */,
 				BBD111DF22DBF61D00DCB2F9 /* YoutubeVideo.swift in Sources */,
@@ -650,7 +671,6 @@
 				BB161AA522D5C02C00F2A342 /* FacebookLoginButton.swift in Sources */,
 				BB0AE5C522DACC7100D5B096 /* RoundedButtonExtension.swift in Sources */,
 				BB7B2E3022E52CFE0047CE7F /* Article.swift in Sources */,
-				BBBE08A522D178E300F5AB68 /* HomeViewController.swift in Sources */,
 				BBBE08A722D178E300F5AB68 /* MenuViewController.swift in Sources */,
 				BB18782722D695F1007D3CB1 /* PlayViewController.swift in Sources */,
 				BBD111D922DBE55D00DCB2F9 /* WatchTableViewCell.swift in Sources */,

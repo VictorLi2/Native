@@ -10,35 +10,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home View Controller-->
-        <scene sceneID="hNz-n2-bh7">
-            <objects>
-                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9pv-A4-QxB" customClass="HomeViewController" customModule="Native" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Home" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <rect key="frame" x="141" y="312" width="93" height="43"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
-                            <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="ict-EJ-jWr"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1476" y="-1011"/>
-        </scene>
         <!--Favorites View Controller-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
@@ -66,7 +37,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3354.4000000000001" y="-339.58020989505252"/>
+            <point key="canvasLocation" x="3322" y="-340"/>
         </scene>
         <!--Watch Table View Controller-->
         <scene sceneID="AuV-tD-ufZ">
@@ -155,13 +126,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="heS-rd-KDp">
-                                <rect key="frame" x="20" y="74" width="92" height="42"/>
+                                <rect key="frame" x="20" y="84" width="92" height="42"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="rGI-Ag-Rdf">
-                                <rect key="frame" x="0.0" y="131" width="375" height="417"/>
+                                <rect key="frame" x="0.0" y="141" width="375" height="417"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kcE-Gm-5Tm">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="33"/>
@@ -267,7 +238,7 @@
                             <constraint firstItem="WC4-Rj-m11" firstAttribute="trailing" secondItem="rGI-Ag-Rdf" secondAttribute="trailing" id="5Sb-kY-Qv9"/>
                             <constraint firstItem="rGI-Ag-Rdf" firstAttribute="top" secondItem="heS-rd-KDp" secondAttribute="bottom" constant="15" id="74a-Bq-e7I"/>
                             <constraint firstItem="heS-rd-KDp" firstAttribute="leading" secondItem="WC4-Rj-m11" secondAttribute="leading" constant="20" id="CJW-ar-FyG"/>
-                            <constraint firstItem="heS-rd-KDp" firstAttribute="top" secondItem="WC4-Rj-m11" secondAttribute="top" constant="10" id="LJ4-WN-OqR"/>
+                            <constraint firstItem="heS-rd-KDp" firstAttribute="top" secondItem="WC4-Rj-m11" secondAttribute="top" constant="20" id="LJ4-WN-OqR"/>
                             <constraint firstItem="rGI-Ag-Rdf" firstAttribute="leading" secondItem="WC4-Rj-m11" secondAttribute="leading" id="LjK-vR-GGS"/>
                             <constraint firstItem="WC4-Rj-m11" firstAttribute="trailing" secondItem="heS-rd-KDp" secondAttribute="trailing" constant="263" id="cZm-2k-5vs"/>
                         </constraints>
@@ -492,7 +463,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="5ok-oS-KT8" secondAttribute="height" multiplier="1:1" id="v8E-eH-kvU"/>
                                 </constraints>
-                                <state key="normal" image="Listen_Play_Button"/>
+                                <state key="normal" image="Listen_Pause_Button"/>
                                 <connections>
                                     <action selector="playButtonTapped:" destination="Xa4-9Q-icC" eventType="touchUpInside" id="dmK-fX-qOR"/>
                                 </connections>
@@ -535,6 +506,14 @@
                                     <action selector="didChangePlaybackRateValue:" destination="Xa4-9Q-icC" eventType="valueChanged" id="3gR-X6-jii"/>
                                 </connections>
                             </slider>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OW4-sg-9dD">
+                                <rect key="frame" x="167" y="556" width="40" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Lyrics"/>
+                                <connections>
+                                    <segue destination="mLO-ur-zpM" kind="show" id="RBG-Hn-Tws"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -582,6 +561,105 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gjz-t1-O2P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4940" y="2318.5907046476764"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ChY-DM-him">
+            <objects>
+                <viewController id="mLO-ur-zpM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b39-fs-ty9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DP2-W4-Ucp">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Hey Jude Lyrics  Hey Jude, don't make it bad
+Take a sad song and make it better
+Remember to let her into your heart
+Then you can start to make it better
+Hey Jude, don't be afraid
+You were made to go out and get her
+The minute you let her under your skin
+Then you begin to make it better
+And anytime you feel the pain
+Hey Jude, refrain
+Don't carry the world upon your shoulders
+For well you know that it's a fool
+Who plays it cool
+By making his world a little colder
+Na-na-na, na, na
+Na-na-na, na
+Hey Jude, don't let me down
+You have found her, now go and get her (let it out and let it in)
+Remember to let her into your heart (hey Jude)
+Then you can start to make it better
+So let it out and let it in
+Hey Jude, begin
+You're waiting for someone to perform with
+And don't you know that it's just you
+Hey Jude, you'll do
+The movement you need is on your shoulder
+Na-na-na, na, na
+Na-na-na, na, yeah
+Hey Jude, don't make it bad
+Take a sad song and make it better
+Remember to let her under your skin
+Then you'll begin to make it better
+Better better better better better, ah!
+Na, na, na, na-na-na na (yeah! Yeah, yeah, yeah, yeah, yeah, yeah)
+Na-na-na na, hey Jude
+Na, na, na, na-na-na na
+Na-na-na na, hey Jude
+Na, na, na, na-na-na na
+Na-na-na na, hey Jude
+Na, na, na, na-na-na na
+Na-na-na na, hey Jude (Jude Jude, Judy Judy Judy Judy, ow wow!)
+Na, na, na, na-na-na na (my, my, my)
+Na-na-na na, hey Jude (Jude, Jude, Jude, Jude, Jude)
+Na, na, na, na-na-na na (yeah, yeah, yeah)
+Na-na-na na, hey Jude (yeah, you know you can make it, Jude, Jude, you're not gonna break it)
+Na, na, na, na-na-na na (don't make it bad, Jude, take a sad song and make it better)
+Na-na-na na, hey Jude (oh Jude, Jude, hey Jude, wa!)
+Na, na, na, na-na-na na (oh Jude)
+Na-na-na na, hey Jude (hey, hey, hey, hey)
+Na, na, na, na-na-na na (hey, hey)
+Na-na-na na, hey Jude (now, Jude, Jude, Jude, Jude, Jude)
+Na, na, na, na-na-na na (Jude, yeah, yeah, yeah, yeah)
+Na-na-na na, hey Jude
+Na, na, na, na-na-na na
+Na-na-na na, hey Jude (na-na-na-na-na-na-na-na-na)
+Na, na, na, na-na-na na
+Na-na-na na, hey Jude
+Na, na, na, na-na-na na
+Na-na-na na, hey Jude
+Na, na, na, na-na-na na (yeah, make it, Jude)
+Na-na-na na, hey Jude (yeah yeah yeah yeah yeah! Yeah! Yeah! Yeah! Yeah!)
+Na, na, na, na-na-na na (yeah, yeah yeah, yeah! Yeah! Yeah!)
+Na-na-na na, hey Jude
+Na, na, na, na-na-na na
+Na-na-na na, hey Jude
+Na, na, na, na-na-na na
+Na-na-na na, hey Jude
+Na, na, na, na-na-na na
+Na-na-na na, hey Jude
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="KMz-9n-fRa" firstAttribute="bottom" secondItem="DP2-W4-Ucp" secondAttribute="bottom" id="7pS-hD-WAO"/>
+                            <constraint firstItem="DP2-W4-Ucp" firstAttribute="top" secondItem="KMz-9n-fRa" secondAttribute="top" id="9vE-8x-IPI"/>
+                            <constraint firstItem="DP2-W4-Ucp" firstAttribute="leading" secondItem="KMz-9n-fRa" secondAttribute="leading" id="USY-sp-4cC"/>
+                            <constraint firstItem="KMz-9n-fRa" firstAttribute="trailing" secondItem="DP2-W4-Ucp" secondAttribute="trailing" id="wQA-9U-DFP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KMz-9n-fRa"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dk8-TY-YnW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5644" y="2317"/>
         </scene>
         <!--Write View Controller-->
         <scene sceneID="bzC-LW-oS8">
@@ -954,7 +1032,7 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="tdH-ar-I3o" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="9sp-qx-p6E" kind="relationship" relationship="viewControllers" id="h2W-1c-4xA"/>
                         <segue destination="G0l-dL-X12" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="dtS-gG-VUG" kind="relationship" relationship="viewControllers" id="MH4-23-74W"/>
                         <segue destination="Hdz-7v-iWQ" kind="relationship" relationship="viewControllers" id="6YG-QI-qHP"/>
@@ -964,26 +1042,35 @@
             </objects>
             <point key="canvasLocation" x="1877.5999999999999" y="-0.44977511244377816"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="qY4-Zw-qNt">
+        <!--Home View Controller-->
+        <scene sceneID="hu1-OG-xkP">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tdH-ar-I3o" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="HomeTab" selectedImage="HomeTab" id="acW-dT-cKf">
+                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9sp-qx-p6E" customClass="HomeViewController" customModule="Native" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v2W-wG-grh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recommended" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iJj-re-3Yu">
+                                <rect key="frame" x="16" y="36" width="247" height="42"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iJj-re-3Yu" firstAttribute="top" secondItem="Ojo-nt-tmV" secondAttribute="top" constant="16" id="Kkt-lc-phg"/>
+                            <constraint firstItem="iJj-re-3Yu" firstAttribute="leading" secondItem="Ojo-nt-tmV" secondAttribute="leading" constant="16" id="r3t-uB-oTe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ojo-nt-tmV"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="HomeTab" id="ZX3-ZM-zfZ">
                         <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
                     </tabBarItem>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9Rf-4M-izA">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="W0J-w0-sS6"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RjP-iH-W78" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y07-2J-IIT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-1010"/>
+            <point key="canvasLocation" x="2596" y="-1011"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Qd4-M4-TTT">
@@ -1004,13 +1091,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Znb-iw-xfP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2628" y="-338.68065967016497"/>
+            <point key="canvasLocation" x="2596" y="-340"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="9pn-gb-FnI">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dtS-gG-VUG" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="Profile" selectedImage="Profile" id="22v-b0-JEo">
+                    <tabBarItem key="tabBarItem" title="" image="ProfileTab" selectedImage="Profile" id="22v-b0-JEo">
                         <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
                     </tabBarItem>
                     <toolbarItems/>
@@ -1078,11 +1165,12 @@
         <image name="Listen" width="33" height="33"/>
         <image name="Listen_Back_15_Button" width="40" height="40"/>
         <image name="Listen_Forward_15_Button" width="40" height="40"/>
-        <image name="Listen_Play_Button" width="40" height="40"/>
+        <image name="Listen_Pause_Button" width="40" height="40"/>
         <image name="MenuTab" width="25" height="25"/>
         <image name="Mexico" width="48" height="48"/>
         <image name="Play" width="33" height="33"/>
         <image name="Profile" width="33" height="33"/>
+        <image name="ProfileTab" width="33" height="33"/>
         <image name="Read" width="33" height="33"/>
         <image name="Settings" width="33" height="33"/>
         <image name="Shop" width="33" height="33"/>

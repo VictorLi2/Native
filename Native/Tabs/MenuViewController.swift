@@ -7,7 +7,7 @@ class MenuViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        navigationController!.setNavigationBarHidden(false, animated: true)
+        navigationController!.setNavigationBarHidden(true, animated: false)
     }
     
     @IBAction func profile(_ sender: UIButton) {
