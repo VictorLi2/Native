@@ -106,6 +106,8 @@ class ListenViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        setupNavigationBar(title: "")
+        
         songTitle.text = song?.title
         artist.text = song?.artist
         albumArt.image = song?.albumArt

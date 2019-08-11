@@ -7,7 +7,8 @@ class ReadViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationController!.setNavigationBarHidden(false, animated: false)
+
+        setupNavigationBar(title: article!.title)
 
         let textView = UITextView()
         

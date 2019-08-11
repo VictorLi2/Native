@@ -7,9 +7,7 @@ class WatchTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        navigationController!.setNavigationBarHidden(false, animated: false)
-        navigationItem.title = "Watch"
+        setupNavigationBar(title: "Watch")
         
         loadYoutubeVideos()
     }

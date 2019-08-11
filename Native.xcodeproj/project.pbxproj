@@ -34,6 +34,8 @@
 		BB3796C722EE5E850066C99A /* ListenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3796C622EE5E850066C99A /* ListenTableViewController.swift */; };
 		BB3796C922EE5F540066C99A /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3796C822EE5F540066C99A /* Song.swift */; };
 		BB3796CB22EE5FDC0066C99A /* ListenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3796CA22EE5FDC0066C99A /* ListenTableViewCell.swift */; };
+		BB72E15522FFFEF200FD4A25 /* NavigationBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB72E15422FFFEF200FD4A25 /* NavigationBarExtension.swift */; };
+		BB72E1572300018C00FD4A25 /* TranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB72E1562300018C00FD4A25 /* TranslateViewController.swift */; };
 		BB7B2E2C22E52B1C0047CE7F /* ReadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7B2E2B22E52B1C0047CE7F /* ReadTableViewController.swift */; };
 		BB7B2E2E22E52B630047CE7F /* ReadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7B2E2D22E52B630047CE7F /* ReadTableViewCell.swift */; };
 		BB7B2E3022E52CFE0047CE7F /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7B2E2F22E52CFE0047CE7F /* Article.swift */; };
@@ -110,6 +112,8 @@
 		BB3796C622EE5E850066C99A /* ListenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenTableViewController.swift; sourceTree = "<group>"; };
 		BB3796C822EE5F540066C99A /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		BB3796CA22EE5FDC0066C99A /* ListenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenTableViewCell.swift; sourceTree = "<group>"; };
+		BB72E15422FFFEF200FD4A25 /* NavigationBarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarExtension.swift; sourceTree = "<group>"; };
+		BB72E1562300018C00FD4A25 /* TranslateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateViewController.swift; sourceTree = "<group>"; };
 		BB7B2E2B22E52B1C0047CE7F /* ReadTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadTableViewController.swift; sourceTree = "<group>"; };
 		BB7B2E2D22E52B630047CE7F /* ReadTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadTableViewCell.swift; sourceTree = "<group>"; };
 		BB7B2E2F22E52CFE0047CE7F /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
@@ -310,6 +314,7 @@
 				BB18782422D695D9007D3CB1 /* SettingsViewController.swift */,
 				BB18782622D695F1007D3CB1 /* PlayViewController.swift */,
 				BB18782822D6962C007D3CB1 /* ShopViewController.swift */,
+				BB72E1562300018C00FD4A25 /* TranslateViewController.swift */,
 			);
 			path = Sections;
 			sourceTree = "<group>";
@@ -320,6 +325,7 @@
 				BBBE08AE22D1790600F5AB68 /* ColourHelper.swift */,
 				BB0AE5BA22DAAF9100D5B096 /* UIViewBackgroundImageExtension.swift */,
 				BB0AE5C422DACC7100D5B096 /* RoundedButtonExtension.swift */,
+				BB72E15422FFFEF200FD4A25 /* NavigationBarExtension.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -643,7 +649,9 @@
 				BB18782922D6962C007D3CB1 /* ShopViewController.swift in Sources */,
 				BB7B2E2C22E52B1C0047CE7F /* ReadTableViewController.swift in Sources */,
 				BBD111DD22DBEF5000DCB2F9 /* WatchTableViewController.swift in Sources */,
+				BB72E1572300018C00FD4A25 /* TranslateViewController.swift in Sources */,
 				BB0AE5BB22DAAF9100D5B096 /* UIViewBackgroundImageExtension.swift in Sources */,
+				BB72E15522FFFEF200FD4A25 /* NavigationBarExtension.swift in Sources */,
 				BB3796C722EE5E850066C99A /* ListenTableViewController.swift in Sources */,
 				BB2CA20E22D1786F00373A79 /* LoginViewController.swift in Sources */,
 				BB18782522D695D9007D3CB1 /* SettingsViewController.swift in Sources */,

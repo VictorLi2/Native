@@ -4,10 +4,11 @@ class MenuViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupNavigationBar(title: "Menu")
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        navigationController!.setNavigationBarHidden(true, animated: false)
+        super.viewDidAppear(animated)
     }
     
     @IBAction func profile(_ sender: UIButton) {

@@ -13,6 +13,8 @@ class DirtyStartingViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
         if(firstLaunch.isFirstLaunch || defaults.object(forKey: "CompletedSetUp") as? String == "false") {
             let firstLaunchViewContoller = storyboard!.instantiateViewController(withIdentifier: "FirstLaunchViewController") as! FirstLaunchViewController
             present(firstLaunchViewContoller, animated: true, completion: nil)

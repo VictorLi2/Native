@@ -7,9 +7,7 @@ class ListenTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        navigationController!.setNavigationBarHidden(false, animated: false)
-        navigationItem.title = "Listen"
+        setupNavigationBar(title: "Listen")
         
         loadSongs()
     }

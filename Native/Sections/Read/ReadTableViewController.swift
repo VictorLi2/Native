@@ -7,11 +7,9 @@ class ReadTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        loadArticles()
+        setupNavigationBar(title: "Read")
         
-        navigationController!.setNavigationBarHidden(false, animated: false)
-        navigationItem.title = "Read"
+        loadArticles()
     }
 
     // MARK: - Table view data source
