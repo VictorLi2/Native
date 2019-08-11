@@ -1,6 +1,6 @@
 import UIKit
 
-class YoutubeVideo {
+class YoutubeVideo: NSObject, NSCoding {
     //MARK: Properties
     
     var id: String
@@ -14,7 +14,20 @@ class YoutubeVideo {
         
         self.id = id
         self.title = title
+        
+        super.init()
         self.thumbnail = generateThumbnailFromYouTubeID(youTubeID: id)
+    }
+    
+    func encode(with aCoder: NSCoder) {
+        aCoder.encode(id, forKey: "id")
+        aCoder.encode(title, forKey: "title")
+    }
+    
+    required convenience init?(coder aDecoder: NSCoder) {
+        let id = aDecoder.decodeObject(forKey: "id") as! String
+        let title = aDecoder.decodeObject(forKey: "title") as! String
+        self.init(id: id, title: title)
     }
     
     private func generateThumbnailFromYouTubeID(youTubeID: String) -> UIImage {
