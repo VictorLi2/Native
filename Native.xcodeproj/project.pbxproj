@@ -55,6 +55,7 @@
 		BBC83AB022D176D300E9C164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC83AAE22D176D300E9C164 /* LaunchScreen.storyboard */; };
 		BBC83ABB22D176D400E9C164 /* NativeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC83ABA22D176D400E9C164 /* NativeTests.swift */; };
 		BBC83AC622D176D400E9C164 /* NativeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC83AC522D176D400E9C164 /* NativeUITests.swift */; };
+		BBCB182D2308E73300A5AC53 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCB182C2308E73300A5AC53 /* HomeCollectionViewCell.swift */; };
 		BBD111D922DBE55D00DCB2F9 /* WatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD111D822DBE55D00DCB2F9 /* WatchTableViewCell.swift */; };
 		BBD111DD22DBEF5000DCB2F9 /* WatchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD111DC22DBEF5000DCB2F9 /* WatchTableViewController.swift */; };
 		BBD111DF22DBF61D00DCB2F9 /* YoutubeVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD111DE22DBF61D00DCB2F9 /* YoutubeVideo.swift */; };
@@ -139,6 +140,7 @@
 		BBC83AC122D176D400E9C164 /* NativeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBC83AC522D176D400E9C164 /* NativeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeUITests.swift; sourceTree = "<group>"; };
 		BBC83AC722D176D400E9C164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBCB182C2308E73300A5AC53 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		BBD111D822DBE55D00DCB2F9 /* WatchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTableViewCell.swift; sourceTree = "<group>"; };
 		BBD111DC22DBEF5000DCB2F9 /* WatchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTableViewController.swift; sourceTree = "<group>"; };
 		BBD111DE22DBF61D00DCB2F9 /* YoutubeVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeVideo.swift; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				BBFD72F722FEAA080070D47A /* HomeViewController.swift */,
+				BBCB182C2308E73300A5AC53 /* HomeCollectionViewCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -649,6 +652,7 @@
 				BB18782922D6962C007D3CB1 /* ShopViewController.swift in Sources */,
 				BB7B2E2C22E52B1C0047CE7F /* ReadTableViewController.swift in Sources */,
 				BBD111DD22DBEF5000DCB2F9 /* WatchTableViewController.swift in Sources */,
+				BBCB182D2308E73300A5AC53 /* HomeCollectionViewCell.swift in Sources */,
 				BB72E1572300018C00FD4A25 /* TranslateViewController.swift in Sources */,
 				BB0AE5BB22DAAF9100D5B096 /* UIViewBackgroundImageExtension.swift in Sources */,
 				BB72E15522FFFEF200FD4A25 /* NavigationBarExtension.swift in Sources */,
