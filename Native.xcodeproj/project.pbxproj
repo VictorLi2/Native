@@ -50,6 +50,7 @@
 		BBBE08AB22D178F600F5AB68 /* WatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE08A922D178F600F5AB68 /* WatchViewController.swift */; };
 		BBBE08AC22D178F600F5AB68 /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE08AA22D178F600F5AB68 /* ReadViewController.swift */; };
 		BBBE08AF22D1790600F5AB68 /* ColourHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE08AE22D1790600F5AB68 /* ColourHelper.swift */; };
+		BBBFAE692311FE1E00500CF5 /* HomeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBFAE682311FE1E00500CF5 /* HomeCollectionView.swift */; };
 		BBC83AA422D176D300E9C164 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC83AA322D176D300E9C164 /* AppDelegate.swift */; };
 		BBC83AAB22D176D300E9C164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC83AA922D176D300E9C164 /* Main.storyboard */; };
 		BBC83AB022D176D300E9C164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC83AAE22D176D300E9C164 /* LaunchScreen.storyboard */; };
@@ -129,6 +130,7 @@
 		BBBE08A922D178F600F5AB68 /* WatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchViewController.swift; sourceTree = "<group>"; };
 		BBBE08AA22D178F600F5AB68 /* ReadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
 		BBBE08AE22D1790600F5AB68 /* ColourHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColourHelper.swift; sourceTree = "<group>"; };
+		BBBFAE682311FE1E00500CF5 /* HomeCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionView.swift; sourceTree = "<group>"; };
 		BBC83AA022D176D300E9C164 /* Native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Native.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBC83AA322D176D300E9C164 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBC83AAA22D176D300E9C164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 			children = (
 				BBFD72F722FEAA080070D47A /* HomeViewController.swift */,
 				BBCB182C2308E73300A5AC53 /* HomeCollectionViewCell.swift */,
+				BBBFAE682311FE1E00500CF5 /* HomeCollectionView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -666,6 +669,7 @@
 				BBB3223422D4830500FFB0F6 /* MainTabController.swift in Sources */,
 				BB3796CB22EE5FDC0066C99A /* ListenTableViewCell.swift in Sources */,
 				BB3796C922EE5F540066C99A /* Song.swift in Sources */,
+				BBBFAE692311FE1E00500CF5 /* HomeCollectionView.swift in Sources */,
 				BBC83AA422D176D300E9C164 /* AppDelegate.swift in Sources */,
 				BB18782322D69538007D3CB1 /* CultureViewController.swift in Sources */,
 				BB161A9E22D5765000F2A342 /* FirstLaunch.swift in Sources */,

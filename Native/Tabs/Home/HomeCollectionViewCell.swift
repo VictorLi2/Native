@@ -7,6 +7,7 @@ class HomeCollectionViewCell: UICollectionViewCell {
     
     let imageView = UIImageView()
     let firstLabel = UILabel.init()
+    let secondLabel = UILabel.init()
     
     override init(frame: CGRect) {
         super.init(frame: .zero)
@@ -38,13 +39,21 @@ extension HomeCollectionViewCell {
     }
     
     func setupText() {
-        firstLabel.lineBreakMode = .byWordWrapping
+        firstLabel.frame = CGRect(x: 5, y: 80, width: 150, height: 50)
+        firstLabel.lineBreakMode = .byTruncatingTail
         firstLabel.textAlignment = .left
-        firstLabel.numberOfLines = 0
-        firstLabel.text = "abcd ABCD AAAAAAA"
-        firstLabel.frame = CGRect(x: 0, y: 0, width: contentView.frame.width, height: 50)
-        contentView.addSubview(firstLabel)
+        firstLabel.adjustsFontSizeToFitWidth = true
+        firstLabel.minimumScaleFactor = 0.1
+        firstLabel.numberOfLines = 2
+        firstLabel.text = "abcfsdajfklsadgbonerewkfavdfbwergafwe"
         
-        firstLabel.topAnchor.constraint(equalTo: contentView.topAnchor).isActive = true
+        secondLabel.frame = CGRect(x: 5, y: 130, width: 150, height: 20)
+        secondLabel.lineBreakMode = .byTruncatingTail
+        secondLabel.textAlignment = .left
+        secondLabel.numberOfLines = 1
+        secondLabel.text = "wafdbhorwiejavdfknbgraweaojig"
+        
+        contentView.addSubview(firstLabel)
+        contentView.addSubview(secondLabel)
     }
 }
