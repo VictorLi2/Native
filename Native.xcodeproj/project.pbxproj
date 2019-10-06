@@ -58,6 +58,8 @@
 		BBF403C9231307460023BF49 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF403C8231307460023BF49 /* HomeTableViewController.swift */; };
 		BBF403CB2313234B0023BF49 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF403CA2313234B0023BF49 /* Content.swift */; };
 		F3DD739DF1CC288BCB808EB5 /* Pods_NativeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99BB482AD920C65600D96E9 /* Pods_NativeTests.framework */; };
+		F50EDA3223499E68009CE631 /* FoodAndDrinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50EDA3123499E68009CE631 /* FoodAndDrinkViewController.swift */; };
+		F50EDA342349B1C1009CE631 /* RestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50EDA332349B1C1009CE631 /* RestaurantsViewController.swift */; };
 		F5115C34233DE4BE009ECE43 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5115C33233DE4BE009ECE43 /* Quiz.swift */; };
 		F5115C37233DE63A009ECE43 /* QuizQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5115C36233DE63A009ECE43 /* QuizQuestion.swift */; };
 		F52CB98723430FD3005AB117 /* ReadHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52CB98623430FD3005AB117 /* ReadHomeViewController.swift */; };
@@ -151,6 +153,8 @@
 		BBF403CA2313234B0023BF49 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		E99BB482AD920C65600D96E9 /* Pods_NativeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD37C4AA342CBB659047FA0 /* Pods_NativeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50EDA3123499E68009CE631 /* FoodAndDrinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAndDrinkViewController.swift; sourceTree = "<group>"; };
+		F50EDA332349B1C1009CE631 /* RestaurantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsViewController.swift; sourceTree = "<group>"; };
 		F5115C33233DE4BE009ECE43 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		F5115C36233DE63A009ECE43 /* QuizQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestion.swift; sourceTree = "<group>"; };
 		F52CB98623430FD3005AB117 /* ReadHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadHomeViewController.swift; sourceTree = "<group>"; };
@@ -330,7 +334,7 @@
 				BB18782222D69538007D3CB1 /* CultureViewController.swift */,
 				BB18782422D695D9007D3CB1 /* SettingsViewController.swift */,
 				BB18782622D695F1007D3CB1 /* PlayViewController.swift */,
-				BB18782822D6962C007D3CB1 /* ShopViewController.swift */,
+				F50EDA3023499E40009CE631 /* Shop */,
 				BB72E1562300018C00FD4A25 /* TranslateViewController.swift */,
 				F5FE83852341D2A100529211 /* TalkViewController.swift */,
 				F5B9EB84234882AF00D457A4 /* TrendingViewController.swift */,
@@ -417,6 +421,16 @@
 				F5E78D232346966A00B662FE /* WatchHomeViewController.swift */,
 			);
 			path = Watch;
+			sourceTree = "<group>";
+		};
+		F50EDA3023499E40009CE631 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				BB18782822D6962C007D3CB1 /* ShopViewController.swift */,
+				F50EDA3123499E68009CE631 /* FoodAndDrinkViewController.swift */,
+				F50EDA332349B1C1009CE631 /* RestaurantsViewController.swift */,
+			);
+			path = Shop;
 			sourceTree = "<group>";
 		};
 		F5115C35233DE629009ECE43 /* Quiz */ = {
@@ -709,7 +723,9 @@
 				F5115C34233DE4BE009ECE43 /* Quiz.swift in Sources */,
 				F52CB98723430FD3005AB117 /* ReadHomeViewController.swift in Sources */,
 				BB3796C922EE5F540066C99A /* Song.swift in Sources */,
+				F50EDA3223499E68009CE631 /* FoodAndDrinkViewController.swift in Sources */,
 				F5E78D242346966A00B662FE /* WatchHomeViewController.swift in Sources */,
+				F50EDA342349B1C1009CE631 /* RestaurantsViewController.swift in Sources */,
 				BBC83AA422D176D300E9C164 /* AppDelegate.swift in Sources */,
 				BB18782322D69538007D3CB1 /* CultureViewController.swift in Sources */,
 				BB161A9E22D5765000F2A342 /* FirstLaunch.swift in Sources */,
