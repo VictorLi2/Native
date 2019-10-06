@@ -6,6 +6,5 @@ class SettingsViewController: UIViewController {
         super.viewDidLoad()
         
         setupNavigationBar(title: "Settings")
-
     }
 }

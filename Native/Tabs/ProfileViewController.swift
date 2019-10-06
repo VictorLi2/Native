@@ -4,6 +4,6 @@ class ProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupNavigationBar(title: "Name")
+        setupNavigationBar(title: "Profile")
     }
 }

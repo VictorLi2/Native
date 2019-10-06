@@ -3,7 +3,7 @@ import UIKit
 class ReadTableViewController: UITableViewController {
     //MARK: Properties
     
-    var articles = [Article]()
+    var articles = [Content]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -13,7 +13,6 @@ class ReadTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -30,50 +29,46 @@ class ReadTableViewController: UITableViewController {
             fatalError("The dequeued cell is not an instance of ReadTableViewCell.")
         }
         
-        cell.article = articles[indexPath.row]
+        cell.article = articles[indexPath.row] as? Article
         return cell
     }
     
     //MARK: Navigation
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if(segue.identifier == "ToReadViewController") {
             let readViewController = segue.destination as! ReadViewController
             if let cell = sender as? ReadTableViewCell, let indexPath = tableView.indexPath(for: cell) {
-                readViewController.article = articles[indexPath.row]
+                readViewController.article = articles[indexPath.row] as? Article
             }
         }
     }
 
-    //MARK: Private Methods
-    
+    //MARK: Private methods
     private func loadArticles() {
-        guard let a1 = Article(title: "Kawhi Leonard and Paul George officially join Los Angeles Clippers", source: "The Guardian", image: UIImage(named: "Kawhi")!, content: getArticleContent(fileName: "Kawhi")) else {
-            fatalError("Unable to instantiate a1")
-        }
+        let a1 = Article(id: "Kawhi", title: "Kawhi Leonard and Paul George officially join Los Angeles Clippers", source: "The Guardian")
         
-        guard let a2 = Article(title: "Facebook announces Libra cryptocurrency: All you need to know", source: "Tech Crunch", image: UIImage(named: "FacebookLibra")!, content: getArticleContent(fileName: "FacebookLibra")) else {
-            fatalError("Unable to instantiate a2")
-        }
+        let a2 = Article(id: "FacebookLibra", title: "Facebook announces Libra cryptocurrency: All you need to know", source: "Tech Crunch")
         
-        guard let a3 = Article(title: "Taylor Swift tops Forbes list of highest-earning celebs", source: "BBC", image: UIImage(named: "TaylorSwift")!, content: getArticleContent(fileName: "TaylorSwift")) else {
-            fatalError("Unable to instantiate a3")
-        }
+        let a3 = Article(id: "TaylorSwift", title: "Taylor Swift tops Forbes list of highest-earning celebs", source: "BBC")
+        
         
         articles += [a1, a2, a3]
     }
+}
+
+class ReadTableViewCell: UITableViewCell {
+    //MARK: Properties
+    var article: Article?
     
-    private func getArticleContent(fileName: String) -> String {
-        let filePath = Bundle.main.path(forResource: fileName, ofType: "txt")
-        var content = ""
+    @IBOutlet weak var articleImage: UIImageView!
+    @IBOutlet weak var title: UILabel!
+    @IBOutlet weak var source: UILabel!
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
         
-        do {
-            content = try String(contentsOfFile: filePath!, encoding: String.Encoding.utf8)
-        } catch let error as NSError {
-            print("Failed to read from file")
-            print(error)
-        }
-        
-        return content
+        articleImage.image = article?.image
+        title.text = article?.title
+        source.text = article?.source
     }
 }

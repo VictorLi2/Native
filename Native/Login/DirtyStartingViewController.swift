@@ -17,13 +17,16 @@ class DirtyStartingViewController: UIViewController {
         
         if(firstLaunch.isFirstLaunch || defaults.object(forKey: "CompletedSetUp") as? String == "false") {
             let firstLaunchViewContoller = storyboard!.instantiateViewController(withIdentifier: "FirstLaunchViewController") as! FirstLaunchViewController
+            firstLaunchViewContoller.modalPresentationStyle = .fullScreen
             present(firstLaunchViewContoller, animated: true, completion: nil)
         } else {
             if(AccessToken.isCurrentAccessTokenActive || GIDSignIn.sharedInstance()!.hasAuthInKeychain()) {
                 let mainTabController = storyboard!.instantiateViewController(withIdentifier: "MainTabController") as! MainTabController
+                mainTabController.modalPresentationStyle = .fullScreen
                 present(mainTabController, animated: true, completion: nil)
             } else {
                 let loginViewController = storyboard!.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+                loginViewController.modalPresentationStyle = .fullScreen
                 present(loginViewController, animated: true, completion: nil)
             }
         }

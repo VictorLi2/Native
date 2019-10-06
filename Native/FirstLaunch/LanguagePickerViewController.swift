@@ -20,19 +20,11 @@ class LanguagePickerViewController: UIViewController {
         navigationController?.navigationBar.isTranslucent = true
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let languageProficiencyViewController = segue.destination as! LanguageProficiencyViewController
-        languageProficiencyViewController.oldBackgroundImage = backgroundImage
-    }
-    
     @IBAction func americanEnglish(_ sender: UIButton) {
         defaults.set("American English", forKey: "Language")
     }
-    @IBAction func castilianSpanish(_ sender: UIButton) {
-        defaults.set("Castilian Spanish", forKey: "Language")
-    }
-    @IBAction func latinAmericanSpanish(_ sender: UIButton) {
-        defaults.set("Latin American Spanish", forKey: "Language")
+    @IBAction func spanish(_ sender: UIButton) {
+        defaults.set("Spanish", forKey: "Language")
     }
     @IBAction func french(_ sender: UIButton) {
         defaults.set("French", forKey: "Language")

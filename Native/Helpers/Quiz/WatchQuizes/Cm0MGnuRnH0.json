@@ -1,0 +1,29 @@
+{
+    "quizType": "watch",
+    "id": "Cm0MGnuRnH0",
+    "title": "Billie Eilish: Same Interview, One Year Apart | Vanity Fair",
+    "content": [
+        {
+            "question": "When was this video recorded?",
+            "rightAnswer": 4,
+            "answers": [
+                "September 2017 and September 2018",
+                "May 2016 and June 2018",
+                "April 2016 and June 2011",
+                "October 2017 and October 2018"
+            ],
+            "timeInVideo": 6
+        },
+        {
+            "question": "How old is Billie Eilish in the video?",
+            "rightAnswer": 1,
+            "answers": [
+                "15 and 16 years old",
+                "14 and 15 years old",
+                "15 and 17 years old",
+                "15 and 11 years old"
+            ],
+            "timeInVideo": 11
+        }
+    ]
+}

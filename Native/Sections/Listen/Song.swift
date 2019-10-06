@@ -1,17 +1,17 @@
 import UIKit
 
-class Song {
+class Song: Content {
+    var contentType: ContentType
+    var id: String
     var title: String
-    var artist: String
-    var albumArt: UIImage
+    var source: String
+    var image: UIImage
     
-    init?(title: String, artist: String, albumArt: UIImage) {
-        if(title.isEmpty) {
-            return nil
-        }
-        
+    init(title: String, source: String) {
+        self.contentType = .listen
+        self.id = title
         self.title = title
-        self.artist = artist
-        self.albumArt = albumArt
+        self.source = source
+        self.image = UIImage(named: id)!
     }
 }

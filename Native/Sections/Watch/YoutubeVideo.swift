@@ -1,44 +1,28 @@
 import UIKit
 
-class YoutubeVideo: NSObject, NSCoding {
+class YoutubeVideo: Content {
     //MARK: Properties
-    
+    var contentType: ContentType
     var id: String
     var title: String
-    var thumbnail: UIImage?
+    var source: String
+    var image: UIImage
     
-    init?(id: String, title: String) {
-        if(id.isEmpty || title.isEmpty) {
-            return nil
-        }
-        
+    init(id: String, title: String, source: String) {
+        self.contentType = .watch
         self.id = id
         self.title = title
+        self.source = source
         
-        super.init()
-        self.thumbnail = generateThumbnailFromYouTubeID(youTubeID: id)
-    }
-    
-    func encode(with aCoder: NSCoder) {
-        aCoder.encode(id, forKey: "id")
-        aCoder.encode(title, forKey: "title")
-    }
-    
-    required convenience init?(coder aDecoder: NSCoder) {
-        let id = aDecoder.decodeObject(forKey: "id") as! String
-        let title = aDecoder.decodeObject(forKey: "title") as! String
-        self.init(id: id, title: title)
-    }
-    
-    private func generateThumbnailFromYouTubeID(youTubeID: String) -> UIImage {
-        var url = URL(string: "https://img.youtube.com/vi/\(youTubeID)/maxresdefault.jpg")
+        //Get youtube thumbnail from youtubeID
+        var url = URL(string: "https://img.youtube.com/vi/\(id)/maxresdefault.jpg")
         var data = try? Data(contentsOf: url!)
         
         if(data == nil) {
-            url = URL(string: "https://img.youtube.com/vi/\(youTubeID)/0.jpg")
+            url = URL(string: "https://img.youtube.com/vi/\(id)/0.jpg")
             data = try? Data(contentsOf: url!)
         }
         
-        return UIImage(data: data!)!
+        self.image = UIImage(data: data!)!
     }
 }

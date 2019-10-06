@@ -109,8 +109,8 @@ class ListenViewController: UIViewController {
         setupNavigationBar(title: "")
         
         songTitle.text = song?.title
-        artist.text = song?.artist
-        albumArt.image = song?.albumArt
+        artist.text = song?.source
+        albumArt.image = song?.image
         
         setupPlaybackRateSlider()
         countUpLabel.text = formatted(time: 0)

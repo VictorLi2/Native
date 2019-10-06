@@ -3,17 +3,16 @@ import UIKit
 class ListenTableViewController: UITableViewController {
     //MARK: Properties
     
-    var songs = [Song]()
+    var songs = [Content]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNavigationBar(title: "Listen")
-        
+    
         loadSongs()
     }
 
     // MARK: - Table view data source
-
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -29,35 +28,47 @@ class ListenTableViewController: UITableViewController {
             fatalError("The dequeued cell is not an instance of ListenTableViewCell.")
         }
         
-        cell.song = songs[indexPath.row]
+        cell.song = songs[indexPath.row] as? Song
         
         return cell
     }
 
     // MARK: Navigation
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if(segue.identifier == "ToListenViewController") {
             let listenViewController = segue.destination as! ListenViewController
             if let cell = sender as? ListenTableViewCell, let indexPath = tableView.indexPath(for: cell) {
-                listenViewController.song = songs[indexPath.row]
+                listenViewController.song = songs[indexPath.row] as? Song
             }
         }
     }
 
-    //MARK: Private Methods
+    //MARK: Private methods
     private func loadSongs() {
-        guard let s1 = Song(title: "Hey Jude", artist: "The Beatles", albumArt: UIImage(named: "Hey Jude")!) else {
-            fatalError("Unable to instantiate s1")
-        }
+        let s1 = Song(title: "Hey Jude", source: "The Beatles")
         
-        guard let s2 = Song(title: "Stand By Me", artist: "Ben E. King", albumArt: UIImage(named: "Stand By Me")!) else {
-            fatalError("Unable to instantiate s2")
-        }
+        let s2 = Song(title: "Stand By Me", source: "Ben E. King")
         
-        guard let s3 = Song(title: "thank u, next", artist: "Ariana Grande", albumArt: UIImage(named: "thank u, next")!) else {
-            fatalError("Unable to instantiate s3")
-        }
+        let s3 = Song(title: "thank u, next", source: "Ariana Grande")
+        
         songs += [s1, s2, s3]
+    }
+}
+
+class ListenTableViewCell: UITableViewCell {
+    //MARK: Properties
+    var song: Song?
+    
+    @IBOutlet weak var albumArt: UIImageView!
+    @IBOutlet weak var title: UILabel!
+    @IBOutlet weak var artist: UILabel!
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+   
+        title.text = song?.title
+        artist.text = song?.source
+        albumArt.image = song?.image
     }
 }
