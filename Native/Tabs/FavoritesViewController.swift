@@ -41,7 +41,7 @@ extension FavoritesViewController: UITableViewDataSource {
         case "watchFavorites":
             cellIdentifier = "WatchTableViewCell"
             
-            guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? WatchTableViewCell else {
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? YoutubeTableViewCell else {
                 fatalError("The dequeued cell is not an instance of WatchTableViewCell.")
             }
             

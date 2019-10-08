@@ -9,6 +9,11 @@ extension UIViewController {
         button.addTarget(self, action: #selector(translateButtonPressed), for: .touchUpInside)
         
         navigationItem.setRightBarButton(UIBarButtonItem(customView: button), animated: true)
+        
+        // Change colours of the nav bar and tab bar
+        //let colour = "036ffc"
+        //navigationController?.navigationBar.barTintColor = ColourHelper.hexStringToUIColour(hex: colour)
+        //tabBarController?.tabBar.barTintColor = ColourHelper.hexStringToUIColour(hex: colour)
     }
     
     @objc func translateButtonPressed(sender: UIButton) {

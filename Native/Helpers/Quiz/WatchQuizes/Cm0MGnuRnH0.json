@@ -24,6 +24,94 @@
                 "15 and 11 years old"
             ],
             "timeInVideo": 11
+        },
+        {
+            "question": "In 2017, Billie Eilish had __ Instagram followers.",
+            "rightAnswer": 2,
+            "answers": [
+                "250,057",
+                "257,000",
+                "54,000",
+                "1.4 M"
+            ],
+            "timeInVideo": 14
+        },
+        {
+            "question": "Where was Billie Eilish’s best show?",
+            "rightAnswer": 3,
+            "answers": [
+                "New York",
+                "Vancouver",
+                "Atlanta",
+                "Los Angeles"
+            ],
+            "timeInVideo": 129
+        },
+        {
+            "question": "What advice did Billie Eilish give her future self?",
+            "rightAnswer": 3,
+            "answers": [
+                "Don’t be content",
+                "Be more popular",
+                "Don’t be sad, it’s a waste of time",
+                "It’s okay to be sad, it’s not a waste of time"
+            ],
+            "timeInVideo": 230
+        },
+        {
+            "question": "How does Billie Eilish handle pressure?",
+            "rightAnswer": 1,
+            "answers": [
+                "Horribly",
+                "Wonderfully",
+                "Okay",
+                "None of the above"
+            ],
+            "timeInVideo": 522
+        },
+        {
+            "question": "What does Billie Eilish enjoy most?",
+            "rightAnswer": 2,
+            "answers": [
+                "Fame",
+                "Shows and supporters",
+                "Money",
+                "All of the above"
+            ],
+            "timeInVideo": 703
+        },
+        {
+            "question": "Billie Eilish wants to visit ___ for the first time.?",
+            "rightAnswer": 2,
+            "answers": [
+                "China",
+                "Japan",
+                "Brazil",
+                "Jamaica"
+            ],
+            "timeInVideo": 821
+        },
+        {
+            "question": "What are Billie Eilish’s two favorite colors?",
+            "rightAnswer": 2,
+            "answers": [
+                "Light Blue and Black",
+                "Light Green and Black",
+                "Light Pink and Brown",
+                "Dark Green and Black"
+            ],
+            "timeInVideo": 841
+        },
+        {
+            "question": "What new skill did Billie Eilish learn?",
+            "rightAnswer": 4,
+            "answers": [
+                "How to sing better",
+                "How to cook",
+                "How to speak a new language",
+                "How to drive"
+            ],
+            "timeInVideo": 1026
         }
     ]
 }

@@ -13,6 +13,83 @@
                 "None of the above"
             ],
             "timeInVideo": 9
+        },
+        {
+            "question": "Toronto’s coach cares about everything except?",
+            "rightAnswer": 2,
+            "answers": [
+                "Togetherness",
+                "Offense",
+                "Defense",
+                "Composure"
+            ],
+            "timeInVideo": 45
+        },
+        {
+            "question": "Kevin Durant injured his ___.",
+            "rightAnswer": 2,
+            "answers": [
+                "Right Leg",
+                "Left Leg",
+                "Right Toe",
+                "Right Arm"
+            ],
+            "timeInVideo": 156
+        },
+        {
+            "question": "Kawhi Leonard scored the last __ points for Toronto.",
+            "rightAnswer": 3,
+            "answers": [
+                "11",
+                "15",
+                "10",
+                "20"
+            ],
+            "timeInVideo": 400
+        },
+        {
+            "question": "What is the game like?",
+            "rightAnswer": 2,
+            "answers": [
+                "Incredible, Slow",
+                "Incredible, Dramatic",
+                "Dull, Uneventful",
+                "Dramatic, Too Long"
+            ],
+            "timeInVideo": 516
+        },
+        {
+            "question": "What dream do the Warriors have?",
+            "rightAnswer": 4,
+            "answers": [
+                "To repeat (win the Finals two years in a row)",
+                "To win for the 5th time",
+                "To win the 6th time",
+                "Threepeat (win the Finals three years in a row)"
+            ],
+            "timeInVideo": 549
+        },
+        {
+            "question": "What did Golden State’s coach not mention?",
+            "rightAnswer": 3,
+            "answers": [
+                "Kevin Durant",
+                "Grit",
+                "The trophy",
+                "Determination"
+            ],
+            "timeInVideo": 619
+        },
+        {
+            "question": "What does Stephen Curry think?",
+            "rightAnswer": 1,
+            "answers": [
+                "his team can rally to win the Finals",
+                "his team must have Durant to win",
+                "Toronto is the best team in the NBA",
+                "his teammates must work harder to win"
+            ],
+            "timeInVideo": 622
         }
     ]
 }

@@ -76,7 +76,7 @@ class HomeCollectionViewController: UICollectionViewController {
             readViewController.article = contentArray![indexPath.row] as? Article
             delegate?.navigationController?.pushViewController(readViewController, animated: true)
         case .watch:
-            let watchViewController = storyboard?.instantiateViewController(withIdentifier: "WatchViewController") as! WatchViewController
+            let watchViewController = storyboard?.instantiateViewController(withIdentifier: "WatchViewController") as! YoutubeViewController
             watchViewController.youtubeVideo = contentArray![indexPath.row] as? YoutubeVideo
             delegate?.navigationController?.pushViewController(watchViewController, animated: true)
         case .listen:
