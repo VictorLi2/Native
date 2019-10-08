@@ -987,7 +987,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <segue destination="W8I-30-1hK" kind="show" id="D31-aZ-z6j"/>
+                                                    <segue destination="W8I-30-1hK" kind="show" identifier="toYoutubeQuizViewController" id="D31-aZ-z6j"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -1034,17 +1034,167 @@
             </objects>
             <point key="canvasLocation" x="6844" y="124.58770614692655"/>
         </scene>
-        <!--View Controller-->
+        <!--Youtube Quiz View Controller-->
         <scene sceneID="0g3-jD-Kdd">
             <objects>
-                <viewController id="W8I-30-1hK" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="YoutubeQuizViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="W8I-30-1hK" customClass="YoutubeQuizViewController" customModule="Native" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Oyz-Lh-gS3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="LsC-Rt-SR8">
+                                <rect key="frame" x="15" y="105.5" width="345" height="345"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Hy7-by-89W">
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="165"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="K94-ZC-Io0">
+                                                <rect key="frame" x="0.0" y="0.0" width="165" height="165"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" secondItem="K94-ZC-Io0" secondAttribute="height" multiplier="1:1" id="fw8-Ul-P2E"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                <state key="normal" title="Answer 1">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="SFd-n6-sUH">
+                                                <rect key="frame" x="180" y="0.0" width="165" height="165"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" secondItem="SFd-n6-sUH" secondAttribute="height" multiplier="1:1" id="rKs-Ab-7AM"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                <state key="normal" title="Answer 2">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="TDV-gk-eCZ">
+                                        <rect key="frame" x="0.0" y="180" width="345" height="165"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="q0G-Rl-haM">
+                                                <rect key="frame" x="0.0" y="0.0" width="165" height="165"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" secondItem="q0G-Rl-haM" secondAttribute="height" multiplier="1:1" id="0ak-ew-OD9"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                <state key="normal" title="Answer 3">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="TEp-bD-vdJ">
+                                                <rect key="frame" x="180" y="0.0" width="165" height="165"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" secondItem="TEp-bD-vdJ" secondAttribute="height" multiplier="1:1" id="J62-QX-QOR"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                <state key="normal" title="Answer 4">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ym3-tR-fjG">
+                                <rect key="frame" x="15" y="567" width="345" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="QYU-W0-2Ns"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <state key="normal" title="Next Question">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="nextQuestionButton:" destination="W8I-30-1hK" eventType="touchUpInside" id="hKe-0D-lFy"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="orZ-7G-muz">
+                                <rect key="frame" x="15" y="59" width="345" height="31.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="LsC-Rt-SR8" firstAttribute="leading" secondItem="3MY-ef-QEL" secondAttribute="leading" constant="15" id="2Gc-Sq-xTM"/>
+                            <constraint firstItem="3MY-ef-QEL" firstAttribute="bottom" secondItem="ym3-tR-fjG" secondAttribute="bottom" constant="15" id="BqG-vY-lUd"/>
+                            <constraint firstItem="3MY-ef-QEL" firstAttribute="trailing" secondItem="orZ-7G-muz" secondAttribute="trailing" constant="15" id="Ga7-5n-FuY"/>
+                            <constraint firstItem="3MY-ef-QEL" firstAttribute="trailing" secondItem="ym3-tR-fjG" secondAttribute="trailing" constant="15" id="HFr-2h-ASh"/>
+                            <constraint firstItem="LsC-Rt-SR8" firstAttribute="centerX" secondItem="Oyz-Lh-gS3" secondAttribute="centerX" id="RHb-Fp-zZo"/>
+                            <constraint firstItem="orZ-7G-muz" firstAttribute="leading" secondItem="3MY-ef-QEL" secondAttribute="leading" constant="15" id="XQb-PB-GLc"/>
+                            <constraint firstItem="ym3-tR-fjG" firstAttribute="leading" secondItem="3MY-ef-QEL" secondAttribute="leading" constant="15" id="ckc-2s-dqS"/>
+                            <constraint firstItem="LsC-Rt-SR8" firstAttribute="top" secondItem="orZ-7G-muz" secondAttribute="bottom" constant="15" id="n0a-tC-pqA"/>
+                            <constraint firstItem="3MY-ef-QEL" firstAttribute="trailing" secondItem="LsC-Rt-SR8" secondAttribute="trailing" constant="15" id="oo6-AV-oAm"/>
+                            <constraint firstItem="orZ-7G-muz" firstAttribute="top" secondItem="3MY-ef-QEL" secondAttribute="top" constant="15" id="raW-eH-Bpy"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="3MY-ef-QEL"/>
                     </view>
                     <navigationItem key="navigationItem" id="boF-Jt-6oW"/>
+                    <connections>
+                        <outlet property="answerFourLabel" destination="TEp-bD-vdJ" id="Moq-U3-iIl"/>
+                        <outlet property="answerOneLabel" destination="K94-ZC-Io0" id="5xK-pl-4Gb"/>
+                        <outlet property="answerThreeLabel" destination="q0G-Rl-haM" id="49y-vz-FAd"/>
+                        <outlet property="answerTwoLabel" destination="SFd-n6-sUH" id="GXD-iV-Cjh"/>
+                        <outlet property="quizQuestionLabel" destination="orZ-7G-muz" id="jbB-tn-W5F"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R5U-n6-xYa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -33,6 +33,15 @@ class YoutubeViewController: UIViewController {
         webView.topAnchor.constraint(equalTo: stackView.topAnchor).isActive = true
         webView.heightAnchor.constraint(equalTo: webView.widthAnchor, multiplier: 211.0 / 375.0).isActive = true
     }
+    
+    //MARK: Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if(segue.identifier == "toYoutubeQuizViewController") {
+            let youtubeQuizViewController = segue.destination as! YoutubeQuizViewController
+            youtubeQuizViewController.youtubeID = youtubeVideo?.id
+            youtubeQuizViewController.currentQuestionNumber = 0
+        }
+    }
 }
 
 extension WKWebView {

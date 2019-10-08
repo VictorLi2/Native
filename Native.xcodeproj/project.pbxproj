@@ -62,6 +62,7 @@
 		F50EDA342349B1C1009CE631 /* RestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50EDA332349B1C1009CE631 /* RestaurantsViewController.swift */; };
 		F5115C34233DE4BE009ECE43 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5115C33233DE4BE009ECE43 /* Quiz.swift */; };
 		F5115C37233DE63A009ECE43 /* QuizQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5115C36233DE63A009ECE43 /* QuizQuestion.swift */; };
+		F52B8BA5234C8E68000EA624 /* YoutubeQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52B8BA4234C8E68000EA624 /* YoutubeQuizViewController.swift */; };
 		F52CB98723430FD3005AB117 /* ReadHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52CB98623430FD3005AB117 /* ReadHomeViewController.swift */; };
 		F5492680234AFDE20026B55E /* GroceriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F549267F234AFDE20026B55E /* GroceriesViewController.swift */; };
 		F5492682234B04640026B55E /* TraditionalProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5492681234B04640026B55E /* TraditionalProductsViewController.swift */; };
@@ -160,6 +161,7 @@
 		F50EDA332349B1C1009CE631 /* RestaurantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsViewController.swift; sourceTree = "<group>"; };
 		F5115C33233DE4BE009ECE43 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		F5115C36233DE63A009ECE43 /* QuizQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestion.swift; sourceTree = "<group>"; };
+		F52B8BA4234C8E68000EA624 /* YoutubeQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeQuizViewController.swift; sourceTree = "<group>"; };
 		F52CB98623430FD3005AB117 /* ReadHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadHomeViewController.swift; sourceTree = "<group>"; };
 		F549267F234AFDE20026B55E /* GroceriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceriesViewController.swift; sourceTree = "<group>"; };
 		F5492681234B04640026B55E /* TraditionalProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraditionalProductsViewController.swift; sourceTree = "<group>"; };
@@ -464,6 +466,7 @@
 				BBD111DC22DBEF5000DCB2F9 /* YoutubeTableViewController.swift */,
 				BBBE08A922D178F600F5AB68 /* YoutubeViewController.swift */,
 				BBD111DE22DBF61D00DCB2F9 /* YoutubeVideo.swift */,
+				F52B8BA4234C8E68000EA624 /* YoutubeQuizViewController.swift */,
 			);
 			path = Youtube;
 			sourceTree = "<group>";
@@ -740,6 +743,7 @@
 				BB17DD8122EE52490055458A /* WriteTableViewController.swift in Sources */,
 				F5B9EB85234882AF00D457A4 /* TrendingViewController.swift in Sources */,
 				F5492685234B07F50026B55E /* OnlineFoodViewController.swift in Sources */,
+				F52B8BA5234C8E68000EA624 /* YoutubeQuizViewController.swift in Sources */,
 				BBF403C9231307460023BF49 /* HomeTableViewController.swift in Sources */,
 				F5D6A0B123485CDD008F059B /* LatinSpanishCountriesViewController.swift in Sources */,
 				BB0AE5BD22DAB51D00D5B096 /* LanguagePickerViewController.swift in Sources */,

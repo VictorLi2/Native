@@ -1,5 +1,4 @@
 {
-    "quizType": "watch",
     "id": "Cm0MGnuRnH0",
     "title": "Billie Eilish: Same Interview, One Year Apart | Vanity Fair",
     "content": [
@@ -81,7 +80,7 @@
             "timeInVideo": 703
         },
         {
-            "question": "Billie Eilish wants to visit ___ for the first time.?",
+            "question": "Billie Eilish wants to visit ___ for the first time?",
             "rightAnswer": 2,
             "answers": [
                 "China",
