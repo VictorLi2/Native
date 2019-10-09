@@ -67,6 +67,7 @@
 		F5492680234AFDE20026B55E /* GroceriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F549267F234AFDE20026B55E /* GroceriesViewController.swift */; };
 		F5492682234B04640026B55E /* TraditionalProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5492681234B04640026B55E /* TraditionalProductsViewController.swift */; };
 		F5492685234B07F50026B55E /* OnlineFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5492684234B07F50026B55E /* OnlineFoodViewController.swift */; };
+		F57FA01E234DF1470065FFDF /* YoutubeQuizScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57FA01D234DF1470065FFDF /* YoutubeQuizScoreViewController.swift */; };
 		F5953E08234852850070BC98 /* EnglishCountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5953E07234852850070BC98 /* EnglishCountriesViewController.swift */; };
 		F5B9EB85234882AF00D457A4 /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B9EB84234882AF00D457A4 /* TrendingViewController.swift */; };
 		F5D6A0B123485CDD008F059B /* LatinSpanishCountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D6A0B023485CDD008F059B /* LatinSpanishCountriesViewController.swift */; };
@@ -166,6 +167,7 @@
 		F549267F234AFDE20026B55E /* GroceriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceriesViewController.swift; sourceTree = "<group>"; };
 		F5492681234B04640026B55E /* TraditionalProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraditionalProductsViewController.swift; sourceTree = "<group>"; };
 		F5492684234B07F50026B55E /* OnlineFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineFoodViewController.swift; sourceTree = "<group>"; };
+		F57FA01D234DF1470065FFDF /* YoutubeQuizScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeQuizScoreViewController.swift; sourceTree = "<group>"; };
 		F5953E07234852850070BC98 /* EnglishCountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishCountriesViewController.swift; sourceTree = "<group>"; };
 		F5B9EB84234882AF00D457A4 /* TrendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
 		F5D6A0B023485CDD008F059B /* LatinSpanishCountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatinSpanishCountriesViewController.swift; sourceTree = "<group>"; };
@@ -466,6 +468,7 @@
 				BBD111DC22DBEF5000DCB2F9 /* YoutubeTableViewController.swift */,
 				BBBE08A922D178F600F5AB68 /* YoutubeViewController.swift */,
 				BBD111DE22DBF61D00DCB2F9 /* YoutubeVideo.swift */,
+				F57FA01D234DF1470065FFDF /* YoutubeQuizScoreViewController.swift */,
 				F52B8BA4234C8E68000EA624 /* YoutubeQuizViewController.swift */,
 			);
 			path = Youtube;
@@ -770,6 +773,7 @@
 				BB161AA922D5E1C600F2A342 /* DirtyStartingViewController.swift in Sources */,
 				BBD111DF22DBF61D00DCB2F9 /* YoutubeVideo.swift in Sources */,
 				BB18781F22D694BC007D3CB1 /* ListenViewController.swift in Sources */,
+				F57FA01E234DF1470065FFDF /* YoutubeQuizScoreViewController.swift in Sources */,
 				BBBE08AF22D1790600F5AB68 /* ColourHelper.swift in Sources */,
 				F5953E08234852850070BC98 /* EnglishCountriesViewController.swift in Sources */,
 				BBBE08A622D178E300F5AB68 /* ProfileViewController.swift in Sources */,
