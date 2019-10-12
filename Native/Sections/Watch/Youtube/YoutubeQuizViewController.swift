@@ -1,12 +1,8 @@
 import UIKit
 
 class YoutubeQuizViewController: UIViewController {
-
-    var youtubeID: String?
-    var currentQuestionNumber: Int?
-    var quiz: Quiz!
-    var selectedButtons: [Int]!
     
+    // MARK: Outlets
     @IBOutlet weak var quizQuestionLabel: UILabel!
     @IBOutlet weak var answerOneButton: UIButton!
     @IBOutlet weak var answerTwoButton: UIButton!
@@ -14,6 +10,12 @@ class YoutubeQuizViewController: UIViewController {
     @IBOutlet weak var answerFourButton: UIButton!
     @IBOutlet weak var previousQuestionButton: UIButton!
     @IBOutlet weak var nextQuestionButton: UIButton!
+    
+    // MARK: Properties
+    var youtubeID: String?
+    var currentQuestionNumber: Int?
+    var quiz: Quiz!
+    var selectedButtons: [Int]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +34,7 @@ class YoutubeQuizViewController: UIViewController {
         loadData()
     }
     
+    // MARK: Private Functions
     private func loadData() {
         if(currentQuestionNumber == 0) {
             previousQuestionButton.isHidden = true
@@ -47,7 +50,7 @@ class YoutubeQuizViewController: UIViewController {
         
         setupNavigationBar(title: "Question \(currentQuestionNumber! + 1)")
         let currentQuestion = quiz.content[currentQuestionNumber!]
-
+        
         quizQuestionLabel.text = currentQuestion.question
         answerOneButton.setTitle(currentQuestion.answers[0], for: .normal)
         answerTwoButton.setTitle(currentQuestion.answers[1], for: .normal)
@@ -120,15 +123,9 @@ class YoutubeQuizViewController: UIViewController {
             deselectButton(buttonNumber: selectedButtons[currentQuestionNumber!])
             selectButton(buttonNumber: buttonNumber)
         }
-        
-        if(currentQuestionNumber! < quiz.numberOfQuestions - 1) {
-            deselectButton(buttonNumber: selectedButtons[currentQuestionNumber!])
-            currentQuestionNumber! += 1
-            selectButton(buttonNumber: selectedButtons[currentQuestionNumber!])
-            loadData()
-        }
     }
     
+    // MARK: Actions
     @IBAction func answerOneButton(_ sender: Any) {
         answerButtonSelectionHandler(buttonNumber: 1)
     }
@@ -158,7 +155,7 @@ class YoutubeQuizViewController: UIViewController {
     }
     
     @IBAction func nextQuestionButton(_ sender: Any) {
-        if(currentQuestionNumber == quiz.numberOfQuestions - 1) {
+        if(currentQuestionNumber! == quiz.numberOfQuestions - 1) {
             let youtubeQuizScoreViewController = storyboard?.instantiateViewController(withIdentifier: "YoutubeQuizScoreViewController") as! YoutubeQuizScoreViewController
             youtubeQuizScoreViewController.score = calculateScore()
             youtubeQuizScoreViewController.totalScore = quiz.numberOfQuestions

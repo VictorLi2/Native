@@ -1,13 +1,13 @@
 import UIKit
 
-class ListenTableViewController: UITableViewController {
+class ListenMusicTableViewController: UITableViewController {
     //MARK: Properties
     
     var songs = [Content]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupNavigationBar(title: "Listen")
+        setupNavigationBar(title: "Music")
     
         loadSongs()
     }
@@ -36,7 +36,7 @@ class ListenTableViewController: UITableViewController {
     // MARK: Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if(segue.identifier == "ToListenViewController") {
-            let listenViewController = segue.destination as! ListenViewController
+            let listenViewController = segue.destination as! ListenMusicViewController
             if let cell = sender as? ListenTableViewCell, let indexPath = tableView.indexPath(for: cell) {
                 listenViewController.song = songs[indexPath.row] as? Song
             }

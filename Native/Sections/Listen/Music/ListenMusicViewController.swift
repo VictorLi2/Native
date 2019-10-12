@@ -31,7 +31,7 @@ import AVFoundation
 
 // TODO: pause on leaving page
 
-class ListenViewController: UIViewController {
+class ListenMusicViewController: UIViewController {
     
     // MARK: Outlets
     @IBOutlet weak var songTitle: UILabel!
@@ -106,7 +106,7 @@ class ListenViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        setupNavigationBar(title: "")
+        setupNavigationBar(title: "") // Song title is displayed on the page
         
         songTitle.text = song?.title
         artist.text = song?.source
@@ -143,7 +143,7 @@ class ListenViewController: UIViewController {
 }
 
 // MARK: - Actions
-extension ListenViewController {
+extension ListenMusicViewController {
     @IBAction func didChangePlaybackRateValue(_ sender: UISlider) {
         let index = round(sender.value)
         playbackRateSlider.setValue(Float(index), animated: false)
@@ -195,7 +195,7 @@ extension ListenViewController {
 }
 
 // MARK: - Display related
-extension ListenViewController {
+extension ListenMusicViewController {
     func setupPlaybackRateSlider() {
         let numSteps = playbackRateSliderValues.count-1
         playbackRateSlider.minimumValue = 0
@@ -230,7 +230,7 @@ extension ListenViewController {
 }
 
 // MARK: - Audio
-extension ListenViewController {
+extension ListenMusicViewController {
     func setupAudio() {
         audioFileURL  = Bundle.main.url(forResource: song?.title, withExtension: "mp3")
         

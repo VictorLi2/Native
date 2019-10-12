@@ -80,7 +80,7 @@ class HomeCollectionViewController: UICollectionViewController {
             watchViewController.youtubeVideo = contentArray![indexPath.row] as? YoutubeVideo
             delegate?.navigationController?.pushViewController(watchViewController, animated: true)
         case .listen:
-            let listenViewController = storyboard?.instantiateViewController(withIdentifier: "ListenViewController") as! ListenViewController
+            let listenViewController = storyboard?.instantiateViewController(withIdentifier: "ListenViewController") as! ListenMusicViewController
             listenViewController.song = contentArray![indexPath.row] as? Song
             delegate?.navigationController?.pushViewController(listenViewController, animated: true)
         case .write:
