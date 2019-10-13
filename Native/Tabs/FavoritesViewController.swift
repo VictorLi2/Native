@@ -45,7 +45,7 @@ extension FavoritesViewController: UITableViewDataSource {
                 fatalError("The dequeued cell is not an instance of WatchTableViewCell.")
             }
             
-            cell.youtubeVideo = favorites[indexPath.row] as? YoutubeVideo
+            cell.youtubeVideo = favorites[indexPath.row]
             
             return cell
         case "readFavorites":
@@ -55,7 +55,7 @@ extension FavoritesViewController: UITableViewDataSource {
                 fatalError("The dequeued cell is not an instance of ReadTableViewCell.")
             }
             
-            cell.article = favorites[indexPath.row] as? Article
+            //cell.article = favorites[indexPath.row] as? Article
             
             return cell
         case "listenFavorites":
@@ -65,7 +65,7 @@ extension FavoritesViewController: UITableViewDataSource {
                 fatalError("The dequeued cell is not an instance of ListenTableViewCell.")
             }
             
-            cell.song = favorites[indexPath.row] as? Song
+            //cell.song = favorites[indexPath.row] as? Song
             
             return cell
         case "writeFavorites":
@@ -75,7 +75,7 @@ extension FavoritesViewController: UITableViewDataSource {
                 fatalError("The dequeued cell is not an instance of WriteTableViewCell.")
             }
             
-            cell.writingLesson = favorites[indexPath.row] as? WritingLesson
+            //cell.writingLesson = favorites[indexPath.row] as? WritingLesson
             
             return cell
         default:

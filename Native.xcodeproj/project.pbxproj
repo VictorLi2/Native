@@ -62,11 +62,15 @@
 		F50EDA342349B1C1009CE631 /* RestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50EDA332349B1C1009CE631 /* RestaurantsViewController.swift */; };
 		F5115C34233DE4BE009ECE43 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5115C33233DE4BE009ECE43 /* Quiz.swift */; };
 		F5115C37233DE63A009ECE43 /* QuizQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5115C36233DE63A009ECE43 /* QuizQuestion.swift */; };
-		F52944D82351809D00F480C2 /* AlphabetTrainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52944D72351809D00F480C2 /* AlphabetTrainerViewController.swift */; };
+		F522A2142352D14D0079A84B /* BadScore.wav in Resources */ = {isa = PBXBuildFile; fileRef = F522A2112352D14D0079A84B /* BadScore.wav */; };
+		F522A2152352D14D0079A84B /* GoodScore.wav in Resources */ = {isa = PBXBuildFile; fileRef = F522A2122352D14D0079A84B /* GoodScore.wav */; };
+		F522A2162352D14D0079A84B /* PerfectScore.wav in Resources */ = {isa = PBXBuildFile; fileRef = F522A2132352D14D0079A84B /* PerfectScore.wav */; };
+		F522A2192352DBAA0079A84B /* CultureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F522A2182352DBAA0079A84B /* CultureTableViewController.swift */; };
+		F522A21B2352DDA00079A84B /* AlphabetCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F522A21A2352DDA00079A84B /* AlphabetCollectionViewController.swift */; };
 		F52944E62351845900F480C2 /* a.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F52944E32351845800F480C2 /* a.mp4 */; };
 		F52944E72351845900F480C2 /* b.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F52944E42351845800F480C2 /* b.mp4 */; };
 		F52944E82351845900F480C2 /* c.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F52944E52351845900F480C2 /* c.mp4 */; };
-		F52944EA2351872C00F480C2 /* AlphabetTrainerLetterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52944E92351872C00F480C2 /* AlphabetTrainerLetterViewController.swift */; };
+		F52944EA2351872C00F480C2 /* AlphabetLetterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52944E92351872C00F480C2 /* AlphabetLetterViewController.swift */; };
 		F52944ED23519ADE00F480C2 /* ListenHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52944EC23519ADE00F480C2 /* ListenHomeViewController.swift */; };
 		F52B8BA5234C8E68000EA624 /* YoutubeQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52B8BA4234C8E68000EA624 /* YoutubeQuizViewController.swift */; };
 		F52CB98723430FD3005AB117 /* ReadHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52CB98623430FD3005AB117 /* ReadHomeViewController.swift */; };
@@ -80,6 +84,9 @@
 		F5E192A1233EE85900FA2460 /* Cm0MGnuRnH0.json in Resources */ = {isa = PBXBuildFile; fileRef = F5E192A0233EE85900FA2460 /* Cm0MGnuRnH0.json */; };
 		F5E192A3233EED4500FA2460 /* ffdXLm8EaYg.json in Resources */ = {isa = PBXBuildFile; fileRef = F5E192A2233EED4500FA2460 /* ffdXLm8EaYg.json */; };
 		F5E78D242346966A00B662FE /* WatchHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E78D232346966A00B662FE /* WatchHomeViewController.swift */; };
+		F5EA22232351A11A00F5000A /* a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5EA22202351A11900F5000A /* a.mp3 */; };
+		F5EA22242351A11A00F5000A /* b.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5EA22212351A11900F5000A /* b.mp3 */; };
+		F5EA22252351A11A00F5000A /* c.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5EA22222351A11A00F5000A /* c.mp3 */; };
 		F5F4188723517A400005BB26 /* LessonsHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F4188623517A400005BB26 /* LessonsHomeViewController.swift */; };
 		F5FE83862341D2A100529211 /* TalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FE83852341D2A100529211 /* TalkViewController.swift */; };
 /* End PBXBuildFile section */
@@ -169,11 +176,15 @@
 		F50EDA332349B1C1009CE631 /* RestaurantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsViewController.swift; sourceTree = "<group>"; };
 		F5115C33233DE4BE009ECE43 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		F5115C36233DE63A009ECE43 /* QuizQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestion.swift; sourceTree = "<group>"; };
-		F52944D72351809D00F480C2 /* AlphabetTrainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetTrainerViewController.swift; sourceTree = "<group>"; };
+		F522A2112352D14D0079A84B /* BadScore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BadScore.wav; sourceTree = "<group>"; };
+		F522A2122352D14D0079A84B /* GoodScore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GoodScore.wav; sourceTree = "<group>"; };
+		F522A2132352D14D0079A84B /* PerfectScore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PerfectScore.wav; sourceTree = "<group>"; };
+		F522A2182352DBAA0079A84B /* CultureTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CultureTableViewController.swift; sourceTree = "<group>"; };
+		F522A21A2352DDA00079A84B /* AlphabetCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetCollectionViewController.swift; sourceTree = "<group>"; };
 		F52944E32351845800F480C2 /* a.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = a.mp4; sourceTree = "<group>"; };
 		F52944E42351845800F480C2 /* b.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = b.mp4; sourceTree = "<group>"; };
 		F52944E52351845900F480C2 /* c.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = c.mp4; sourceTree = "<group>"; };
-		F52944E92351872C00F480C2 /* AlphabetTrainerLetterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphabetTrainerLetterViewController.swift; sourceTree = "<group>"; };
+		F52944E92351872C00F480C2 /* AlphabetLetterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphabetLetterViewController.swift; sourceTree = "<group>"; };
 		F52944EC23519ADE00F480C2 /* ListenHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenHomeViewController.swift; sourceTree = "<group>"; };
 		F52B8BA4234C8E68000EA624 /* YoutubeQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeQuizViewController.swift; sourceTree = "<group>"; };
 		F52CB98623430FD3005AB117 /* ReadHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadHomeViewController.swift; sourceTree = "<group>"; };
@@ -187,6 +198,9 @@
 		F5E192A0233EE85900FA2460 /* Cm0MGnuRnH0.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Cm0MGnuRnH0.json; sourceTree = "<group>"; };
 		F5E192A2233EED4500FA2460 /* ffdXLm8EaYg.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ffdXLm8EaYg.json; sourceTree = "<group>"; };
 		F5E78D232346966A00B662FE /* WatchHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchHomeViewController.swift; sourceTree = "<group>"; };
+		F5EA22202351A11900F5000A /* a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = a.mp3; sourceTree = "<group>"; };
+		F5EA22212351A11900F5000A /* b.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b.mp3; sourceTree = "<group>"; };
+		F5EA22222351A11A00F5000A /* c.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = c.mp3; sourceTree = "<group>"; };
 		F5F4188623517A400005BB26 /* LessonsHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsHomeViewController.swift; sourceTree = "<group>"; };
 		F5FE83852341D2A100529211 /* TalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -352,7 +366,7 @@
 				BBD111D722DBE54000DCB2F9 /* Watch */,
 				BB3796C522EE5E6B0066C99A /* Listen */,
 				BB17DD7822EE519C0055458A /* Write */,
-				BB18782222D69538007D3CB1 /* CultureViewController.swift */,
+				F522A2172352DB8D0079A84B /* Culture */,
 				BB18782422D695D9007D3CB1 /* SettingsViewController.swift */,
 				F52944D62351807A00F480C2 /* Lessons */,
 				BB18782622D695F1007D3CB1 /* PlayViewController.swift */,
@@ -463,6 +477,25 @@
 			path = Quiz;
 			sourceTree = "<group>";
 		};
+		F522A2102352D1420079A84B /* QuizSounds */ = {
+			isa = PBXGroup;
+			children = (
+				F522A2112352D14D0079A84B /* BadScore.wav */,
+				F522A2122352D14D0079A84B /* GoodScore.wav */,
+				F522A2132352D14D0079A84B /* PerfectScore.wav */,
+			);
+			path = QuizSounds;
+			sourceTree = "<group>";
+		};
+		F522A2172352DB8D0079A84B /* Culture */ = {
+			isa = PBXGroup;
+			children = (
+				BB18782222D69538007D3CB1 /* CultureViewController.swift */,
+				F522A2182352DBAA0079A84B /* CultureTableViewController.swift */,
+			);
+			path = Culture;
+			sourceTree = "<group>";
+		};
 		F52944D62351807A00F480C2 /* Lessons */ = {
 			isa = PBXGroup;
 			children = (
@@ -485,9 +518,10 @@
 		F52944DC2351830D00F480C2 /* Alphabet */ = {
 			isa = PBXGroup;
 			children = (
-				F52944E92351872C00F480C2 /* AlphabetTrainerLetterViewController.swift */,
-				F52944D72351809D00F480C2 /* AlphabetTrainerViewController.swift */,
+				F52944E92351872C00F480C2 /* AlphabetLetterViewController.swift */,
+				F5EA221F2351A10000F5000A /* Audio */,
 				F52944DB235182F500F480C2 /* MouthSounds */,
+				F522A21A2352DDA00079A84B /* AlphabetCollectionViewController.swift */,
 			);
 			path = Alphabet;
 			sourceTree = "<group>";
@@ -518,6 +552,7 @@
 		F572580D234C58A70005B5F3 /* Youtube */ = {
 			isa = PBXGroup;
 			children = (
+				F522A2102352D1420079A84B /* QuizSounds */,
 				BBD111DC22DBEF5000DCB2F9 /* YoutubeTableViewController.swift */,
 				BBBE08A922D178F600F5AB68 /* YoutubeViewController.swift */,
 				BBD111DE22DBF61D00DCB2F9 /* YoutubeVideo.swift */,
@@ -534,6 +569,16 @@
 				F5E192A2233EED4500FA2460 /* ffdXLm8EaYg.json */,
 			);
 			path = WatchQuizes;
+			sourceTree = "<group>";
+		};
+		F5EA221F2351A10000F5000A /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				F5EA22202351A11900F5000A /* a.mp3 */,
+				F5EA22212351A11900F5000A /* b.mp3 */,
+				F5EA22222351A11A00F5000A /* c.mp3 */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -649,15 +694,21 @@
 				BB7B2E3922E53F910047CE7F /* TaylorSwift.txt in Resources */,
 				F52944E62351845900F480C2 /* a.mp4 in Resources */,
 				BB7B2E3822E53F910047CE7F /* FacebookLibra.txt in Resources */,
+				F5EA22232351A11A00F5000A /* a.mp3 in Resources */,
 				BB161AA322D58AE300F2A342 /* Assets.xcassets in Resources */,
 				F5E192A1233EE85900FA2460 /* Cm0MGnuRnH0.json in Resources */,
 				BB1A6F3622F7A09A00486A23 /* Hey Jude.mp3 in Resources */,
+				F5EA22242351A11A00F5000A /* b.mp3 in Resources */,
 				BB1A6F3522F7A09A00486A23 /* Stand By Me.mp3 in Resources */,
+				F522A2152352D14D0079A84B /* GoodScore.wav in Resources */,
+				F522A2142352D14D0079A84B /* BadScore.wav in Resources */,
 				F52944E82351845900F480C2 /* c.mp4 in Resources */,
 				BB1A6F3D22F7AE2900486A23 /* Hey Jude.txt in Resources */,
+				F5EA22252351A11A00F5000A /* c.mp3 in Resources */,
 				BBC83AAB22D176D300E9C164 /* Main.storyboard in Resources */,
 				BB7B2E3522E5341F0047CE7F /* Kawhi.txt in Resources */,
 				BB1A6F3722F7A09A00486A23 /* thank u, next.mp3 in Resources */,
+				F522A2162352D14D0079A84B /* PerfectScore.wav in Resources */,
 				F52944E72351845900F480C2 /* b.mp4 in Resources */,
 				F5E192A3233EED4500FA2460 /* ffdXLm8EaYg.json in Resources */,
 			);
@@ -798,7 +849,6 @@
 				F52944ED23519ADE00F480C2 /* ListenHomeViewController.swift in Sources */,
 				BB72E15522FFFEF200FD4A25 /* NavigationBarExtension.swift in Sources */,
 				F5F4188723517A400005BB26 /* LessonsHomeViewController.swift in Sources */,
-				F52944D82351809D00F480C2 /* AlphabetTrainerViewController.swift in Sources */,
 				BB3796C722EE5E850066C99A /* ListenMusicTableViewController.swift in Sources */,
 				BB2CA20E22D1786F00373A79 /* LoginViewController.swift in Sources */,
 				BB18782522D695D9007D3CB1 /* SettingsViewController.swift in Sources */,
@@ -811,6 +861,7 @@
 				BB0AE5BD22DAB51D00D5B096 /* LanguagePickerViewController.swift in Sources */,
 				BBBE08AB22D178F600F5AB68 /* YoutubeViewController.swift in Sources */,
 				F5115C37233DE63A009ECE43 /* QuizQuestion.swift in Sources */,
+				F522A21B2352DDA00079A84B /* AlphabetCollectionViewController.swift in Sources */,
 				BBB3223422D4830500FFB0F6 /* MainTabController.swift in Sources */,
 				F5115C34233DE4BE009ECE43 /* Quiz.swift in Sources */,
 				F52CB98723430FD3005AB117 /* ReadHomeViewController.swift in Sources */,
@@ -829,7 +880,7 @@
 				BBBE08A422D178E300F5AB68 /* FavoritesViewController.swift in Sources */,
 				BB17DD7F22EE52100055458A /* WritingLesson.swift in Sources */,
 				BBF403CB2313234B0023BF49 /* Content.swift in Sources */,
-				F52944EA2351872C00F480C2 /* AlphabetTrainerLetterViewController.swift in Sources */,
+				F52944EA2351872C00F480C2 /* AlphabetLetterViewController.swift in Sources */,
 				BB161AA922D5E1C600F2A342 /* DirtyStartingViewController.swift in Sources */,
 				BBD111DF22DBF61D00DCB2F9 /* YoutubeVideo.swift in Sources */,
 				BB18781F22D694BC007D3CB1 /* ListenMusicViewController.swift in Sources */,
@@ -839,6 +890,7 @@
 				BBBE08A622D178E300F5AB68 /* ProfileViewController.swift in Sources */,
 				BB161AA522D5C02C00F2A342 /* FacebookLoginButton.swift in Sources */,
 				BB0AE5C522DACC7100D5B096 /* RoundedButtonExtension.swift in Sources */,
+				F522A2192352DBAA0079A84B /* CultureTableViewController.swift in Sources */,
 				BB7B2E3022E52CFE0047CE7F /* Article.swift in Sources */,
 				BBBE08A722D178E300F5AB68 /* MenuViewController.swift in Sources */,
 				BB18782722D695F1007D3CB1 /* PlayViewController.swift in Sources */,

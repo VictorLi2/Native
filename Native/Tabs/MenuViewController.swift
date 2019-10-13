@@ -10,8 +10,4 @@ class MenuViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
     }
-    
-    @IBAction func profile(_ sender: UIButton) {
-        tabBarController!.selectedIndex = 2
-    }
 }
