@@ -74,19 +74,48 @@
 		F52944ED23519ADE00F480C2 /* ListenHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52944EC23519ADE00F480C2 /* ListenHomeViewController.swift */; };
 		F52B8BA5234C8E68000EA624 /* YoutubeQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52B8BA4234C8E68000EA624 /* YoutubeQuizViewController.swift */; };
 		F52CB98723430FD3005AB117 /* ReadHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52CB98623430FD3005AB117 /* ReadHomeViewController.swift */; };
+		F5322BDC235422CB007DE9F5 /* PodcastsHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5322BDB235422CB007DE9F5 /* PodcastsHomeViewController.swift */; };
+		F5322BDE235422E4007DE9F5 /* AudioBooksHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5322BDD235422E4007DE9F5 /* AudioBooksHomeViewController.swift */; };
 		F5492680234AFDE20026B55E /* GroceriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F549267F234AFDE20026B55E /* GroceriesViewController.swift */; };
 		F5492682234B04640026B55E /* TraditionalProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5492681234B04640026B55E /* TraditionalProductsViewController.swift */; };
 		F5492685234B07F50026B55E /* OnlineFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5492684234B07F50026B55E /* OnlineFoodViewController.swift */; };
+		F56283CC23541E8E009797CF /* MoviesAndTVHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56283CB23541E8E009797CF /* MoviesAndTVHomeViewController.swift */; };
+		F56283CE23541EB3009797CF /* NetflixHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56283CD23541EB3009797CF /* NetflixHomeViewController.swift */; };
+		F56283D1235420A3009797CF /* ConversationPartnerHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56283D0235420A3009797CF /* ConversationPartnerHomeViewController.swift */; };
+		F56283D32354213C009797CF /* FindATeacherHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56283D22354213C009797CF /* FindATeacherHomeViewController.swift */; };
 		F57FA01E234DF1470065FFDF /* YoutubeQuizScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57FA01D234DF1470065FFDF /* YoutubeQuizScoreViewController.swift */; };
 		F5953E08234852850070BC98 /* EnglishCountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5953E07234852850070BC98 /* EnglishCountriesViewController.swift */; };
 		F5B9EB85234882AF00D457A4 /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B9EB84234882AF00D457A4 /* TrendingViewController.swift */; };
+		F5C5928A2354005300584A83 /* k.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C592702354005000584A83 /* k.mp3 */; };
+		F5C5928B2354005300584A83 /* h.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C592712354005000584A83 /* h.mp3 */; };
+		F5C5928C2354005300584A83 /* p.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C592722354005000584A83 /* p.mp3 */; };
+		F5C5928D2354005300584A83 /* n.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C592732354005000584A83 /* n.mp3 */; };
+		F5C5928E2354005300584A83 /* q.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C592742354005000584A83 /* q.mp3 */; };
+		F5C5928F2354005300584A83 /* f.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C592752354005000584A83 /* f.mp3 */; };
+		F5C592902354005300584A83 /* t.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C592762354005000584A83 /* t.mp3 */; };
+		F5C592912354005300584A83 /* j.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C592772354005000584A83 /* j.mp3 */; };
+		F5C592922354005300584A83 /* c.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C592782354005000584A83 /* c.mp3 */; };
+		F5C592932354005300584A83 /* x.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C592792354005100584A83 /* x.mp3 */; };
+		F5C592942354005300584A83 /* u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C5927A2354005100584A83 /* u.mp3 */; };
+		F5C592952354005300584A83 /* l.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C5927B2354005100584A83 /* l.mp3 */; };
+		F5C592962354005300584A83 /* o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C5927C2354005100584A83 /* o.mp3 */; };
+		F5C592972354005300584A83 /* a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C5927D2354005100584A83 /* a.mp3 */; };
+		F5C592982354005300584A83 /* r.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C5927E2354005200584A83 /* r.mp3 */; };
+		F5C592992354005300584A83 /* v.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C5927F2354005200584A83 /* v.mp3 */; };
+		F5C5929A2354005300584A83 /* z.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C592802354005200584A83 /* z.mp3 */; };
+		F5C5929B2354005300584A83 /* d.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C592812354005200584A83 /* d.mp3 */; };
+		F5C5929C2354005300584A83 /* i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C592822354005200584A83 /* i.mp3 */; };
+		F5C5929D2354005300584A83 /* s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C592832354005200584A83 /* s.mp3 */; };
+		F5C5929E2354005300584A83 /* m.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C592842354005200584A83 /* m.mp3 */; };
+		F5C5929F2354005300584A83 /* b.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C592852354005200584A83 /* b.mp3 */; };
+		F5C592A02354005300584A83 /* w.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C592862354005300584A83 /* w.mp3 */; };
+		F5C592A12354005300584A83 /* y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C592872354005300584A83 /* y.mp3 */; };
+		F5C592A22354005300584A83 /* e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C592882354005300584A83 /* e.mp3 */; };
+		F5C592A32354005300584A83 /* g.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5C592892354005300584A83 /* g.mp3 */; };
 		F5D6A0B123485CDD008F059B /* LatinSpanishCountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D6A0B023485CDD008F059B /* LatinSpanishCountriesViewController.swift */; };
 		F5E192A1233EE85900FA2460 /* Cm0MGnuRnH0.json in Resources */ = {isa = PBXBuildFile; fileRef = F5E192A0233EE85900FA2460 /* Cm0MGnuRnH0.json */; };
 		F5E192A3233EED4500FA2460 /* ffdXLm8EaYg.json in Resources */ = {isa = PBXBuildFile; fileRef = F5E192A2233EED4500FA2460 /* ffdXLm8EaYg.json */; };
 		F5E78D242346966A00B662FE /* WatchHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E78D232346966A00B662FE /* WatchHomeViewController.swift */; };
-		F5EA22232351A11A00F5000A /* a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5EA22202351A11900F5000A /* a.mp3 */; };
-		F5EA22242351A11A00F5000A /* b.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5EA22212351A11900F5000A /* b.mp3 */; };
-		F5EA22252351A11A00F5000A /* c.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5EA22222351A11A00F5000A /* c.mp3 */; };
 		F5F4188723517A400005BB26 /* LessonsHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F4188623517A400005BB26 /* LessonsHomeViewController.swift */; };
 		F5FE83862341D2A100529211 /* TalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FE83852341D2A100529211 /* TalkViewController.swift */; };
 /* End PBXBuildFile section */
@@ -188,19 +217,48 @@
 		F52944EC23519ADE00F480C2 /* ListenHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenHomeViewController.swift; sourceTree = "<group>"; };
 		F52B8BA4234C8E68000EA624 /* YoutubeQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeQuizViewController.swift; sourceTree = "<group>"; };
 		F52CB98623430FD3005AB117 /* ReadHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadHomeViewController.swift; sourceTree = "<group>"; };
+		F5322BDB235422CB007DE9F5 /* PodcastsHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastsHomeViewController.swift; sourceTree = "<group>"; };
+		F5322BDD235422E4007DE9F5 /* AudioBooksHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioBooksHomeViewController.swift; sourceTree = "<group>"; };
 		F549267F234AFDE20026B55E /* GroceriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceriesViewController.swift; sourceTree = "<group>"; };
 		F5492681234B04640026B55E /* TraditionalProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraditionalProductsViewController.swift; sourceTree = "<group>"; };
 		F5492684234B07F50026B55E /* OnlineFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineFoodViewController.swift; sourceTree = "<group>"; };
+		F56283CB23541E8E009797CF /* MoviesAndTVHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesAndTVHomeViewController.swift; sourceTree = "<group>"; };
+		F56283CD23541EB3009797CF /* NetflixHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixHomeViewController.swift; sourceTree = "<group>"; };
+		F56283D0235420A3009797CF /* ConversationPartnerHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationPartnerHomeViewController.swift; sourceTree = "<group>"; };
+		F56283D22354213C009797CF /* FindATeacherHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindATeacherHomeViewController.swift; sourceTree = "<group>"; };
 		F57FA01D234DF1470065FFDF /* YoutubeQuizScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeQuizScoreViewController.swift; sourceTree = "<group>"; };
 		F5953E07234852850070BC98 /* EnglishCountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishCountriesViewController.swift; sourceTree = "<group>"; };
 		F5B9EB84234882AF00D457A4 /* TrendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
+		F5C592702354005000584A83 /* k.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = k.mp3; sourceTree = "<group>"; };
+		F5C592712354005000584A83 /* h.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = h.mp3; sourceTree = "<group>"; };
+		F5C592722354005000584A83 /* p.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = p.mp3; sourceTree = "<group>"; };
+		F5C592732354005000584A83 /* n.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = n.mp3; sourceTree = "<group>"; };
+		F5C592742354005000584A83 /* q.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = q.mp3; sourceTree = "<group>"; };
+		F5C592752354005000584A83 /* f.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = f.mp3; sourceTree = "<group>"; };
+		F5C592762354005000584A83 /* t.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = t.mp3; sourceTree = "<group>"; };
+		F5C592772354005000584A83 /* j.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = j.mp3; sourceTree = "<group>"; };
+		F5C592782354005000584A83 /* c.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = c.mp3; sourceTree = "<group>"; };
+		F5C592792354005100584A83 /* x.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = x.mp3; sourceTree = "<group>"; };
+		F5C5927A2354005100584A83 /* u.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = u.mp3; sourceTree = "<group>"; };
+		F5C5927B2354005100584A83 /* l.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = l.mp3; sourceTree = "<group>"; };
+		F5C5927C2354005100584A83 /* o.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = o.mp3; sourceTree = "<group>"; };
+		F5C5927D2354005100584A83 /* a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = a.mp3; sourceTree = "<group>"; };
+		F5C5927E2354005200584A83 /* r.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = r.mp3; sourceTree = "<group>"; };
+		F5C5927F2354005200584A83 /* v.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v.mp3; sourceTree = "<group>"; };
+		F5C592802354005200584A83 /* z.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = z.mp3; sourceTree = "<group>"; };
+		F5C592812354005200584A83 /* d.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = d.mp3; sourceTree = "<group>"; };
+		F5C592822354005200584A83 /* i.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = i.mp3; sourceTree = "<group>"; };
+		F5C592832354005200584A83 /* s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = s.mp3; sourceTree = "<group>"; };
+		F5C592842354005200584A83 /* m.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = m.mp3; sourceTree = "<group>"; };
+		F5C592852354005200584A83 /* b.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b.mp3; sourceTree = "<group>"; };
+		F5C592862354005300584A83 /* w.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = w.mp3; sourceTree = "<group>"; };
+		F5C592872354005300584A83 /* y.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = y.mp3; sourceTree = "<group>"; };
+		F5C592882354005300584A83 /* e.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = e.mp3; sourceTree = "<group>"; };
+		F5C592892354005300584A83 /* g.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = g.mp3; sourceTree = "<group>"; };
 		F5D6A0B023485CDD008F059B /* LatinSpanishCountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatinSpanishCountriesViewController.swift; sourceTree = "<group>"; };
 		F5E192A0233EE85900FA2460 /* Cm0MGnuRnH0.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Cm0MGnuRnH0.json; sourceTree = "<group>"; };
 		F5E192A2233EED4500FA2460 /* ffdXLm8EaYg.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ffdXLm8EaYg.json; sourceTree = "<group>"; };
 		F5E78D232346966A00B662FE /* WatchHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchHomeViewController.swift; sourceTree = "<group>"; };
-		F5EA22202351A11900F5000A /* a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = a.mp3; sourceTree = "<group>"; };
-		F5EA22212351A11900F5000A /* b.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b.mp3; sourceTree = "<group>"; };
-		F5EA22222351A11A00F5000A /* c.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = c.mp3; sourceTree = "<group>"; };
 		F5F4188623517A400005BB26 /* LessonsHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsHomeViewController.swift; sourceTree = "<group>"; };
 		F5FE83852341D2A100529211 /* TalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -311,6 +369,8 @@
 			children = (
 				F52944EB23519AC700F480C2 /* Music */,
 				F52944EC23519ADE00F480C2 /* ListenHomeViewController.swift */,
+				F5322BDB235422CB007DE9F5 /* PodcastsHomeViewController.swift */,
+				F5322BDD235422E4007DE9F5 /* AudioBooksHomeViewController.swift */,
 			);
 			path = Listen;
 			sourceTree = "<group>";
@@ -372,7 +432,7 @@
 				BB18782622D695F1007D3CB1 /* PlayViewController.swift */,
 				F50EDA3023499E40009CE631 /* Shop */,
 				BB72E1562300018C00FD4A25 /* TranslateViewController.swift */,
-				F5FE83852341D2A100529211 /* TalkViewController.swift */,
+				F56283CF2354208A009797CF /* Talk */,
 				F5B9EB84234882AF00D457A4 /* TrendingViewController.swift */,
 			);
 			path = Sections;
@@ -453,6 +513,8 @@
 			children = (
 				F572580D234C58A70005B5F3 /* Youtube */,
 				F5E78D232346966A00B662FE /* WatchHomeViewController.swift */,
+				F56283CB23541E8E009797CF /* MoviesAndTVHomeViewController.swift */,
+				F56283CD23541EB3009797CF /* NetflixHomeViewController.swift */,
 			);
 			path = Watch;
 			sourceTree = "<group>";
@@ -549,6 +611,16 @@
 			path = FoodAndDrink;
 			sourceTree = "<group>";
 		};
+		F56283CF2354208A009797CF /* Talk */ = {
+			isa = PBXGroup;
+			children = (
+				F5FE83852341D2A100529211 /* TalkViewController.swift */,
+				F56283D0235420A3009797CF /* ConversationPartnerHomeViewController.swift */,
+				F56283D22354213C009797CF /* FindATeacherHomeViewController.swift */,
+			);
+			path = Talk;
+			sourceTree = "<group>";
+		};
 		F572580D234C58A70005B5F3 /* Youtube */ = {
 			isa = PBXGroup;
 			children = (
@@ -574,9 +646,32 @@
 		F5EA221F2351A10000F5000A /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				F5EA22202351A11900F5000A /* a.mp3 */,
-				F5EA22212351A11900F5000A /* b.mp3 */,
-				F5EA22222351A11A00F5000A /* c.mp3 */,
+				F5C5927D2354005100584A83 /* a.mp3 */,
+				F5C592852354005200584A83 /* b.mp3 */,
+				F5C592782354005000584A83 /* c.mp3 */,
+				F5C592812354005200584A83 /* d.mp3 */,
+				F5C592882354005300584A83 /* e.mp3 */,
+				F5C592752354005000584A83 /* f.mp3 */,
+				F5C592892354005300584A83 /* g.mp3 */,
+				F5C592712354005000584A83 /* h.mp3 */,
+				F5C592822354005200584A83 /* i.mp3 */,
+				F5C592772354005000584A83 /* j.mp3 */,
+				F5C592702354005000584A83 /* k.mp3 */,
+				F5C5927B2354005100584A83 /* l.mp3 */,
+				F5C592842354005200584A83 /* m.mp3 */,
+				F5C592732354005000584A83 /* n.mp3 */,
+				F5C5927C2354005100584A83 /* o.mp3 */,
+				F5C592722354005000584A83 /* p.mp3 */,
+				F5C592742354005000584A83 /* q.mp3 */,
+				F5C5927E2354005200584A83 /* r.mp3 */,
+				F5C592832354005200584A83 /* s.mp3 */,
+				F5C592762354005000584A83 /* t.mp3 */,
+				F5C5927A2354005100584A83 /* u.mp3 */,
+				F5C5927F2354005200584A83 /* v.mp3 */,
+				F5C592862354005300584A83 /* w.mp3 */,
+				F5C592792354005100584A83 /* x.mp3 */,
+				F5C592872354005300584A83 /* y.mp3 */,
+				F5C592802354005200584A83 /* z.mp3 */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -690,27 +785,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C592982354005300584A83 /* r.mp3 in Resources */,
 				BBC83AB022D176D300E9C164 /* LaunchScreen.storyboard in Resources */,
 				BB7B2E3922E53F910047CE7F /* TaylorSwift.txt in Resources */,
 				F52944E62351845900F480C2 /* a.mp4 in Resources */,
+				F5C592962354005300584A83 /* o.mp3 in Resources */,
+				F5C592972354005300584A83 /* a.mp3 in Resources */,
+				F5C592922354005300584A83 /* c.mp3 in Resources */,
 				BB7B2E3822E53F910047CE7F /* FacebookLibra.txt in Resources */,
-				F5EA22232351A11A00F5000A /* a.mp3 in Resources */,
+				F5C5928A2354005300584A83 /* k.mp3 in Resources */,
 				BB161AA322D58AE300F2A342 /* Assets.xcassets in Resources */,
 				F5E192A1233EE85900FA2460 /* Cm0MGnuRnH0.json in Resources */,
+				F5C592992354005300584A83 /* v.mp3 in Resources */,
 				BB1A6F3622F7A09A00486A23 /* Hey Jude.mp3 in Resources */,
-				F5EA22242351A11A00F5000A /* b.mp3 in Resources */,
+				F5C5928E2354005300584A83 /* q.mp3 in Resources */,
+				F5C592912354005300584A83 /* j.mp3 in Resources */,
+				F5C5928F2354005300584A83 /* f.mp3 in Resources */,
+				F5C592902354005300584A83 /* t.mp3 in Resources */,
+				F5C5929C2354005300584A83 /* i.mp3 in Resources */,
 				BB1A6F3522F7A09A00486A23 /* Stand By Me.mp3 in Resources */,
+				F5C5929A2354005300584A83 /* z.mp3 in Resources */,
+				F5C5928C2354005300584A83 /* p.mp3 in Resources */,
+				F5C5929F2354005300584A83 /* b.mp3 in Resources */,
+				F5C592A32354005300584A83 /* g.mp3 in Resources */,
 				F522A2152352D14D0079A84B /* GoodScore.wav in Resources */,
+				F5C5928D2354005300584A83 /* n.mp3 in Resources */,
 				F522A2142352D14D0079A84B /* BadScore.wav in Resources */,
 				F52944E82351845900F480C2 /* c.mp4 in Resources */,
+				F5C592A22354005300584A83 /* e.mp3 in Resources */,
+				F5C592932354005300584A83 /* x.mp3 in Resources */,
 				BB1A6F3D22F7AE2900486A23 /* Hey Jude.txt in Resources */,
-				F5EA22252351A11A00F5000A /* c.mp3 in Resources */,
+				F5C592952354005300584A83 /* l.mp3 in Resources */,
+				F5C5929B2354005300584A83 /* d.mp3 in Resources */,
 				BBC83AAB22D176D300E9C164 /* Main.storyboard in Resources */,
+				F5C5929D2354005300584A83 /* s.mp3 in Resources */,
 				BB7B2E3522E5341F0047CE7F /* Kawhi.txt in Resources */,
 				BB1A6F3722F7A09A00486A23 /* thank u, next.mp3 in Resources */,
+				F5C5929E2354005300584A83 /* m.mp3 in Resources */,
 				F522A2162352D14D0079A84B /* PerfectScore.wav in Resources */,
+				F5C592A12354005300584A83 /* y.mp3 in Resources */,
 				F52944E72351845900F480C2 /* b.mp4 in Resources */,
 				F5E192A3233EED4500FA2460 /* ffdXLm8EaYg.json in Resources */,
+				F5C592A02354005300584A83 /* w.mp3 in Resources */,
+				F5C5928B2354005300584A83 /* h.mp3 in Resources */,
+				F5C592942354005300584A83 /* u.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -875,23 +993,29 @@
 				BB161A9E22D5765000F2A342 /* FirstLaunch.swift in Sources */,
 				BBBE08AC22D178F600F5AB68 /* ReadViewController.swift in Sources */,
 				BB0AE5C322DABD8300D5B096 /* LanguageProficiencyViewController.swift in Sources */,
+				F56283D1235420A3009797CF /* ConversationPartnerHomeViewController.swift in Sources */,
 				F5492682234B04640026B55E /* TraditionalProductsViewController.swift in Sources */,
 				F5FE83862341D2A100529211 /* TalkViewController.swift in Sources */,
 				BBBE08A422D178E300F5AB68 /* FavoritesViewController.swift in Sources */,
+				F5322BDC235422CB007DE9F5 /* PodcastsHomeViewController.swift in Sources */,
 				BB17DD7F22EE52100055458A /* WritingLesson.swift in Sources */,
 				BBF403CB2313234B0023BF49 /* Content.swift in Sources */,
 				F52944EA2351872C00F480C2 /* AlphabetLetterViewController.swift in Sources */,
 				BB161AA922D5E1C600F2A342 /* DirtyStartingViewController.swift in Sources */,
+				F56283CC23541E8E009797CF /* MoviesAndTVHomeViewController.swift in Sources */,
 				BBD111DF22DBF61D00DCB2F9 /* YoutubeVideo.swift in Sources */,
+				F56283CE23541EB3009797CF /* NetflixHomeViewController.swift in Sources */,
 				BB18781F22D694BC007D3CB1 /* ListenMusicViewController.swift in Sources */,
 				F57FA01E234DF1470065FFDF /* YoutubeQuizScoreViewController.swift in Sources */,
 				BBBE08AF22D1790600F5AB68 /* ColourHelper.swift in Sources */,
 				F5953E08234852850070BC98 /* EnglishCountriesViewController.swift in Sources */,
 				BBBE08A622D178E300F5AB68 /* ProfileViewController.swift in Sources */,
+				F56283D32354213C009797CF /* FindATeacherHomeViewController.swift in Sources */,
 				BB161AA522D5C02C00F2A342 /* FacebookLoginButton.swift in Sources */,
 				BB0AE5C522DACC7100D5B096 /* RoundedButtonExtension.swift in Sources */,
 				F522A2192352DBAA0079A84B /* CultureTableViewController.swift in Sources */,
 				BB7B2E3022E52CFE0047CE7F /* Article.swift in Sources */,
+				F5322BDE235422E4007DE9F5 /* AudioBooksHomeViewController.swift in Sources */,
 				BBBE08A722D178E300F5AB68 /* MenuViewController.swift in Sources */,
 				BB18782722D695F1007D3CB1 /* PlayViewController.swift in Sources */,
 			);
