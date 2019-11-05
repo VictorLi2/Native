@@ -91,6 +91,8 @@
 		D5E30421236959FF00DDBF7A /* VerbConjugationOtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E30420236959FF00DDBF7A /* VerbConjugationOtherViewController.swift */; };
 		D5E3042323695A2900DDBF7A /* VerbConjugationOtherExample1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E3042223695A2900DDBF7A /* VerbConjugationOtherExample1ViewController.swift */; };
 		D5E3042523695A4300DDBF7A /* VerbConjugationOtherExample2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E3042423695A4300DDBF7A /* VerbConjugationOtherExample2ViewController.swift */; };
+		D5FA44CA2371689C00004F71 /* PlayHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FA44C92371689C00004F71 /* PlayHomeViewController.swift */; };
+		D5FA44CC23716A0900004F71 /* WriteHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FA44CB23716A0900004F71 /* WriteHomeViewController.swift */; };
 		F3DD739DF1CC288BCB808EB5 /* Pods_NativeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99BB482AD920C65600D96E9 /* Pods_NativeTests.framework */; };
 		F50EDA3223499E68009CE631 /* FoodAndDrinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50EDA3123499E68009CE631 /* FoodAndDrinkViewController.swift */; };
 		F50EDA342349B1C1009CE631 /* RestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50EDA332349B1C1009CE631 /* RestaurantsViewController.swift */; };
@@ -99,7 +101,6 @@
 		F522A2142352D14D0079A84B /* BadScore.wav in Resources */ = {isa = PBXBuildFile; fileRef = F522A2112352D14D0079A84B /* BadScore.wav */; };
 		F522A2152352D14D0079A84B /* GoodScore.wav in Resources */ = {isa = PBXBuildFile; fileRef = F522A2122352D14D0079A84B /* GoodScore.wav */; };
 		F522A2162352D14D0079A84B /* PerfectScore.wav in Resources */ = {isa = PBXBuildFile; fileRef = F522A2132352D14D0079A84B /* PerfectScore.wav */; };
-		F522A2192352DBAA0079A84B /* CultureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F522A2182352DBAA0079A84B /* CultureTableViewController.swift */; };
 		F522A21B2352DDA00079A84B /* AlphabetCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F522A21A2352DDA00079A84B /* AlphabetCollectionViewController.swift */; };
 		F52944E62351845900F480C2 /* a.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F52944E32351845800F480C2 /* a.mp4 */; };
 		F52944E72351845900F480C2 /* b.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F52944E42351845800F480C2 /* b.mp4 */; };
@@ -290,6 +291,8 @@
 		D5E30420236959FF00DDBF7A /* VerbConjugationOtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbConjugationOtherViewController.swift; sourceTree = "<group>"; };
 		D5E3042223695A2900DDBF7A /* VerbConjugationOtherExample1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbConjugationOtherExample1ViewController.swift; sourceTree = "<group>"; };
 		D5E3042423695A4300DDBF7A /* VerbConjugationOtherExample2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbConjugationOtherExample2ViewController.swift; sourceTree = "<group>"; };
+		D5FA44C92371689C00004F71 /* PlayHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayHomeViewController.swift; sourceTree = "<group>"; };
+		D5FA44CB23716A0900004F71 /* WriteHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteHomeViewController.swift; sourceTree = "<group>"; };
 		E99BB482AD920C65600D96E9 /* Pods_NativeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD37C4AA342CBB659047FA0 /* Pods_NativeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50EDA3123499E68009CE631 /* FoodAndDrinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAndDrinkViewController.swift; sourceTree = "<group>"; };
@@ -299,7 +302,6 @@
 		F522A2112352D14D0079A84B /* BadScore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BadScore.wav; sourceTree = "<group>"; };
 		F522A2122352D14D0079A84B /* GoodScore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GoodScore.wav; sourceTree = "<group>"; };
 		F522A2132352D14D0079A84B /* PerfectScore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PerfectScore.wav; sourceTree = "<group>"; };
-		F522A2182352DBAA0079A84B /* CultureTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CultureTableViewController.swift; sourceTree = "<group>"; };
 		F522A21A2352DDA00079A84B /* AlphabetCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetCollectionViewController.swift; sourceTree = "<group>"; };
 		F52944E32351845800F480C2 /* a.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = a.mp4; sourceTree = "<group>"; };
 		F52944E42351845800F480C2 /* b.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = b.mp4; sourceTree = "<group>"; };
@@ -447,6 +449,7 @@
 				BB17DD8022EE52490055458A /* WriteTableViewController.swift */,
 				BB18782022D694D8007D3CB1 /* WriteViewController.swift */,
 				BB17DD7E22EE52100055458A /* WritingLesson.swift */,
+				D5FA44CB23716A0900004F71 /* WriteHomeViewController.swift */,
 			);
 			path = Write;
 			sourceTree = "<group>";
@@ -543,7 +546,7 @@
 				F522A2172352DB8D0079A84B /* Culture */,
 				BB18782422D695D9007D3CB1 /* SettingsViewController.swift */,
 				F52944D62351807A00F480C2 /* Lessons */,
-				BB18782622D695F1007D3CB1 /* PlayViewController.swift */,
+				D5FA44C82371688700004F71 /* Play */,
 				F50EDA3023499E40009CE631 /* Shop */,
 				BB72E1562300018C00FD4A25 /* TranslateViewController.swift */,
 				F56283CF2354208A009797CF /* Talk */,
@@ -713,6 +716,15 @@
 			path = "Other Verbs";
 			sourceTree = "<group>";
 		};
+		D5FA44C82371688700004F71 /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				BB18782622D695F1007D3CB1 /* PlayViewController.swift */,
+				D5FA44C92371689C00004F71 /* PlayHomeViewController.swift */,
+			);
+			path = Play;
+			sourceTree = "<group>";
+		};
 		F50EDA3023499E40009CE631 /* Shop */ = {
 			isa = PBXGroup;
 			children = (
@@ -747,7 +759,6 @@
 			isa = PBXGroup;
 			children = (
 				BB18782222D69538007D3CB1 /* CultureViewController.swift */,
-				F522A2182352DBAA0079A84B /* CultureTableViewController.swift */,
 			);
 			path = Culture;
 			sourceTree = "<group>";
@@ -1210,6 +1221,7 @@
 			files = (
 				BB18782122D694D8007D3CB1 /* WriteViewController.swift in Sources */,
 				D53369A22369430F00581B5B /* VerbConjugationPage2ViewController.swift in Sources */,
+				D5FA44CC23716A0900004F71 /* WriteHomeViewController.swift in Sources */,
 				D550D8F123696EC200349EE6 /* OrdinalNumbers8ViewController.swift in Sources */,
 				BB161AA122D583E400F2A342 /* FirstLaunchViewController.swift in Sources */,
 				BB18782922D6962C007D3CB1 /* ShopViewController.swift in Sources */,
@@ -1255,6 +1267,7 @@
 				F50EDA342349B1C1009CE631 /* RestaurantsViewController.swift in Sources */,
 				D5E3041E236958F600DDBF7A /* VerbConjugationYExample2ViewController.swift in Sources */,
 				F5492680234AFDE20026B55E /* GroceriesViewController.swift in Sources */,
+				D5FA44CA2371689C00004F71 /* PlayHomeViewController.swift in Sources */,
 				BBC83AA422D176D300E9C164 /* AppDelegate.swift in Sources */,
 				BB18782322D69538007D3CB1 /* CultureViewController.swift in Sources */,
 				BB161A9E22D5765000F2A342 /* FirstLaunch.swift in Sources */,
@@ -1287,7 +1300,6 @@
 				F56283D32354213C009797CF /* FindATeacherHomeViewController.swift in Sources */,
 				BB161AA522D5C02C00F2A342 /* FacebookLoginButton.swift in Sources */,
 				BB0AE5C522DACC7100D5B096 /* RoundedBorderExtension.swift in Sources */,
-				F522A2192352DBAA0079A84B /* CultureTableViewController.swift in Sources */,
 				D58ABEF42369649A00BBCBEC /* OrdinalNumbersPage1ViewController.swift in Sources */,
 				D5E3041C236958D600DDBF7A /* VerbConjugationYExample1ViewController.swift in Sources */,
 				BB7B2E3022E52CFE0047CE7F /* Article.swift in Sources */,
