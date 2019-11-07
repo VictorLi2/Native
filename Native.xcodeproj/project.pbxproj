@@ -91,6 +91,7 @@
 		D5E30421236959FF00DDBF7A /* VerbConjugationOtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E30420236959FF00DDBF7A /* VerbConjugationOtherViewController.swift */; };
 		D5E3042323695A2900DDBF7A /* VerbConjugationOtherExample1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E3042223695A2900DDBF7A /* VerbConjugationOtherExample1ViewController.swift */; };
 		D5E3042523695A4300DDBF7A /* VerbConjugationOtherExample2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E3042423695A4300DDBF7A /* VerbConjugationOtherExample2ViewController.swift */; };
+		D5E5109223749CF600DAD2C6 /* tXwQWZEHnwY.json in Resources */ = {isa = PBXBuildFile; fileRef = D5E5109123749CF600DAD2C6 /* tXwQWZEHnwY.json */; };
 		D5FA44CA2371689C00004F71 /* PlayHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FA44C92371689C00004F71 /* PlayHomeViewController.swift */; };
 		D5FA44CC23716A0900004F71 /* WriteHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FA44CB23716A0900004F71 /* WriteHomeViewController.swift */; };
 		F3DD739DF1CC288BCB808EB5 /* Pods_NativeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99BB482AD920C65600D96E9 /* Pods_NativeTests.framework */; };
@@ -291,6 +292,7 @@
 		D5E30420236959FF00DDBF7A /* VerbConjugationOtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbConjugationOtherViewController.swift; sourceTree = "<group>"; };
 		D5E3042223695A2900DDBF7A /* VerbConjugationOtherExample1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbConjugationOtherExample1ViewController.swift; sourceTree = "<group>"; };
 		D5E3042423695A4300DDBF7A /* VerbConjugationOtherExample2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbConjugationOtherExample2ViewController.swift; sourceTree = "<group>"; };
+		D5E5109123749CF600DAD2C6 /* tXwQWZEHnwY.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tXwQWZEHnwY.json; sourceTree = "<group>"; };
 		D5FA44C92371689C00004F71 /* PlayHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayHomeViewController.swift; sourceTree = "<group>"; };
 		D5FA44CB23716A0900004F71 /* WriteHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteHomeViewController.swift; sourceTree = "<group>"; };
 		E99BB482AD920C65600D96E9 /* Pods_NativeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -867,6 +869,7 @@
 		F5E1929F233EE7CB00FA2460 /* WatchQuizes */ = {
 			isa = PBXGroup;
 			children = (
+				D5E5109123749CF600DAD2C6 /* tXwQWZEHnwY.json */,
 				F5E192A0233EE85900FA2460 /* Cm0MGnuRnH0.json */,
 				F5E192A2233EED4500FA2460 /* ffdXLm8EaYg.json */,
 			);
@@ -1057,6 +1060,7 @@
 				F522A2152352D14D0079A84B /* GoodScore.wav in Resources */,
 				F54362D5235812F20005FE5E /* n.mp4 in Resources */,
 				F54362DB235812F20005FE5E /* u.mp4 in Resources */,
+				D5E5109223749CF600DAD2C6 /* tXwQWZEHnwY.json in Resources */,
 				D5764DB7236D0C0300C9A3D4 /* fifth.mp3 in Resources */,
 				F5C5928D2354005300584A83 /* n.mp3 in Resources */,
 				D5764DB9236D0C0300C9A3D4 /* sixth.mp3 in Resources */,

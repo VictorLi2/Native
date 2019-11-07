@@ -1,0 +1,95 @@
+{
+    "id": "tXwQWZEHnwY",
+    "title": "NBA Gametime: Kevin Mchake analyzes and predicts: Lakers vs Spurs, Who wins tonight?",
+    "numberOfQuestions": 8,
+    "content": [
+        {
+            "question": "Anthony Davis is ___ in the league in scoring ",
+            "rightAnswer": 3,
+            "answers": [
+                "First",
+                "Second",
+                "Third",
+                "Fourth"
+            ],
+            "timeInVideo": 7
+        },
+        {
+            "question": "At 1:08, why does the host on the left ask “What am I doing here?”",
+            "rightAnswer": 2,
+            "answers": [
+                "He hates basketball",
+                "The other hosts are more knowledgeable than he is",
+                "He is late for a meeting",
+                "None of the above"
+            ],
+            "timeInVideo": 106
+        },
+        {
+            "question": "What was KD’s advice to players when they’re sick?",
+            "rightAnswer": 4,
+            "answers": [
+                "Not to play",
+                "To change their diets",
+                "To ask their coach what to do",
+                "To play anyway"
+            ],
+            "timeInVideo": 304
+        },
+        {
+            "question": "What is an issue that a lot of younger plays have?",
+            "rightAnswer": 3,
+            "answers": [
+                "Poor diet",
+                "Bad lifestyles",
+                "No veterans to teach them",
+                "All of the above"
+            ],
+            "timeInVideo": 410
+        },
+        {
+            "question": "Which two teams are playing?",
+            "rightAnswer": 1,
+            "answers": [
+                "Lakers and the Spurs",
+                "Spurs and Nets",
+                "Knicks and Lakers",
+                "Heat and Warriors"
+            ],
+            "timeInVideo": 416
+	},
+        {
+            "question": "Which two players are “on the same page”?",
+            "rightAnswer": 2,
+            "answers": [
+                "Kobe Bryant and Lebron James",
+                "AD (Anthony Davis) and Lebron James",
+                "AD (Anthony Davis) and Dwight Howard",
+                "Lebron James and Kyle Kuzma"
+            ],
+            "timeInVideo": 436
+        },
+        {
+            "question": "What will Kuzma provide the lakers with?",
+            "rightAnswer": 4,
+            "answers": [
+                "More ticket sales",
+                "Strength",
+                "Intelligence",
+                "Energy"
+            ],
+            "timeInVideo": 637
+        },
+        {
+            "question": "Why was the time after Christmas bizarre (crazy) for the Lakers?",
+            "rightAnswer": 2,
+            "answers": [
+                "Everyone was tired",
+                "Everyone was injured",
+                "They had no fans",
+                "None of the above"
+            ],
+            "timeInVideo": 747
+        }
+    ]
+}
