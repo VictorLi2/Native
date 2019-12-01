@@ -18,13 +18,13 @@ class YoutubeQuizScoreViewController: UIViewController {
         
         if(score! == totalScore!) {
             playSound(soundName: "PerfectScore")
-            commentLabel.text = "Congratulations!\nA Perfect Score!"
+            commentLabel.text = "Congratulations!\nA Perfect Score!\n+100xp"
         } else if(score! < (totalScore! * 8 / 10)) {
             playSound(soundName: "BadScore")
-            commentLabel.text = "Nice Try\nYou can do better!"
+            commentLabel.text = "Nice Try\nYou can do better!\n+10xp"
         } else {
             playSound(soundName: "GoodScore")
-            commentLabel.text = "Good Job!\nSo Close to Perfect!"
+            commentLabel.text = "Good Job!\nSo Close to Perfect!\n+50xp"
         }
     }
 

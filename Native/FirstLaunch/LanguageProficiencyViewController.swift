@@ -15,11 +15,6 @@ class LanguageProficiencyViewController: UIViewController {
         view.addBackground(imageName: backgroundImage!)
     }
     
-    @IBAction func firstTimeLearner(_ sender: UIButton) {
-        defaults.set("First Time Learner", forKey: "Proficiency")
-        defaults.set("true", forKey: "CompletedSetUp")
-    }
-    
     @IBAction func basicKnowledge(_ sender: UIButton) {
         defaults.set("Basic Knowledge", forKey: "Proficiency")
         defaults.set("true", forKey: "CompletedSetUp")

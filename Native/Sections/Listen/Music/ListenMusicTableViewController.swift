@@ -45,13 +45,27 @@ class ListenMusicTableViewController: UITableViewController {
 
     //MARK: Private methods
     private func loadSongs() {
-        let s1 = Song(title: "Hey Jude", source: "The Beatles")
+        let s1 = Song(title: "Someone You Loved", source: "Lewis Capaldi")
         
-        let s2 = Song(title: "Stand By Me", source: "Ben E. King")
+        let s2 = Song(title: "Circles", source: "Post Malone")
         
-        let s3 = Song(title: "thank u, next", source: "Ariana Grande")
+        let s3 = Song(title: "Senorita", source: "Shawn Mendes and Camila Cabello")
         
-        songs += [s1, s2, s3]
+        let s4 = Song(title: "Good As Hell", source: "Lizzo")
+        
+        let s5 = Song(title: "Memories", source: "Maroon 5")
+        
+        let s6 = Song(title: "Truth Hurts", source: "Lizzo")
+        
+        let s7 = Song(title: "No Guidance", source: "Chris Brown Featuring Drake")
+        
+        let s8 = Song(title: "Hey Jude", source: "The Beatles")
+        
+        let s9 = Song(title: "Stand By Me", source: "Ben E. King")
+        
+        let s10 = Song(title: "thank u, next", source: "Ariana Grande")
+        
+        songs += [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10]
     }
 }
 

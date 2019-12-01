@@ -140,6 +140,13 @@ class ListenMusicViewController: UIViewController {
         
         pauseAudio()
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if(segue.identifier == "ToLyricsViewController") {
+            let lyricsViewController = segue.destination as! LyricsViewController
+            lyricsViewController.song = song
+        }
+    }
 }
 
 // MARK: - Actions

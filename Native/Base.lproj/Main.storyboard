@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pcS-p5-ngR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pcS-p5-ngR">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -163,6 +163,126 @@
             </objects>
             <point key="canvasLocation" x="6062" y="17"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="luh-qe-Yvb">
+            <objects>
+                <viewController id="pff-KE-iBf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g8a-WU-Itx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="r8p-qw-CXp">
+                                <rect key="frame" x="15" y="59" width="345" height="544"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sHo-WP-sRs">
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="125"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <inset key="imageEdgeInsets" minX="-50" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="News" image="News">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="Rqd-ky-96j" kind="show" id="tGn-Bk-H3Y"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Krt-pW-lNs">
+                                        <rect key="frame" x="0.0" y="140" width="345" height="124.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="-40" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Books" image="Books">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="Rqd-ky-96j" kind="show" id="gP6-8m-lf8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVa-9L-neG">
+                                        <rect key="frame" x="0.0" y="279.5" width="345" height="125"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <inset key="titleEdgeInsets" minX="30" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="-25" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Articles" image="Articles">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="Rqd-ky-96j" kind="show" id="0dT-hc-jGQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8tc-lL-vN2">
+                                        <rect key="frame" x="0.0" y="419.5" width="345" height="124.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="-50" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Blogs" image="Blog">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="Rqd-ky-96j" kind="show" id="hBm-dL-Qzg"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="BNc-tF-h9M" firstAttribute="bottom" secondItem="r8p-qw-CXp" secondAttribute="bottom" constant="15" id="8PB-NK-9Fe"/>
+                            <constraint firstItem="r8p-qw-CXp" firstAttribute="leading" secondItem="BNc-tF-h9M" secondAttribute="leading" constant="15" id="ESK-fo-qbx"/>
+                            <constraint firstItem="r8p-qw-CXp" firstAttribute="top" secondItem="BNc-tF-h9M" secondAttribute="top" constant="15" id="Mwn-mn-sT7"/>
+                            <constraint firstItem="BNc-tF-h9M" firstAttribute="trailing" secondItem="r8p-qw-CXp" secondAttribute="trailing" constant="15" id="vDG-yv-Lo6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="BNc-tF-h9M"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="TLF-Xv-Pyq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tdl-Vt-q96" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5641" y="869"/>
+        </scene>
         <!--Read Home View Controller-->
         <scene sceneID="lo8-KS-k3e">
             <objects>
@@ -284,7 +404,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9tZ-mn-cST">
-                                                <rect key="frame" x="180" y="0.0" width="165" height="165"/>
+                                                <rect key="frame" x="180" y="0.0" width="165.00000000000011" height="165.00000000000011"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="9tZ-mn-cST" secondAttribute="height" multiplier="1:1" id="JC2-PC-wDW"/>
                                                 </constraints>
@@ -319,7 +439,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="62d-8v-CAU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5380" y="861"/>
+            <point key="canvasLocation" x="6324" y="869"/>
         </scene>
         <!--Watch Home View Controller-->
         <scene sceneID="lVM-VX-AcP">
@@ -736,7 +856,7 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="Rqd-ky-96j" kind="show" id="gCA-a1-ZZ1"/>
+                                            <segue destination="pff-KE-iBf" kind="show" id="xhd-SR-A3F"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMg-k6-rN1">
@@ -930,7 +1050,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LUx-A8-M6z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6063" y="860"/>
+            <point key="canvasLocation" x="7006" y="868"/>
         </scene>
         <!--Youtube View Controller-->
         <scene sceneID="qDS-iJ-ZbR">
@@ -1243,12 +1363,33 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CommentLabel" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vTe-da-4GX" userLabel="Comment Label">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CommentLabel" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vTe-da-4GX" userLabel="Comment Label">
                                 <rect key="frame" x="50" y="337" width="275" height="26.5"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lDE-IX-btz">
+                                <rect key="frame" x="50" y="413.5" width="275" height="39"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <state key="normal" title="Show Answers">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ptt-TB-hWy" kind="show" id="tPC-o2-fkt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -1256,9 +1397,13 @@
                             <constraint firstItem="vNC-cb-AlQ" firstAttribute="top" secondItem="93s-bK-Uee" secondAttribute="top" constant="200" id="2jA-aZ-KdK"/>
                             <constraint firstItem="93s-bK-Uee" firstAttribute="trailing" secondItem="vTe-da-4GX" secondAttribute="trailing" constant="50" id="DDO-2B-g5I"/>
                             <constraint firstItem="93s-bK-Uee" firstAttribute="trailing" secondItem="N7a-YJ-xzV" secondAttribute="trailing" constant="50" id="G4j-jN-thN"/>
+                            <constraint firstItem="lDE-IX-btz" firstAttribute="top" secondItem="vTe-da-4GX" secondAttribute="bottom" constant="50" id="RQU-v2-zSB"/>
+                            <constraint firstItem="lDE-IX-btz" firstAttribute="leading" secondItem="93s-bK-Uee" secondAttribute="leading" constant="50" id="a72-i9-sy9"/>
                             <constraint firstItem="vTe-da-4GX" firstAttribute="leading" secondItem="93s-bK-Uee" secondAttribute="leading" constant="50" id="amW-wm-bXF"/>
                             <constraint firstItem="N7a-YJ-xzV" firstAttribute="leading" secondItem="93s-bK-Uee" secondAttribute="leading" constant="50" id="cAJ-FW-2Rm"/>
+                            <constraint firstItem="93s-bK-Uee" firstAttribute="trailing" secondItem="lDE-IX-btz" secondAttribute="trailing" constant="50" id="cZB-Qr-IQj"/>
                             <constraint firstItem="vNC-cb-AlQ" firstAttribute="centerX" secondItem="75F-wY-eza" secondAttribute="centerX" id="dBN-kZ-ljk"/>
+                            <constraint firstItem="lDE-IX-btz" firstAttribute="centerX" secondItem="75F-wY-eza" secondAttribute="centerX" id="mbO-yj-HEa"/>
                             <constraint firstItem="vTe-da-4GX" firstAttribute="top" secondItem="N7a-YJ-xzV" secondAttribute="bottom" constant="50" id="ouA-TH-qzD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="93s-bK-Uee"/>
@@ -1271,6 +1416,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iza-Fx-Lpc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="9790" y="61"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="k7z-1b-3aY">
+            <objects>
+                <viewController id="ptt-TB-hWy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0yv-L5-t1p">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="fvs-Ec-hKo"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OV1-fs-CGP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KPj-fT-Ywu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10508" y="62"/>
         </scene>
         <!--Read View Controller-->
         <scene sceneID="x85-fH-x3r">
@@ -1286,7 +1447,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j6n-ec-Ei2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6844" y="860"/>
+            <point key="canvasLocation" x="7788" y="868"/>
         </scene>
         <!--Settings View Controller-->
         <scene sceneID="B2N-1U-OKP">
@@ -2037,7 +2198,28 @@ other Learner</string>
                                 <rect key="frame" x="15" y="59" width="345" height="544"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="RAy-Hm-jSn">
-                                        <rect key="frame" x="0.0" y="0.0" width="345" height="97"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="78"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <state key="normal" title="Educational Games">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="KmT-vE-FgI" kind="show" id="pwc-I3-5Rd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="0u9-0l-fBI">
+                                        <rect key="frame" x="0.0" y="93" width="345" height="78.5"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <state key="normal">
                                             <string key="title">Top American
@@ -2057,7 +2239,7 @@ App Store Games</string>
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="04r-Dx-P5h">
-                                        <rect key="frame" x="0.0" y="112" width="345" height="96.5"/>
+                                        <rect key="frame" x="0.0" y="186.5" width="345" height="78"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <state key="normal" title="World Celebrities">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2075,7 +2257,7 @@ App Store Games</string>
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Rl8-Ih-MVE">
-                                        <rect key="frame" x="0.0" y="223.5" width="345" height="97"/>
+                                        <rect key="frame" x="0.0" y="279.5" width="345" height="78"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <state key="normal" title="Famous Landmarks">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2093,7 +2275,7 @@ App Store Games</string>
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ypr-qN-rdi">
-                                        <rect key="frame" x="0.0" y="335.5" width="345" height="96.5"/>
+                                        <rect key="frame" x="0.0" y="372.5" width="345" height="78.5"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <state key="normal">
                                             <string key="title">World Sports
@@ -2113,7 +2295,7 @@ and Athletes</string>
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bMK-gs-hF9">
-                                        <rect key="frame" x="0.0" y="447" width="345" height="97"/>
+                                        <rect key="frame" x="0.0" y="466" width="345" height="78"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <state key="normal" title="Guess Who?">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2250,7 +2432,7 @@ Recipes</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TrendingExample" translatesAutoresizingMaskIntoConstraints="NO" id="guw-4y-6vC">
-                                <rect key="frame" x="0.0" y="44" width="375" height="574"/>
+                                <rect key="frame" x="0.0" y="44" width="375.00000000000023" height="574"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -2298,7 +2480,7 @@ Recipes</string>
                                 <rect key="frame" x="66" y="396" width="243" height="2"/>
                             </progressView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ok-oS-KT8" userLabel="Play">
-                                <rect key="frame" x="147.5" y="438" width="80" height="80"/>
+                                <rect key="frame" x="167.5" y="438" width="40" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="5ok-oS-KT8" secondAttribute="height" multiplier="1:1" id="v8E-eH-kvU"/>
                                 </constraints>
@@ -2308,14 +2490,14 @@ Recipes</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gkh-bp-mY7" userLabel="+15s">
-                                <rect key="frame" x="267.5" y="438" width="80" height="80"/>
+                                <rect key="frame" x="247.5" y="438" width="40" height="40"/>
                                 <state key="normal" image="Listen_Forward_15_Button"/>
                                 <connections>
                                     <action selector="forward15Tapped:" destination="Xa4-9Q-icC" eventType="touchUpInside" id="leV-Ua-XVu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ccf-0z-iQi" userLabel="+15s">
-                                <rect key="frame" x="27.5" y="438" width="80" height="80"/>
+                                <rect key="frame" x="87.5" y="438" width="40" height="40"/>
                                 <state key="normal" image="Listen_Back_15_Button"/>
                                 <connections>
                                     <action selector="back15Tapped:" destination="Xa4-9Q-icC" eventType="touchUpInside" id="CKD-LI-Pkk"/>
@@ -2340,7 +2522,7 @@ Recipes</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="EQd-dy-M7d" userLabel="Volume Slider">
-                                <rect key="frame" x="64" y="538" width="247" height="31"/>
+                                <rect key="frame" x="64" y="498" width="247" height="31"/>
                                 <connections>
                                     <action selector="didChangePlaybackRateValue:" destination="Xa4-9Q-icC" eventType="valueChanged" id="3gR-X6-jii"/>
                                 </connections>
@@ -2350,7 +2532,7 @@ Recipes</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Lyrics"/>
                                 <connections>
-                                    <segue destination="mLO-ur-zpM" kind="show" id="RBG-Hn-Tws"/>
+                                    <segue destination="mLO-ur-zpM" kind="show" identifier="ToLyricsViewController" id="RBG-Hn-Tws"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2400,12 +2582,12 @@ Recipes</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gjz-t1-O2P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9876" y="1529"/>
+            <point key="canvasLocation" x="10615" y="1529"/>
         </scene>
-        <!--View Controller-->
+        <!--Lyrics View Controller-->
         <scene sceneID="ChY-DM-him">
             <objects>
-                <viewController id="mLO-ur-zpM" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LyricsViewController" id="mLO-ur-zpM" customClass="LyricsViewController" customModule="Native" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b39-fs-ty9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2413,77 +2595,7 @@ Recipes</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DP2-W4-Ucp">
                                 <rect key="frame" x="0.0" y="44" width="375" height="574"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Hey Jude Lyrics  Hey Jude, don't make it bad
-Take a sad song and make it better
-Remember to let her into your heart
-Then you can start to make it better
-Hey Jude, don't be afraid
-You were made to go out and get her
-The minute you let her under your skin
-Then you begin to make it better
-And anytime you feel the pain
-Hey Jude, refrain
-Don't carry the world upon your shoulders
-For well you know that it's a fool
-Who plays it cool
-By making his world a little colder
-Na-na-na, na, na
-Na-na-na, na
-Hey Jude, don't let me down
-You have found her, now go and get her (let it out and let it in)
-Remember to let her into your heart (hey Jude)
-Then you can start to make it better
-So let it out and let it in
-Hey Jude, begin
-You're waiting for someone to perform with
-And don't you know that it's just you
-Hey Jude, you'll do
-The movement you need is on your shoulder
-Na-na-na, na, na
-Na-na-na, na, yeah
-Hey Jude, don't make it bad
-Take a sad song and make it better
-Remember to let her under your skin
-Then you'll begin to make it better
-Better better better better better, ah!
-Na, na, na, na-na-na na (yeah! Yeah, yeah, yeah, yeah, yeah, yeah)
-Na-na-na na, hey Jude
-Na, na, na, na-na-na na
-Na-na-na na, hey Jude
-Na, na, na, na-na-na na
-Na-na-na na, hey Jude
-Na, na, na, na-na-na na
-Na-na-na na, hey Jude (Jude Jude, Judy Judy Judy Judy, ow wow!)
-Na, na, na, na-na-na na (my, my, my)
-Na-na-na na, hey Jude (Jude, Jude, Jude, Jude, Jude)
-Na, na, na, na-na-na na (yeah, yeah, yeah)
-Na-na-na na, hey Jude (yeah, you know you can make it, Jude, Jude, you're not gonna break it)
-Na, na, na, na-na-na na (don't make it bad, Jude, take a sad song and make it better)
-Na-na-na na, hey Jude (oh Jude, Jude, hey Jude, wa!)
-Na, na, na, na-na-na na (oh Jude)
-Na-na-na na, hey Jude (hey, hey, hey, hey)
-Na, na, na, na-na-na na (hey, hey)
-Na-na-na na, hey Jude (now, Jude, Jude, Jude, Jude, Jude)
-Na, na, na, na-na-na na (Jude, yeah, yeah, yeah, yeah)
-Na-na-na na, hey Jude
-Na, na, na, na-na-na na
-Na-na-na na, hey Jude (na-na-na-na-na-na-na-na-na)
-Na, na, na, na-na-na na
-Na-na-na na, hey Jude
-Na, na, na, na-na-na na
-Na-na-na na, hey Jude
-Na, na, na, na-na-na na (yeah, make it, Jude)
-Na-na-na na, hey Jude (yeah yeah yeah yeah yeah! Yeah! Yeah! Yeah! Yeah!)
-Na, na, na, na-na-na na (yeah, yeah yeah, yeah! Yeah! Yeah!)
-Na-na-na na, hey Jude
-Na, na, na, na-na-na na
-Na-na-na na, hey Jude
-Na, na, na, na-na-na na
-Na-na-na na, hey Jude
-Na, na, na, na-na-na na
-Na-na-na na, hey Jude
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -2497,10 +2609,13 @@ Na-na-na na, hey Jude
                         <viewLayoutGuide key="safeArea" id="KMz-9n-fRa"/>
                     </view>
                     <navigationItem key="navigationItem" id="iED-Qo-8oR"/>
+                    <connections>
+                        <outlet property="TextView" destination="DP2-W4-Ucp" id="yBO-me-8Ci"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dk8-TY-YnW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10559" y="1529"/>
+            <point key="canvasLocation" x="11297" y="1529"/>
         </scene>
         <!--Alphabet Letter View Controller-->
         <scene sceneID="Yih-YW-lWH">
@@ -2626,6 +2741,89 @@ Na-na-na na, hey Jude
             </objects>
             <point key="canvasLocation" x="5615" y="2310"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="pWU-xc-ykb">
+            <objects>
+                <viewController id="KmT-vE-FgI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y9o-rY-UiA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="NdB-OY-lcg">
+                                <rect key="frame" x="15" y="59" width="345" height="544"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="PWL-VQ-BM9">
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="171.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <state key="normal" title="Verb Trainer">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="riD-cg-gCK">
+                                        <rect key="frame" x="0.0" y="186.5" width="345" height="171"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <state key="normal" title="Vocabulary Trainer">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="z5B-kO-i3Q">
+                                        <rect key="frame" x="0.0" y="372.5" width="345" height="171.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <state key="normal" title="Typing Trainer">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="NdB-OY-lcg" firstAttribute="top" secondItem="Msr-4L-PXH" secondAttribute="top" constant="15" id="2hV-Af-feQ"/>
+                            <constraint firstItem="Msr-4L-PXH" firstAttribute="bottom" secondItem="NdB-OY-lcg" secondAttribute="bottom" constant="15" id="8Nb-ek-1kM"/>
+                            <constraint firstItem="NdB-OY-lcg" firstAttribute="leading" secondItem="Msr-4L-PXH" secondAttribute="leading" constant="15" id="fwq-BC-hfe"/>
+                            <constraint firstItem="Msr-4L-PXH" firstAttribute="trailing" secondItem="NdB-OY-lcg" secondAttribute="trailing" constant="15" id="sKg-BS-tjs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Msr-4L-PXH"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="s4w-g6-3YW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tmp-zW-x5y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5906" y="1608"/>
+        </scene>
         <!--Write Home View Controller-->
         <scene sceneID="1TY-Zf-ewb">
             <objects>
@@ -2707,7 +2905,7 @@ Na-na-na na, hey Jude
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iar-lW-vxp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6324" y="1607"/>
+            <point key="canvasLocation" x="6892" y="1608"/>
         </scene>
         <!--First Launch View Controller-->
         <scene sceneID="NqA-aI-QNK">
@@ -2780,10 +2978,10 @@ Na-na-na na, hey Jude
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Q4M-x3-3YV">
-                                <rect key="frame" x="0.0" y="96" width="375" height="651"/>
+                                <rect key="frame" x="0.0" y="96" width="375" height="363"/>
                                 <subviews>
                                     <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o7h-gR-PJg">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <inset key="titleEdgeInsets" minX="50" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -2797,7 +2995,7 @@ Na-na-na na, hey Jude
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FwV-lb-JwL">
-                                        <rect key="frame" x="0.0" y="111" width="375" height="96"/>
+                                        <rect key="frame" x="0.0" y="63" width="375" height="48"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <inset key="titleEdgeInsets" minX="50" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -2811,7 +3009,7 @@ Na-na-na na, hey Jude
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2pt-Br-Btd">
-                                        <rect key="frame" x="0.0" y="222" width="375" height="96"/>
+                                        <rect key="frame" x="0.0" y="126" width="375" height="48"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <inset key="titleEdgeInsets" minX="50" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -2825,7 +3023,7 @@ Na-na-na na, hey Jude
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MIL-Hp-ehX">
-                                        <rect key="frame" x="0.0" y="333" width="375" height="96"/>
+                                        <rect key="frame" x="0.0" y="189" width="375" height="48"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <inset key="titleEdgeInsets" minX="50" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -2839,7 +3037,7 @@ Na-na-na na, hey Jude
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXi-ru-ry9">
-                                        <rect key="frame" x="0.0" y="444" width="375" height="96"/>
+                                        <rect key="frame" x="0.0" y="252" width="375" height="48"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <inset key="titleEdgeInsets" minX="50" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -2853,7 +3051,7 @@ Na-na-na na, hey Jude
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iyn-St-vXU">
-                                        <rect key="frame" x="0.0" y="555" width="375" height="96"/>
+                                        <rect key="frame" x="0.0" y="315" width="375" height="48"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <inset key="titleEdgeInsets" minX="50" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -2921,36 +3119,24 @@ Na-na-na na, hey Jude
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="iJV-ez-7CA">
-                                <rect key="frame" x="0.0" y="96" width="375" height="270"/>
+                                <rect key="frame" x="0.0" y="96" width="375" height="213"/>
                                 <subviews>
                                     <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hqv-bq-B86">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="42"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <state key="normal" title="Kid Learner">
+                                        <state key="normal" title="Kid's Version">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <segue destination="YMb-EQ-h9V" kind="show" id="qPM-Ci-50x"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qeJ-rL-jMe">
+                                    <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRw-Si-fY1">
                                         <rect key="frame" x="0.0" y="57" width="375" height="42"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <state key="normal" title="First Time Learner">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="firstTimeLearner:" destination="vws-YJ-KG9" eventType="touchUpInside" id="OJY-GA-z7Z"/>
-                                            <segue destination="YMb-EQ-h9V" kind="show" id="E5G-Qq-rUe"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRw-Si-fY1">
-                                        <rect key="frame" x="0.0" y="114" width="375" height="42"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <state key="normal" title="Basic Knowledge">
+                                        <state key="normal" title="Beginner">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -2959,10 +3145,10 @@ Na-na-na na, hey Jude
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="952-bN-6na">
-                                        <rect key="frame" x="0.0" y="171" width="375" height="42"/>
+                                        <rect key="frame" x="0.0" y="114" width="375" height="42"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <state key="normal" title="Intermediate Knowledge">
+                                        <state key="normal" title="Intermediate">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -2971,10 +3157,10 @@ Na-na-na na, hey Jude
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TFx-5T-GaO">
-                                        <rect key="frame" x="0.0" y="228" width="375" height="42"/>
+                                        <rect key="frame" x="0.0" y="171" width="375" height="42"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <state key="normal" title="Fluent">
+                                        <state key="normal" title="Advanced">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -3816,10 +4002,10 @@ Near You</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="2Wy-z9-VDS">
-                                <rect key="frame" x="0.0" y="96" width="375" height="486"/>
+                                <rect key="frame" x="0.0" y="96" width="375" height="294"/>
                                 <subviews>
                                     <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hlS-A4-keB">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <inset key="titleEdgeInsets" minX="50" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -3832,7 +4018,7 @@ Near You</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GMx-Ne-zuH">
-                                        <rect key="frame" x="0.0" y="111" width="375" height="96"/>
+                                        <rect key="frame" x="0.0" y="63" width="375" height="48"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <inset key="titleEdgeInsets" minX="50" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -3845,7 +4031,7 @@ Near You</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rvx-K4-cL3">
-                                        <rect key="frame" x="0.0" y="222" width="375" height="96"/>
+                                        <rect key="frame" x="0.0" y="126" width="375" height="48"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <inset key="titleEdgeInsets" minX="50" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -3858,7 +4044,7 @@ Near You</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aFl-v9-SR3">
-                                        <rect key="frame" x="0.0" y="333" width="375" height="96"/>
+                                        <rect key="frame" x="0.0" y="189" width="375" height="48"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <inset key="titleEdgeInsets" minX="50" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -3871,7 +4057,7 @@ Near You</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Esg-tv-ofw">
-                                        <rect key="frame" x="0.0" y="444" width="375" height="42"/>
+                                        <rect key="frame" x="0.0" y="252" width="375" height="42"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <inset key="titleEdgeInsets" minX="98" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -3921,10 +4107,10 @@ Near You</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="T3u-TU-EoQ">
-                                <rect key="frame" x="0.0" y="96" width="375" height="597"/>
+                                <rect key="frame" x="0.0" y="96" width="375" height="357"/>
                                 <subviews>
                                     <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iAg-5r-PVk">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <inset key="titleEdgeInsets" minX="50" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -3937,7 +4123,7 @@ Near You</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBK-6d-8jq">
-                                        <rect key="frame" x="0.0" y="111" width="375" height="96"/>
+                                        <rect key="frame" x="0.0" y="63" width="375" height="48"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <inset key="titleEdgeInsets" minX="50" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -3950,7 +4136,7 @@ Near You</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YG8-N3-EzO">
-                                        <rect key="frame" x="0.0" y="222" width="375" height="96"/>
+                                        <rect key="frame" x="0.0" y="126" width="375" height="48"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <inset key="titleEdgeInsets" minX="50" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -3963,7 +4149,7 @@ Near You</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pbd-0B-nFk">
-                                        <rect key="frame" x="0.0" y="333" width="375" height="96"/>
+                                        <rect key="frame" x="0.0" y="189" width="375" height="48"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <inset key="titleEdgeInsets" minX="50" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -3976,7 +4162,7 @@ Near You</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ulr-KN-ZAD">
-                                        <rect key="frame" x="0.0" y="444" width="375" height="96"/>
+                                        <rect key="frame" x="0.0" y="252" width="375" height="48"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <inset key="titleEdgeInsets" minX="50" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -3989,7 +4175,7 @@ Near You</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sap-hJ-Yk6">
-                                        <rect key="frame" x="0.0" y="555" width="375" height="42"/>
+                                        <rect key="frame" x="0.0" y="315" width="375" height="42"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <inset key="titleEdgeInsets" minX="98" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -4331,7 +4517,7 @@ Meals</string>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <segue destination="d7F-wZ-FG1" kind="show" id="Yfr-nr-QqV"/>
+                                            <segue destination="vky-Bf-xdq" kind="show" id="rI7-fP-Yyv"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ahs-79-xZ5">
@@ -4398,6 +4584,182 @@ Meals</string>
             </objects>
             <point key="canvasLocation" x="8519" y="1529"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="cHh-XV-DCZ">
+            <objects>
+                <viewController id="vky-Bf-xdq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YgK-UU-rYC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="BUg-T8-L9r">
+                                <rect key="frame" x="15" y="59" width="345" height="544"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jiK-Ed-344">
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="65"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <state key="normal" title="Most Popular">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="d7F-wZ-FG1" kind="show" id="fjU-Do-fn5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L83-ob-iae">
+                                        <rect key="frame" x="0.0" y="80" width="345" height="64.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <state key="normal" title="Traditional">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="d7F-wZ-FG1" kind="show" id="vs4-6G-hOH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7U-Pp-d0G">
+                                        <rect key="frame" x="0.0" y="159.5" width="345" height="65"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <state key="normal" title="Pop Music">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="d7F-wZ-FG1" kind="show" id="eAa-Qx-pLC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQ2-Wt-WFf">
+                                        <rect key="frame" x="0.0" y="239.5" width="345" height="65"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <state key="normal" title="Rock">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="d7F-wZ-FG1" kind="show" id="1Hv-9j-gMP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wd5-dO-Q1W">
+                                        <rect key="frame" x="0.0" y="319.5" width="345" height="65"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <state key="normal" title="Hip Hop">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="d7F-wZ-FG1" kind="show" id="Wge-gk-365"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIJ-jk-7Yq">
+                                        <rect key="frame" x="0.0" y="399.5" width="345" height="64.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <state key="normal" title="Techno">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="d7F-wZ-FG1" kind="show" id="YpS-Ws-ebo"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAT-VQ-oOV">
+                                        <rect key="frame" x="0.0" y="479" width="345" height="65"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <state key="normal" title="Electric Dance Music">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="d7F-wZ-FG1" kind="show" id="bgx-wM-A3a"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="odV-Pk-1CE" firstAttribute="bottom" secondItem="BUg-T8-L9r" secondAttribute="bottom" constant="15" id="JuL-6G-8cg"/>
+                            <constraint firstItem="odV-Pk-1CE" firstAttribute="trailing" secondItem="BUg-T8-L9r" secondAttribute="trailing" constant="15" id="db7-Zd-zV6"/>
+                            <constraint firstItem="BUg-T8-L9r" firstAttribute="top" secondItem="odV-Pk-1CE" secondAttribute="top" constant="15" id="fKu-Ot-xlu"/>
+                            <constraint firstItem="BUg-T8-L9r" firstAttribute="leading" secondItem="odV-Pk-1CE" secondAttribute="leading" constant="15" id="tfX-h3-O0I"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="odV-Pk-1CE"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8WC-Hx-2Qk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DhF-Lq-whm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9238" y="1529"/>
+        </scene>
         <!--Listen Music Table View Controller-->
         <scene sceneID="Re0-3v-aSx">
             <objects>
@@ -4451,7 +4813,7 @@ Meals</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DGU-vz-AOh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9199" y="1529"/>
+            <point key="canvasLocation" x="9937" y="1529"/>
         </scene>
         <!--Podcasts Home View Controller-->
         <scene sceneID="Td1-Yr-zfN">
@@ -6710,11 +7072,13 @@ Meals</string>
         <image name="Alphabet" width="100" height="100"/>
         <image name="AlphabetVideo" width="100" height="100"/>
         <image name="Argentina" width="48" height="48"/>
+        <image name="Articles" width="100" height="100"/>
         <image name="Audio" width="100" height="100"/>
         <image name="AudioBook" width="100" height="100"/>
         <image name="BBC" width="1920" height="1920"/>
         <image name="BBQ" width="1000" height="700"/>
         <image name="Beverages" width="100" height="100"/>
+        <image name="Blog" width="100" height="100"/>
         <image name="Books" width="100" height="100"/>
         <image name="Brazil" width="48" height="48"/>
         <image name="Canada" width="48" height="48"/>
@@ -6748,6 +7112,7 @@ Meals</string>
         <image name="Mujer" width="474" height="474"/>
         <image name="Music" width="100" height="100"/>
         <image name="Netflix" width="1800" height="800"/>
+        <image name="News" width="100" height="100"/>
         <image name="Numbers" width="100" height="100"/>
         <image name="OnlineShop" width="100" height="100"/>
         <image name="PackagedMeals" width="100" height="100"/>
@@ -6788,10 +7153,12 @@ Meals</string>
         <image name="Youtube" width="1000" height="445"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="eAa-Qx-pLC"/>
         <segue reference="Y5j-3J-hi7"/>
         <segue reference="cvf-Nw-Bee"/>
         <segue reference="02k-Wq-qYe"/>
         <segue reference="6Fc-H2-Vvb"/>
         <segue reference="P1a-Qa-ZmI"/>
+        <segue reference="tGn-Bk-H3Y"/>
     </inferredMetricsTieBreakers>
 </document>

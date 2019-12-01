@@ -85,6 +85,23 @@
 		D5764DBD236D0C0300C9A3D4 /* first.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D5764DB3236D0C0300C9A3D4 /* first.mp3 */; };
 		D5764DBE236D0C0300C9A3D4 /* seventh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D5764DB4236D0C0300C9A3D4 /* seventh.mp3 */; };
 		D5764DBF236D0C0300C9A3D4 /* tenth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D5764DB5236D0C0300C9A3D4 /* tenth.mp3 */; };
+		D5835DB92393C80D00CE4969 /* No Guidance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D5835DB22393C80B00CE4969 /* No Guidance.mp3 */; };
+		D5835DBA2393C80D00CE4969 /* Truth Hurts.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D5835DB32393C80B00CE4969 /* Truth Hurts.mp3 */; };
+		D5835DBB2393C80D00CE4969 /* Someone You Loved.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D5835DB42393C80B00CE4969 /* Someone You Loved.mp3 */; };
+		D5835DBC2393C80D00CE4969 /* Memories.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D5835DB52393C80C00CE4969 /* Memories.mp3 */; };
+		D5835DBD2393C80D00CE4969 /* Circles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D5835DB62393C80C00CE4969 /* Circles.mp3 */; };
+		D5835DBE2393C80D00CE4969 /* Good As Hell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D5835DB72393C80D00CE4969 /* Good As Hell.mp3 */; };
+		D5835DBF2393C80D00CE4969 /* Senorita.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D5835DB82393C80D00CE4969 /* Senorita.mp3 */; };
+		D5835DC92393D05B00CE4969 /* Truth Hurts.txt in Resources */ = {isa = PBXBuildFile; fileRef = D5835DC02393D05A00CE4969 /* Truth Hurts.txt */; };
+		D5835DCA2393D05B00CE4969 /* Senorita.txt in Resources */ = {isa = PBXBuildFile; fileRef = D5835DC12393D05A00CE4969 /* Senorita.txt */; };
+		D5835DCB2393D05B00CE4969 /* Circles.txt in Resources */ = {isa = PBXBuildFile; fileRef = D5835DC22393D05A00CE4969 /* Circles.txt */; };
+		D5835DCC2393D05B00CE4969 /* Memories.txt in Resources */ = {isa = PBXBuildFile; fileRef = D5835DC32393D05A00CE4969 /* Memories.txt */; };
+		D5835DCD2393D05B00CE4969 /* thank u, next.txt in Resources */ = {isa = PBXBuildFile; fileRef = D5835DC42393D05A00CE4969 /* thank u, next.txt */; };
+		D5835DCE2393D05B00CE4969 /* No Guidance.txt in Resources */ = {isa = PBXBuildFile; fileRef = D5835DC52393D05B00CE4969 /* No Guidance.txt */; };
+		D5835DCF2393D05B00CE4969 /* Someone You Loved.txt in Resources */ = {isa = PBXBuildFile; fileRef = D5835DC62393D05B00CE4969 /* Someone You Loved.txt */; };
+		D5835DD02393D05B00CE4969 /* Good As Hell.txt in Resources */ = {isa = PBXBuildFile; fileRef = D5835DC72393D05B00CE4969 /* Good As Hell.txt */; };
+		D5835DD12393D05B00CE4969 /* Stand By Me.txt in Resources */ = {isa = PBXBuildFile; fileRef = D5835DC82393D05B00CE4969 /* Stand By Me.txt */; };
+		D5835DD32393D12C00CE4969 /* LyricsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5835DD22393D12C00CE4969 /* LyricsViewController.swift */; };
 		D58ABEF42369649A00BBCBEC /* OrdinalNumbersPage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58ABEF32369649A00BBCBEC /* OrdinalNumbersPage1ViewController.swift */; };
 		D5E3041C236958D600DDBF7A /* VerbConjugationYExample1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E3041B236958D600DDBF7A /* VerbConjugationYExample1ViewController.swift */; };
 		D5E3041E236958F600DDBF7A /* VerbConjugationYExample2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E3041D236958F600DDBF7A /* VerbConjugationYExample2ViewController.swift */; };
@@ -286,6 +303,23 @@
 		D5764DB3236D0C0300C9A3D4 /* first.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = first.mp3; sourceTree = "<group>"; };
 		D5764DB4236D0C0300C9A3D4 /* seventh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = seventh.mp3; sourceTree = "<group>"; };
 		D5764DB5236D0C0300C9A3D4 /* tenth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tenth.mp3; sourceTree = "<group>"; };
+		D5835DB22393C80B00CE4969 /* No Guidance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "No Guidance.mp3"; sourceTree = "<group>"; };
+		D5835DB32393C80B00CE4969 /* Truth Hurts.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Truth Hurts.mp3"; sourceTree = "<group>"; };
+		D5835DB42393C80B00CE4969 /* Someone You Loved.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Someone You Loved.mp3"; sourceTree = "<group>"; };
+		D5835DB52393C80C00CE4969 /* Memories.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Memories.mp3; sourceTree = "<group>"; };
+		D5835DB62393C80C00CE4969 /* Circles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Circles.mp3; sourceTree = "<group>"; };
+		D5835DB72393C80D00CE4969 /* Good As Hell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Good As Hell.mp3"; sourceTree = "<group>"; };
+		D5835DB82393C80D00CE4969 /* Senorita.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Senorita.mp3; sourceTree = "<group>"; };
+		D5835DC02393D05A00CE4969 /* Truth Hurts.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Truth Hurts.txt"; sourceTree = "<group>"; };
+		D5835DC12393D05A00CE4969 /* Senorita.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Senorita.txt; sourceTree = "<group>"; };
+		D5835DC22393D05A00CE4969 /* Circles.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Circles.txt; sourceTree = "<group>"; };
+		D5835DC32393D05A00CE4969 /* Memories.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Memories.txt; sourceTree = "<group>"; };
+		D5835DC42393D05A00CE4969 /* thank u, next.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "thank u, next.txt"; sourceTree = "<group>"; };
+		D5835DC52393D05B00CE4969 /* No Guidance.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "No Guidance.txt"; sourceTree = "<group>"; };
+		D5835DC62393D05B00CE4969 /* Someone You Loved.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Someone You Loved.txt"; sourceTree = "<group>"; };
+		D5835DC72393D05B00CE4969 /* Good As Hell.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Good As Hell.txt"; sourceTree = "<group>"; };
+		D5835DC82393D05B00CE4969 /* Stand By Me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Stand By Me.txt"; sourceTree = "<group>"; };
+		D5835DD22393D12C00CE4969 /* LyricsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsViewController.swift; sourceTree = "<group>"; };
 		D58ABEF32369649A00BBCBEC /* OrdinalNumbersPage1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdinalNumbersPage1ViewController.swift; sourceTree = "<group>"; };
 		D5E3041B236958D600DDBF7A /* VerbConjugationYExample1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbConjugationYExample1ViewController.swift; sourceTree = "<group>"; };
 		D5E3041D236958F600DDBF7A /* VerbConjugationYExample2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbConjugationYExample2ViewController.swift; sourceTree = "<group>"; };
@@ -469,6 +503,15 @@
 			isa = PBXGroup;
 			children = (
 				BB1A6F3C22F7AE2900486A23 /* Hey Jude.txt */,
+				D5835DC22393D05A00CE4969 /* Circles.txt */,
+				D5835DC72393D05B00CE4969 /* Good As Hell.txt */,
+				D5835DC32393D05A00CE4969 /* Memories.txt */,
+				D5835DC52393D05B00CE4969 /* No Guidance.txt */,
+				D5835DC12393D05A00CE4969 /* Senorita.txt */,
+				D5835DC62393D05B00CE4969 /* Someone You Loved.txt */,
+				D5835DC82393D05B00CE4969 /* Stand By Me.txt */,
+				D5835DC42393D05A00CE4969 /* thank u, next.txt */,
+				D5835DC02393D05A00CE4969 /* Truth Hurts.txt */,
 			);
 			path = lyrics;
 			sourceTree = "<group>";
@@ -499,6 +542,13 @@
 			children = (
 				BB1A6F3322F7A09A00486A23 /* Hey Jude.mp3 */,
 				BB1A6F3222F7A09800486A23 /* Stand By Me.mp3 */,
+				D5835DB22393C80B00CE4969 /* No Guidance.mp3 */,
+				D5835DB42393C80B00CE4969 /* Someone You Loved.mp3 */,
+				D5835DB72393C80D00CE4969 /* Good As Hell.mp3 */,
+				D5835DB32393C80B00CE4969 /* Truth Hurts.mp3 */,
+				D5835DB52393C80C00CE4969 /* Memories.mp3 */,
+				D5835DB62393C80C00CE4969 /* Circles.mp3 */,
+				D5835DB82393C80D00CE4969 /* Senorita.mp3 */,
 				BB1A6F3422F7A09A00486A23 /* thank u, next.mp3 */,
 			);
 			path = songs;
@@ -827,6 +877,7 @@
 				BB3796CC22EE64B60066C99A /* songs */,
 				BB3796C622EE5E850066C99A /* ListenMusicTableViewController.swift */,
 				BB18781E22D694BC007D3CB1 /* ListenMusicViewController.swift */,
+				D5835DD22393D12C00CE4969 /* LyricsViewController.swift */,
 				BB3796C822EE5F540066C99A /* Song.swift */,
 			);
 			path = Music;
@@ -1021,6 +1072,7 @@
 				F5C592982354005300584A83 /* r.mp3 in Resources */,
 				D5764DBA236D0C0300C9A3D4 /* eighth.mp3 in Resources */,
 				BBC83AB022D176D300E9C164 /* LaunchScreen.storyboard in Resources */,
+				D5835DBD2393C80D00CE4969 /* Circles.mp3 in Resources */,
 				BB7B2E3922E53F910047CE7F /* TaylorSwift.txt in Resources */,
 				F54362D4235812F20005FE5E /* o.mp4 in Resources */,
 				F54362D6235812F20005FE5E /* h.mp4 in Resources */,
@@ -1028,6 +1080,7 @@
 				F54362CA235812F20005FE5E /* l.mp4 in Resources */,
 				D5764DBF236D0C0300C9A3D4 /* tenth.mp3 in Resources */,
 				F52944E62351845900F480C2 /* a.mp4 in Resources */,
+				D5835DCD2393D05B00CE4969 /* thank u, next.txt in Resources */,
 				D5764DBD236D0C0300C9A3D4 /* first.mp3 in Resources */,
 				F54362CE235812F20005FE5E /* d.mp4 in Resources */,
 				F5C592962354005300584A83 /* o.mp3 in Resources */,
@@ -1038,6 +1091,7 @@
 				BB161AA322D58AE300F2A342 /* Assets.xcassets in Resources */,
 				F54362CB235812F20005FE5E /* g.mp4 in Resources */,
 				F5E192A1233EE85900FA2460 /* Cm0MGnuRnH0.json in Resources */,
+				D5835DD02393D05B00CE4969 /* Good As Hell.txt in Resources */,
 				F5C592992354005300584A83 /* v.mp3 in Resources */,
 				BB1A6F3622F7A09A00486A23 /* Hey Jude.mp3 in Resources */,
 				F5C5928E2354005300584A83 /* q.mp3 in Resources */,
@@ -1052,11 +1106,16 @@
 				F54362D9235812F20005FE5E /* e.mp4 in Resources */,
 				F54362CC235812F20005FE5E /* x.mp4 in Resources */,
 				D5764DB6236D0C0300C9A3D4 /* third.mp3 in Resources */,
+				D5835DBE2393C80D00CE4969 /* Good As Hell.mp3 in Resources */,
+				D5835DCC2393D05B00CE4969 /* Memories.txt in Resources */,
 				F54362CD235812F20005FE5E /* z.mp4 in Resources */,
 				F5C5928C2354005300584A83 /* p.mp3 in Resources */,
+				D5835DCB2393D05B00CE4969 /* Circles.txt in Resources */,
 				F5C5929F2354005300584A83 /* b.mp3 in Resources */,
 				F54362DA235812F20005FE5E /* s.mp4 in Resources */,
+				D5835DD12393D05B00CE4969 /* Stand By Me.txt in Resources */,
 				F5C592A32354005300584A83 /* g.mp3 in Resources */,
+				D5835DCF2393D05B00CE4969 /* Someone You Loved.txt in Resources */,
 				F522A2152352D14D0079A84B /* GoodScore.wav in Resources */,
 				F54362D5235812F20005FE5E /* n.mp4 in Resources */,
 				F54362DB235812F20005FE5E /* u.mp4 in Resources */,
@@ -1064,6 +1123,7 @@
 				D5764DB7236D0C0300C9A3D4 /* fifth.mp3 in Resources */,
 				F5C5928D2354005300584A83 /* n.mp3 in Resources */,
 				D5764DB9236D0C0300C9A3D4 /* sixth.mp3 in Resources */,
+				D5835DCE2393D05B00CE4969 /* No Guidance.txt in Resources */,
 				F522A2142352D14D0079A84B /* BadScore.wav in Resources */,
 				F52944E82351845900F480C2 /* c.mp4 in Resources */,
 				D5764DBE236D0C0300C9A3D4 /* seventh.mp3 in Resources */,
@@ -1075,9 +1135,11 @@
 				F54362D0235812F20005FE5E /* j.mp4 in Resources */,
 				F54362D7235812F20005FE5E /* p.mp4 in Resources */,
 				D5764DB8236D0C0300C9A3D4 /* fourth.mp3 in Resources */,
+				D5835DCA2393D05B00CE4969 /* Senorita.txt in Resources */,
 				BB1A6F3D22F7AE2900486A23 /* Hey Jude.txt in Resources */,
 				F54362C6235812F20005FE5E /* i.mp4 in Resources */,
 				F5C592952354005300584A83 /* l.mp3 in Resources */,
+				D5835DBF2393C80D00CE4969 /* Senorita.mp3 in Resources */,
 				F5C5929B2354005300584A83 /* d.mp3 in Resources */,
 				BBC83AAB22D176D300E9C164 /* Main.storyboard in Resources */,
 				F5C5929D2354005300584A83 /* s.mp3 in Resources */,
@@ -1086,9 +1148,13 @@
 				F54362D2235812F20005FE5E /* m.mp4 in Resources */,
 				F5C5929E2354005300584A83 /* m.mp3 in Resources */,
 				F54362D3235812F20005FE5E /* k.mp4 in Resources */,
+				D5835DBB2393C80D00CE4969 /* Someone You Loved.mp3 in Resources */,
+				D5835DC92393D05B00CE4969 /* Truth Hurts.txt in Resources */,
 				F54362D8235812F20005FE5E /* r.mp4 in Resources */,
 				F522A2162352D14D0079A84B /* PerfectScore.wav in Resources */,
+				D5835DBC2393C80D00CE4969 /* Memories.mp3 in Resources */,
 				F5C592A12354005300584A83 /* y.mp3 in Resources */,
+				D5835DB92393C80D00CE4969 /* No Guidance.mp3 in Resources */,
 				F52944E72351845900F480C2 /* b.mp4 in Resources */,
 				F5E192A3233EED4500FA2460 /* ffdXLm8EaYg.json in Resources */,
 				F5C592A02354005300584A83 /* w.mp3 in Resources */,
@@ -1096,6 +1162,7 @@
 				F54362D1235812F20005FE5E /* f.mp4 in Resources */,
 				F5C5928B2354005300584A83 /* h.mp3 in Resources */,
 				F5C592942354005300584A83 /* u.mp3 in Resources */,
+				D5835DBA2393C80D00CE4969 /* Truth Hurts.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1257,6 +1324,7 @@
 				F5115C37233DE63A009ECE43 /* QuizQuestion.swift in Sources */,
 				D550D8E12369683600349EE6 /* OrdinalNumbers1ViewController.swift in Sources */,
 				F522A21B2352DDA00079A84B /* AlphabetCollectionViewController.swift in Sources */,
+				D5835DD32393D12C00CE4969 /* LyricsViewController.swift in Sources */,
 				BBB3223422D4830500FFB0F6 /* MainTabController.swift in Sources */,
 				F5115C34233DE4BE009ECE43 /* Quiz.swift in Sources */,
 				D550D8DF236967A300349EE6 /* OrdinalNumbersPage2ViewController.swift in Sources */,
